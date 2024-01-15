@@ -31,7 +31,7 @@
 //----------------------------------------------------------------------------//
 // 模块使能宏定义
 //----------------------------------------------------------------------------//
-#define USER_MOTION_MODULE					(DISABLE)						    // 模块使能
+#define USER_MOTION_MODULE					(ENABLE)						    // 模块使能
 
 #if USER_MOTION_MODULE
 
@@ -83,7 +83,7 @@
 
 #define MOTION_COQUETRY 					(MOTION_BACKWARD)
 #define MOTION_SONG  					    (MOTION_MOTION_5)
-#define MOTION_RECORD  					    (MOTION_FOREWARD)
+#define MOTION_RECORD  					    (MOTION_MOTION_6)
 #define MOTION_SET_STOP  					(MOTION_MOTION_7)     // 空动作
 #define MOTION_RESET  					    (MOTION_MOTION_8)     // 复位动作
 
