@@ -1,14 +1,16 @@
 Archive member included because of file (symbol)
 
-OBJ/ncWXw8Nc.tmp(SBCDecMain.o)
+OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
                               OBJ//src/Kernel/Audio/sbc_audioapi.o (SBCDecInit)
-OBJ/ncWXw8Nc.tmp(coef2sam.o)  OBJ/ncWXw8Nc.tmp(SBCDecMain.o) (rmlt_coefs_to_samples)
-OBJ/ncWXw8Nc.tmp(decoder.o)   OBJ/ncWXw8Nc.tmp(SBCDecMain.o) (decoder)
-OBJ/ncWXw8Nc.tmp(huff_tab.o)  OBJ/ncWXw8Nc.tmp(decoder.o) (table_of_decoder_tables)
-OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
-                              OBJ/ncWXw8Nc.tmp(decoder.o) (mult)
-OBJ/ncWXw8Nc.tmp(tables.o)    OBJ/ncWXw8Nc.tmp(decoder.o) (noise_fill_factor)
-OBJ/ncWXw8Nc.tmp(common.o)    OBJ/ncWXw8Nc.tmp(decoder.o) (categorize_Reduce)
+OBJ/Zc3XOQVMd.tmp(coef2sam.o)
+                              OBJ/Zc3XOQVMd.tmp(SBCDecMain.o) (rmlt_coefs_to_samples)
+OBJ/Zc3XOQVMd.tmp(decoder.o)  OBJ/Zc3XOQVMd.tmp(SBCDecMain.o) (decoder)
+OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                              OBJ/Zc3XOQVMd.tmp(decoder.o) (table_of_decoder_tables)
+OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+                              OBJ/Zc3XOQVMd.tmp(decoder.o) (mult)
+OBJ/Zc3XOQVMd.tmp(tables.o)   OBJ/Zc3XOQVMd.tmp(decoder.o) (noise_fill_factor)
+OBJ/Zc3XOQVMd.tmp(common.o)   OBJ/Zc3XOQVMd.tmp(decoder.o) (categorize_Reduce)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/mvh/libgcc.a(_addsub_df.o)
                               OBJ//src/Kernel/Utility/sounddet.o (__adddf3)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/mvh/libgcc.a(_mul_df.o)
@@ -28,9 +30,9 @@ OBJ/ncWXw8Nc.tmp(common.o)    OBJ/ncWXw8Nc.tmp(decoder.o) (categorize_Reduce)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-memset.o)
                               OBJ//init-default.o (memset)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-printf.o)
-                              OBJ/ncWXw8Nc.tmp(sbc2_basop32.o) (printf)
+                              OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o) (printf)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-puts.o)
-                              OBJ/ncWXw8Nc.tmp(sbc2_basop32.o) (puts)
+                              OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o) (puts)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-vprintf.o)
                               /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-printf.o) (vprintf)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-do_printf.o)
@@ -98,7 +100,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x11 OBJ//security_empty.o
  .debug_macro   0x00000000      0x55c OBJ//security_empty.o
  .debug_line    0x00000000       0x74 OBJ//security_empty.o
- .debug_str     0x00000000     0x18e5 OBJ//security_empty.o
+ .debug_str     0x00000000     0x18ec OBJ//security_empty.o
  .comment       0x00000000       0x30 OBJ//security_empty.o
  .debug_frame   0x00000000       0x40 OBJ//security_empty.o
  .group         0x00000000        0x8 OBJ//src/Driver/eeprom_24LC256.o
@@ -6466,105 +6468,105 @@ Discarded input sections
  .comment       0x00000000       0x30 OBJ//src/user_code/user_vr.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/user_code/user_vr.o
- .text          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(SBCDecMain.o)
- .data          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(SBCDecMain.o)
- .bss           0x00000000        0x0 OBJ/ncWXw8Nc.tmp(SBCDecMain.o)
- .text          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(coef2sam.o)
- .data          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(coef2sam.o)
- .bss           0x00000000        0x0 OBJ/ncWXw8Nc.tmp(coef2sam.o)
- .text          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(decoder.o)
- .data          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(decoder.o)
- .bss           0x00000000        0x0 OBJ/ncWXw8Nc.tmp(decoder.o)
+ .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
+ .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
+ .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
+ .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
+ .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
+ .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
+ .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(decoder.o)
+ .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(decoder.o)
+ .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(decoder.o)
  .text.decode_envelope
-                0x00000000      0x28c OBJ/ncWXw8Nc.tmp(decoder.o)
+                0x00000000      0x28c OBJ/Zc3XOQVMd.tmp(decoder.o)
  .text.get_rand
-                0x00000000       0x1c OBJ/ncWXw8Nc.tmp(decoder.o)
- .text          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(huff_tab.o)
- .data          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(huff_tab.o)
- .bss           0x00000000        0x0 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000       0x1c OBJ/Zc3XOQVMd.tmp(decoder.o)
+ .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+ .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+ .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.table_of_code_tables
-                0x00000000       0x1c OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000       0x1c OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.table_of_bitcount_tables
-                0x00000000       0x1c OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000       0x1c OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_6
-                0x00000000       0x40 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000       0x40 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_6
-                0x00000000       0x20 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000       0x20 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_5
-                0x00000000      0x1e8 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000      0x1e8 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_5
-                0x00000000       0xf4 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000       0xf4 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_4
-                0x00000000      0x200 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000      0x200 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_4
-                0x00000000      0x100 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000      0x100 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_3
-                0x00000000      0x4e4 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000      0x4e4 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_3
-                0x00000000      0x274 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000      0x274 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_2
-                0x00000000       0x64 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000       0x64 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_2
-                0x00000000       0x34 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000       0x34 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_1
-                0x00000000       0xc8 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000       0xc8 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_1
-                0x00000000       0x64 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000       0x64 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_0
-                0x00000000      0x188 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000      0x188 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_0
-                0x00000000       0xc4 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000       0xc4 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.differential_region_power_codes
-                0x00000000      0x300 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00000000      0x300 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
  .rodata.differential_region_power_bits
-                0x00000000      0x180 OBJ/ncWXw8Nc.tmp(huff_tab.o)
- .text          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .data          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .bss           0x00000000        0x0 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.L_msu    0x00000000       0x48 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.L_sub    0x00000000       0x30 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
+                0x00000000      0x180 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+ .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.L_msu    0x00000000       0x48 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.L_sub    0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
  .text.L_negate
-                0x00000000       0x18 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.mult_r   0x00000000       0x1c OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.shr_r    0x00000000       0x40 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.mac_r    0x00000000       0x6c OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.msu_r    0x00000000       0x74 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
+                0x00000000       0x18 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.mult_r   0x00000000       0x1c OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.shr_r    0x00000000       0x40 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.mac_r    0x00000000       0x6c OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.msu_r    0x00000000       0x74 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
  .text.L_deposit_h
-                0x00000000        0x8 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.L_shr_r  0x00000000       0x38 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.L_abs    0x00000000       0x20 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.norm_s   0x00000000       0x38 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
+                0x00000000        0x8 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.L_shr_r  0x00000000       0x38 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.L_abs    0x00000000       0x20 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.norm_s   0x00000000       0x38 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
  .rodata.str1.4
-                0x00000000       0x40 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.div_s    0x00000000       0x9c OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.norm_l   0x00000000       0x34 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.L_mls    0x00000000       0x60 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.i_mult   0x00000000        0x8 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.L_msu0   0x00000000       0x30 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.LU_shl   0x00000000       0x44 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text.LU_shr   0x00000000       0x2c OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .text          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(tables.o)
- .data          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(tables.o)
- .bss           0x00000000        0x0 OBJ/ncWXw8Nc.tmp(tables.o)
+                0x00000000       0x40 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.div_s    0x00000000       0x9c OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.norm_l   0x00000000       0x34 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.L_mls    0x00000000       0x60 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.i_mult   0x00000000        0x8 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.L_msu0   0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.LU_shl   0x00000000       0x44 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text.LU_shr   0x00000000       0x2c OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(tables.o)
+ .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(tables.o)
+ .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(tables.o)
  .rodata.int_dead_zone_low_bits
-                0x00000000       0x10 OBJ/ncWXw8Nc.tmp(tables.o)
+                0x00000000       0x10 OBJ/Zc3XOQVMd.tmp(tables.o)
  .rodata.int_dead_zone
-                0x00000000       0x10 OBJ/ncWXw8Nc.tmp(tables.o)
+                0x00000000       0x10 OBJ/Zc3XOQVMd.tmp(tables.o)
  .rodata.step_size_inverse_table
-                0x00000000       0x10 OBJ/ncWXw8Nc.tmp(tables.o)
+                0x00000000       0x10 OBJ/Zc3XOQVMd.tmp(tables.o)
  .rodata.standard_deviation_inverse_table
-                0x00000000       0x80 OBJ/ncWXw8Nc.tmp(tables.o)
- .text          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(common.o)
- .data          0x00000000        0x0 OBJ/ncWXw8Nc.tmp(common.o)
- .bss           0x00000000        0x0 OBJ/ncWXw8Nc.tmp(common.o)
+                0x00000000       0x80 OBJ/Zc3XOQVMd.tmp(tables.o)
+ .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(common.o)
+ .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(common.o)
+ .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(common.o)
  .text.comp_powercat_and_catbalance
-                0x00000000      0x3e8 OBJ/ncWXw8Nc.tmp(common.o)
+                0x00000000      0x3e8 OBJ/Zc3XOQVMd.tmp(common.o)
  .text.calc_offset
-                0x00000000       0xf0 OBJ/ncWXw8Nc.tmp(common.o)
+                0x00000000       0xf0 OBJ/Zc3XOQVMd.tmp(common.o)
  .text.compute_raw_pow_categories
-                0x00000000       0x58 OBJ/ncWXw8Nc.tmp(common.o)
+                0x00000000       0x58 OBJ/Zc3XOQVMd.tmp(common.o)
  .text.categorize
-                0x00000000       0x7c OBJ/ncWXw8Nc.tmp(common.o)
+                0x00000000       0x7c OBJ/Zc3XOQVMd.tmp(common.o)
  .text          0x00000000      0x1f4 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/mvh/libgcc.a(_addsub_df.o)
  .data          0x00000000        0x0 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/mvh/libgcc.a(_addsub_df.o)
  .bss           0x00000000        0x0 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/mvh/libgcc.a(_addsub_df.o)
@@ -6860,13 +6862,13 @@ LOAD OBJ//src/user_code/user_record.o
 LOAD OBJ//src/user_code/user_storage_break_point.o
 LOAD OBJ//src/user_code/user_talkback_adpcm.o
 LOAD OBJ//src/user_code/user_vr.o
-LOAD OBJ/ncWXw8Nc.tmp
-LOAD OBJ/5cNWDo.tmp
-LOAD OBJ/MVrCL5Dj.tmp
-LOAD OBJ/Lh7QbvuD.tmp
-LOAD OBJ/KtOcrla.tmp
-LOAD OBJ/bmrHz.tmp
-LOAD OBJ/ay8UEtSnM.tmp
+LOAD OBJ/Zc3XOQVMd.tmp
+LOAD OBJ/qVXCWhh.tmp
+LOAD OBJ/phnQmX.tmp
+LOAD OBJ/ns4d1N.tmp
+LOAD OBJ/5lXI9fFX.tmp
+LOAD OBJ/4xoVQVv1.tmp
+LOAD OBJ/294ifLcV.tmp
 LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/mvh/libgcc.a
 LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a
 LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libgloss.a
@@ -7396,40 +7398,40 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
                 0x000029f8       0xa0 OBJ//src/user_code/user_play.o
                 0x000029f8                user_play_service_loop
  .text.SBCDecInit
-                0x00002a98       0x9c OBJ/ncWXw8Nc.tmp(SBCDecMain.o)
+                0x00002a98       0x9c OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
                 0x00002a98                SBCDecInit
- .text.SBCBPF   0x00002b34       0xa8 OBJ/ncWXw8Nc.tmp(SBCDecMain.o)
+ .text.SBCBPF   0x00002b34       0xa8 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
                 0x00002b34                SBCBPF
  .text.SBCDecode
-                0x00002bdc       0xa0 OBJ/ncWXw8Nc.tmp(SBCDecMain.o)
+                0x00002bdc       0xa0 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
                 0x00002bdc                SBCDecode
  .text.rmlt_coefs_to_samples
-                0x00002c7c      0x7cc OBJ/ncWXw8Nc.tmp(coef2sam.o)
+                0x00002c7c      0x7cc OBJ/Zc3XOQVMd.tmp(coef2sam.o)
                 0x00002c7c                rmlt_coefs_to_samples
  .text.index_to_array
-                0x00003448       0x94 OBJ/ncWXw8Nc.tmp(decoder.o)
+                0x00003448       0x94 OBJ/Zc3XOQVMd.tmp(decoder.o)
                 0x00003448                index_to_array
  .text.get_bits
-                0x000034dc       0xb0 OBJ/ncWXw8Nc.tmp(decoder.o)
+                0x000034dc       0xb0 OBJ/Zc3XOQVMd.tmp(decoder.o)
                 0x000034dc                get_bits
  .text.decode_envelope_Reduce
-                0x0000358c      0x2a0 OBJ/ncWXw8Nc.tmp(decoder.o)
+                0x0000358c      0x2a0 OBJ/Zc3XOQVMd.tmp(decoder.o)
                 0x0000358c                decode_envelope_Reduce
  .text.decode_vector_quantized_mlt_indices
-                0x0000382c      0x440 OBJ/ncWXw8Nc.tmp(decoder.o)
+                0x0000382c      0x440 OBJ/Zc3XOQVMd.tmp(decoder.o)
                 0x0000382c                decode_vector_quantized_mlt_indices
- .text.decoder  0x00003c6c       0xa0 OBJ/ncWXw8Nc.tmp(decoder.o)
+ .text.decoder  0x00003c6c       0xa0 OBJ/Zc3XOQVMd.tmp(decoder.o)
                 0x00003c6c                decoder
- .text.mult     0x00003d0c        0x8 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
+ .text.mult     0x00003d0c        0x8 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
                 0x00003d0c                mult
  .text.comp_powercat_and_catbalance_Reduce
-                0x00003d14      0x308 OBJ/ncWXw8Nc.tmp(common.o)
+                0x00003d14      0x308 OBJ/Zc3XOQVMd.tmp(common.o)
                 0x00003d14                comp_powercat_and_catbalance_Reduce
  .text.calc_offset_Reduce
-                0x0000401c      0x108 OBJ/ncWXw8Nc.tmp(common.o)
+                0x0000401c      0x108 OBJ/Zc3XOQVMd.tmp(common.o)
                 0x0000401c                calc_offset_Reduce
  .text.categorize_Reduce
-                0x00004124       0x6c OBJ/ncWXw8Nc.tmp(common.o)
+                0x00004124       0x6c OBJ/Zc3XOQVMd.tmp(common.o)
                 0x00004124                categorize_Reduce
  .text          0x00004190       0x4c /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-memcpy.o)
                 0x00004190                memcpy
@@ -7472,79 +7474,79 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
                 0x000042d0       0x20 OBJ//src/Kernel/Utility/nx1_math.o
                 0x000042d0                u8_DeBruijn_Bit_PosTab32
  .rodata.s_cos_msin_table
-                0x000042f0       0x14 OBJ/ncWXw8Nc.tmp(coef2sam.o)
+                0x000042f0       0x14 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
                 0x000042f0                s_cos_msin_table
  .rodata.s_cos_msin_32
-                0x00004304      0x280 OBJ/ncWXw8Nc.tmp(coef2sam.o)
+                0x00004304      0x280 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
                 0x00004304                s_cos_msin_32
  .rodata.s_cos_msin_16
-                0x00004584      0x140 OBJ/ncWXw8Nc.tmp(coef2sam.o)
+                0x00004584      0x140 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
                 0x00004584                s_cos_msin_16
  .rodata.s_cos_msin_8
-                0x000046c4       0xa0 OBJ/ncWXw8Nc.tmp(coef2sam.o)
+                0x000046c4       0xa0 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
                 0x000046c4                s_cos_msin_8
  .rodata.s_cos_msin_4
-                0x00004764       0x50 OBJ/ncWXw8Nc.tmp(coef2sam.o)
+                0x00004764       0x50 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
                 0x00004764                s_cos_msin_4
  .rodata.s_cos_msin_2
-                0x000047b4       0x28 OBJ/ncWXw8Nc.tmp(coef2sam.o)
+                0x000047b4       0x28 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
                 0x000047b4                s_cos_msin_2
  .rodata.dct_core_s
-                0x000047dc       0xc8 OBJ/ncWXw8Nc.tmp(coef2sam.o)
+                0x000047dc       0xc8 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
                 0x000047dc                dct_core_s
  .rodata.table_of_decoder_tables
-                0x000048a4       0x1c OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x000048a4       0x1c OBJ/Zc3XOQVMd.tmp(huff_tab.o)
                 0x000048a4                table_of_decoder_tables
  .rodata.mlt_decoder_tree_category_6
-                0x000048c0       0x40 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x000048c0       0x40 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
                 0x000048c0                mlt_decoder_tree_category_6
  .rodata.mlt_decoder_tree_category_5
-                0x00004900      0x2fc OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00004900      0x2fc OBJ/Zc3XOQVMd.tmp(huff_tab.o)
                 0x00004900                mlt_decoder_tree_category_5
  .rodata.mlt_decoder_tree_category_4
-                0x00004bfc      0x340 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00004bfc      0x340 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
                 0x00004bfc                mlt_decoder_tree_category_4
  .rodata.mlt_decoder_tree_category_3
-                0x00004f3c      0x81c OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00004f3c      0x81c OBJ/Zc3XOQVMd.tmp(huff_tab.o)
                 0x00004f3c                mlt_decoder_tree_category_3
  .rodata.mlt_decoder_tree_category_2
-                0x00005758       0x60 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00005758       0x60 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
                 0x00005758                mlt_decoder_tree_category_2
  .rodata.mlt_decoder_tree_category_1
-                0x000057b8       0xbc OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x000057b8       0xbc OBJ/Zc3XOQVMd.tmp(huff_tab.o)
                 0x000057b8                mlt_decoder_tree_category_1
  .rodata.mlt_decoder_tree_category_0
-                0x00005874      0x2d0 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00005874      0x2d0 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
                 0x00005874                mlt_decoder_tree_category_0
  .rodata.expected_bits_table
-                0x00005b44        0x8 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00005b44        0x8 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
                 0x00005b44                expected_bits_table
  .rodata.mlt_quant_centroid
-                0x00005b4c       0xd0 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00005b4c       0xd0 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
                 0x00005b4c                mlt_quant_centroid
  .rodata.differential_region_power_decoder_tree
-                0x00005c1c      0x258 OBJ/ncWXw8Nc.tmp(huff_tab.o)
+                0x00005c1c      0x258 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
                 0x00005c1c                differential_region_power_decoder_tree
  .rodata.noise_fill_factor
-                0x00005e74        0x8 OBJ/ncWXw8Nc.tmp(tables.o)
+                0x00005e74        0x8 OBJ/Zc3XOQVMd.tmp(tables.o)
                 0x00005e74                noise_fill_factor
  .rodata.samples_to_rmlt_window
-                0x00005e7c      0x280 OBJ/ncWXw8Nc.tmp(tables.o)
+                0x00005e7c      0x280 OBJ/Zc3XOQVMd.tmp(tables.o)
                 0x00005e7c                samples_to_rmlt_window
  .rodata.max_bin_plus_one_inverse
-                0x000060fc       0x10 OBJ/ncWXw8Nc.tmp(tables.o)
+                0x000060fc       0x10 OBJ/Zc3XOQVMd.tmp(tables.o)
                 0x000060fc                max_bin_plus_one_inverse
  .rodata.max_bin
-                0x0000610c        0x8 OBJ/ncWXw8Nc.tmp(tables.o)
+                0x0000610c        0x8 OBJ/Zc3XOQVMd.tmp(tables.o)
                 0x0000610c                max_bin
  .rodata.number_of_vectors
-                0x00006114        0x8 OBJ/ncWXw8Nc.tmp(tables.o)
+                0x00006114        0x8 OBJ/Zc3XOQVMd.tmp(tables.o)
                 0x00006114                number_of_vectors
  .rodata.vector_dimension
-                0x0000611c        0x8 OBJ/ncWXw8Nc.tmp(tables.o)
+                0x0000611c        0x8 OBJ/Zc3XOQVMd.tmp(tables.o)
                 0x0000611c                vector_dimension
  .rodata.int_region_standard_deviation_table_R
-                0x00006124       0x40 OBJ/ncWXw8Nc.tmp(tables.o)
+                0x00006124       0x40 OBJ/Zc3XOQVMd.tmp(tables.o)
                 0x00006124                int_region_standard_deviation_table_R
  .gnu.linkonce.r.*()
 
@@ -8090,15 +8092,15 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
                 0x004009fa                gu8_sound_type
  *fill*         0x004009fb        0x1 
  .bss.RamAllocate
-                0x004009fc        0x4 OBJ/ncWXw8Nc.tmp(SBCDecMain.o)
+                0x004009fc        0x4 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
  .bss.RamAllocate1
-                0x00400a00        0x4 OBJ/ncWXw8Nc.tmp(SBCDecMain.o)
+                0x00400a00        0x4 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
  .bss.RamAllocate0
-                0x00400a04        0x4 OBJ/ncWXw8Nc.tmp(SBCDecMain.o)
+                0x00400a04        0x4 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
  .bss.cos_msin_ptr.1979
-                0x00400a08        0x4 OBJ/ncWXw8Nc.tmp(coef2sam.o)
+                0x00400a08        0x4 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
  .bss.table_ptr_ptr.1980
-                0x00400a0c        0x4 OBJ/ncWXw8Nc.tmp(coef2sam.o)
+                0x00400a0c        0x4 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
  *(COMMON)
  COMMON         0x00400a10       0x20 OBJ//src/Kernel/Audio/audioctl.o
                 0x00400a10                SentenceStatusMuteTimer
@@ -8150,7 +8152,7 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
  *xip.o(.rodata1)
                 0x00800400                . = ALIGN (0x4)
                 0x00000001                ASSERT ((DEFINED (_RELAX_END_)?SDRAM_SIZE:0x0 <= 0x2000000), OVERFLOW)
-OUTPUT(NYIDE.elf elf32-nds32le)
+OUTPUT(LGW-DEMO-V02.elf elf32-nds32le)
 
 .debug_line     0x00000000     0xa414
  .debug_line    0x00000000      0x33b OBJ//crt0.o
@@ -8183,36 +8185,36 @@ OUTPUT(NYIDE.elf elf32-nds32le)
  .debug_line    0x0000917e      0x7fc OBJ//src/user_code/user_main.o
  .debug_line    0x0000997a      0xa9a OBJ//src/user_code/user_play.o
 
-.debug_info     0x00000000     0xbc06
- .debug_info    0x00000000       0x6e OBJ//crt0.o
- .debug_info    0x0000006e      0x543 OBJ//init-default.o
- .debug_info    0x000005b1      0x670 OBJ//src/Driver/nx1_dac.o
- .debug_info    0x00000c21      0x6a6 OBJ//src/Driver/nx1_gpio.o
- .debug_info    0x000012c7      0x5c4 OBJ//src/Driver/nx1_intc.o
- .debug_info    0x0000188b      0x145 OBJ//src/Driver/nx1_rtc.o
- .debug_info    0x000019d0      0x482 OBJ//src/Driver/nx1_smu.o
- .debug_info    0x00001e52     0x25f9 OBJ//src/Driver/nx1_spi.o
- .debug_info    0x0000444b      0x1cb OBJ//src/Driver/nx1_timer.o
- .debug_info    0x00004616       0xe7 OBJ//src/Driver/nx1_wdt.o
- .debug_info    0x000046fd     0x1838 OBJ//src/Kernel/Audio/audioctl.o
- .debug_info    0x00005f35      0xedc OBJ//src/Kernel/Audio/sbc_audioapi.o
- .debug_info    0x00006e11      0x597 OBJ//src/Kernel/Callback/audio_callback.o
- .debug_info    0x000073a8      0x328 OBJ//src/Kernel/Callback/sbc_callback.o
- .debug_info    0x000076d0      0x164 OBJ//src/Kernel/Callback/sys_callback.o
- .debug_info    0x00007834      0x18a OBJ//src/Kernel/System/delay.o
- .debug_info    0x000079be      0x116 OBJ//src/Kernel/System/interrupt.o
- .debug_info    0x00007ad4      0xdf2 OBJ//src/Kernel/System/sys.o
- .debug_info    0x000088c6      0x202 OBJ//src/Kernel/Utility/key.o
- .debug_info    0x00008ac8      0x5ac OBJ//src/Kernel/Utility/nx1_dacAssigner.o
- .debug_info    0x00009074      0x4f8 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
- .debug_info    0x0000956c      0x104 OBJ//src/Kernel/Utility/nx1_math.o
- .debug_info    0x00009670      0x3b8 OBJ//src/Kernel/Utility/prog_checksum.o
- .debug_info    0x00009a28       0x9e OBJ//src/Kernel/Utility/utilityctl.o
- .debug_info    0x00009ac6      0x596 OBJ//src/Kernel/isr.o
- .debug_info    0x0000a05c      0x103 OBJ//src/main.o
- .debug_info    0x0000a15f      0xa49 OBJ//src/user_code/user_key.o
- .debug_info    0x0000aba8      0x83e OBJ//src/user_code/user_main.o
- .debug_info    0x0000b3e6      0x820 OBJ//src/user_code/user_play.o
+.debug_info     0x00000000     0xbc0d
+ .debug_info    0x00000000       0x75 OBJ//crt0.o
+ .debug_info    0x00000075      0x543 OBJ//init-default.o
+ .debug_info    0x000005b8      0x670 OBJ//src/Driver/nx1_dac.o
+ .debug_info    0x00000c28      0x6a6 OBJ//src/Driver/nx1_gpio.o
+ .debug_info    0x000012ce      0x5c4 OBJ//src/Driver/nx1_intc.o
+ .debug_info    0x00001892      0x145 OBJ//src/Driver/nx1_rtc.o
+ .debug_info    0x000019d7      0x482 OBJ//src/Driver/nx1_smu.o
+ .debug_info    0x00001e59     0x25f9 OBJ//src/Driver/nx1_spi.o
+ .debug_info    0x00004452      0x1cb OBJ//src/Driver/nx1_timer.o
+ .debug_info    0x0000461d       0xe7 OBJ//src/Driver/nx1_wdt.o
+ .debug_info    0x00004704     0x1838 OBJ//src/Kernel/Audio/audioctl.o
+ .debug_info    0x00005f3c      0xedc OBJ//src/Kernel/Audio/sbc_audioapi.o
+ .debug_info    0x00006e18      0x597 OBJ//src/Kernel/Callback/audio_callback.o
+ .debug_info    0x000073af      0x328 OBJ//src/Kernel/Callback/sbc_callback.o
+ .debug_info    0x000076d7      0x164 OBJ//src/Kernel/Callback/sys_callback.o
+ .debug_info    0x0000783b      0x18a OBJ//src/Kernel/System/delay.o
+ .debug_info    0x000079c5      0x116 OBJ//src/Kernel/System/interrupt.o
+ .debug_info    0x00007adb      0xdf2 OBJ//src/Kernel/System/sys.o
+ .debug_info    0x000088cd      0x202 OBJ//src/Kernel/Utility/key.o
+ .debug_info    0x00008acf      0x5ac OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+ .debug_info    0x0000907b      0x4f8 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+ .debug_info    0x00009573      0x104 OBJ//src/Kernel/Utility/nx1_math.o
+ .debug_info    0x00009677      0x3b8 OBJ//src/Kernel/Utility/prog_checksum.o
+ .debug_info    0x00009a2f       0x9e OBJ//src/Kernel/Utility/utilityctl.o
+ .debug_info    0x00009acd      0x596 OBJ//src/Kernel/isr.o
+ .debug_info    0x0000a063      0x103 OBJ//src/main.o
+ .debug_info    0x0000a166      0xa49 OBJ//src/user_code/user_key.o
+ .debug_info    0x0000abaf      0x83e OBJ//src/user_code/user_main.o
+ .debug_info    0x0000b3ed      0x820 OBJ//src/user_code/user_play.o
 
 .debug_abbrev   0x00000000     0x341e
  .debug_abbrev  0x00000000       0x12 OBJ//crt0.o
@@ -8402,62 +8404,62 @@ OUTPUT(NYIDE.elf elf32-nds32le)
  .debug_macro   0x0000423e      0x26c OBJ//src/user_code/user_main.o
  .debug_macro   0x000044aa      0x276 OBJ//src/user_code/user_play.o
 
-.debug_str      0x00000000    0x28918
- .debug_str     0x00000000     0x9f8c OBJ//init-default.o
-                               0xabcd (size before relaxing)
- .debug_str     0x00009f8c    0x1342a OBJ//src/Driver/nx1_dac.o
+.debug_str      0x00000000    0x2895f
+ .debug_str     0x00000000     0x9f93 OBJ//init-default.o
+                               0xabd4 (size before relaxing)
+ .debug_str     0x00009f93    0x1346a OBJ//src/Driver/nx1_dac.o
                               0x1d481 (size before relaxing)
- .debug_str     0x0001d3b6      0x971 OBJ//src/Driver/nx1_gpio.o
+ .debug_str     0x0001d3fd      0x971 OBJ//src/Driver/nx1_gpio.o
                               0x14b42 (size before relaxing)
- .debug_str     0x0001dd27       0xa5 OBJ//src/Driver/nx1_intc.o
+ .debug_str     0x0001dd6e       0xa5 OBJ//src/Driver/nx1_intc.o
                               0x1d7ed (size before relaxing)
- .debug_str     0x0001ddcc       0xc1 OBJ//src/Driver/nx1_rtc.o
+ .debug_str     0x0001de13       0xc1 OBJ//src/Driver/nx1_rtc.o
                                0xfe0a (size before relaxing)
- .debug_str     0x0001de8d      0x109 OBJ//src/Driver/nx1_smu.o
+ .debug_str     0x0001ded4      0x109 OBJ//src/Driver/nx1_smu.o
                               0x15233 (size before relaxing)
- .debug_str     0x0001df96     0x2e5a OBJ//src/Driver/nx1_spi.o
+ .debug_str     0x0001dfdd     0x2e5a OBJ//src/Driver/nx1_spi.o
                               0x17875 (size before relaxing)
- .debug_str     0x00020df0       0x63 OBJ//src/Driver/nx1_timer.o
+ .debug_str     0x00020e37       0x63 OBJ//src/Driver/nx1_timer.o
                                0xffbd (size before relaxing)
- .debug_str     0x00020e53       0x31 OBJ//src/Driver/nx1_wdt.o
+ .debug_str     0x00020e9a       0x31 OBJ//src/Driver/nx1_wdt.o
                                0xfdcc (size before relaxing)
- .debug_str     0x00020e84      0x8e7 OBJ//src/Kernel/Audio/audioctl.o
+ .debug_str     0x00020ecb      0x8e7 OBJ//src/Kernel/Audio/audioctl.o
                               0x20d50 (size before relaxing)
- .debug_str     0x0002176b      0x5d6 OBJ//src/Kernel/Audio/sbc_audioapi.o
+ .debug_str     0x000217b2      0x5d6 OBJ//src/Kernel/Audio/sbc_audioapi.o
                               0x1fdfa (size before relaxing)
- .debug_str     0x00021d41       0xbd OBJ//src/Kernel/Callback/audio_callback.o
+ .debug_str     0x00021d88       0xbd OBJ//src/Kernel/Callback/audio_callback.o
                               0x16bff (size before relaxing)
- .debug_str     0x00021dfe       0x78 OBJ//src/Kernel/Callback/sbc_callback.o
+ .debug_str     0x00021e45       0x78 OBJ//src/Kernel/Callback/sbc_callback.o
                               0x14418 (size before relaxing)
- .debug_str     0x00021e76       0xaf OBJ//src/Kernel/Callback/sys_callback.o
+ .debug_str     0x00021ebd       0xaf OBJ//src/Kernel/Callback/sys_callback.o
                               0x1428f (size before relaxing)
- .debug_str     0x00021f25       0x53 OBJ//src/Kernel/System/delay.o
+ .debug_str     0x00021f6c       0x53 OBJ//src/Kernel/System/delay.o
                               0x1427b (size before relaxing)
- .debug_str     0x00021f78       0x59 OBJ//src/Kernel/System/interrupt.o
+ .debug_str     0x00021fbf       0x59 OBJ//src/Kernel/System/interrupt.o
                               0x1842d (size before relaxing)
- .debug_str     0x00021fd1     0x4891 OBJ//src/Kernel/System/sys.o
+ .debug_str     0x00022018     0x4891 OBJ//src/Kernel/System/sys.o
                               0x24f23 (size before relaxing)
- .debug_str     0x00026862     0x11fc OBJ//src/Kernel/Utility/key.o
+ .debug_str     0x000268a9     0x11fc OBJ//src/Kernel/Utility/key.o
                               0x17dd3 (size before relaxing)
- .debug_str     0x00027a5e       0xf0 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+ .debug_str     0x00027aa5       0xf0 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
                               0x168af (size before relaxing)
- .debug_str     0x00027b4e      0x1a6 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+ .debug_str     0x00027b95      0x1a6 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
                               0x175f8 (size before relaxing)
- .debug_str     0x00027cf4       0x49 OBJ//src/Kernel/Utility/nx1_math.o
+ .debug_str     0x00027d3b       0x49 OBJ//src/Kernel/Utility/nx1_math.o
                               0x14211 (size before relaxing)
- .debug_str     0x00027d3d      0x17e OBJ//src/Kernel/Utility/prog_checksum.o
+ .debug_str     0x00027d84      0x17e OBJ//src/Kernel/Utility/prog_checksum.o
                               0x14918 (size before relaxing)
- .debug_str     0x00027ebb       0x34 OBJ//src/Kernel/Utility/utilityctl.o
+ .debug_str     0x00027f02       0x34 OBJ//src/Kernel/Utility/utilityctl.o
                               0x14203 (size before relaxing)
- .debug_str     0x00027eef      0x19d OBJ//src/Kernel/isr.o
+ .debug_str     0x00027f36      0x19d OBJ//src/Kernel/isr.o
                               0x221a3 (size before relaxing)
- .debug_str     0x0002808c       0x31 OBJ//src/main.o
+ .debug_str     0x000280d3       0x31 OBJ//src/main.o
                               0x19471 (size before relaxing)
- .debug_str     0x000280bd      0x3a3 OBJ//src/user_code/user_key.o
+ .debug_str     0x00028104      0x3a3 OBJ//src/user_code/user_key.o
                               0x19832 (size before relaxing)
- .debug_str     0x00028460      0x20f OBJ//src/user_code/user_main.o
+ .debug_str     0x000284a7      0x20f OBJ//src/user_code/user_main.o
                               0x1977b (size before relaxing)
- .debug_str     0x0002866f      0x2a9 OBJ//src/user_code/user_play.o
+ .debug_str     0x000286b6      0x2a9 OBJ//src/user_code/user_play.o
                               0x197ff (size before relaxing)
 
 .comment        0x00000000       0x5e
@@ -8490,14 +8492,14 @@ OUTPUT(NYIDE.elf elf32-nds32le)
  .comment       0x00000000       0x30 OBJ//src/user_code/user_key.o
  .comment       0x00000000       0x30 OBJ//src/user_code/user_main.o
  .comment       0x00000000       0x30 OBJ//src/user_code/user_play.o
- .comment       0x0000002f       0x2f OBJ/ncWXw8Nc.tmp(SBCDecMain.o)
+ .comment       0x0000002f       0x2f OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
                                  0x30 (size before relaxing)
- .comment       0x00000000       0x30 OBJ/ncWXw8Nc.tmp(coef2sam.o)
- .comment       0x00000000       0x30 OBJ/ncWXw8Nc.tmp(decoder.o)
- .comment       0x00000000       0x30 OBJ/ncWXw8Nc.tmp(huff_tab.o)
- .comment       0x00000000       0x30 OBJ/ncWXw8Nc.tmp(sbc2_basop32.o)
- .comment       0x00000000       0x30 OBJ/ncWXw8Nc.tmp(tables.o)
- .comment       0x00000000       0x30 OBJ/ncWXw8Nc.tmp(common.o)
+ .comment       0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
+ .comment       0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(decoder.o)
+ .comment       0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+ .comment       0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+ .comment       0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(tables.o)
+ .comment       0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(common.o)
 
 .debug_frame    0x00000000     0x22c0
  .debug_frame   0x00000000       0x58 OBJ//init-default.o
