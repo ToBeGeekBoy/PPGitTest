@@ -23,8 +23,8 @@ const user_gpio_type lcst_user_motion_gpio_a[][2]=
 {
     // motor1,
     {
-        {.GPIOx = GPIOA, .Pin = 14},                // pin1
-        {.GPIOx = GPIOA, .Pin = MOTOR_PIN_NO},      // pin2
+        {.GPIOx = GPIOA, .Pin = 14},        // pin1
+        {.GPIOx = GPIOA, .Pin = 15},        // pin2
     },
     // motor2,
     // {
