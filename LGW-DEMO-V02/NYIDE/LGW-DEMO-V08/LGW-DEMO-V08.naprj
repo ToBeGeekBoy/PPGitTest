@@ -55,7 +55,7 @@
     <OutputPath>bin\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="LGW-DEMO-V02.cb" EntryPoint="false" MetaData="" />
+    <None Include="LGW-DEMO-V08.cb" EntryPoint="false" MetaData="" />
     <Folder Include="ResourceFiles" EntryPoint="false" MetaData="" />
     <Folder Include="ResourceFiles\Action Files" EntryPoint="false" MetaData="" />
     <Folder Include="ResourceFiles\Melody Database" EntryPoint="false" MetaData="" />
@@ -234,7 +234,7 @@
     <Array name="EEPROMOverwriteData" />
     <Array name="EnvelopFiles" />
     <Array name="ExternalResource">
-      <Element value="|ResourceFiles/SPI Flash/SPI_Demo.spiprj|0|Unknown|Unknown|False|False|0|False|Visible|False|False|Visible|Visible|-8584963060354549837|0|0|vix|False|Unknown|Unknown|0|Unknown|C4|False||False|||False|True|RGB|Single-String" />
+      <Element value="|ResourceFiles/SPI Flash/SPI_Demo.spiprj|0|Unknown|Unknown|False|False|0|False|Visible|False|False|Visible|Visible|-8584962945036831509|0|0|vix|False|Unknown|Unknown|0|Unknown|C4|False||False|||False|True|RGB|Single-String" />
     </Array>
     <Array name="files" />
     <Array name="InstrumentFiles" />

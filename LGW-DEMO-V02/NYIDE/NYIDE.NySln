@@ -1,7 +1,7 @@
 ﻿
 Nyquest IDE Solution File, Format Version 1.00
 # NYIDE 5.20.0.3526
-Project("{FC61D5BA-C18D-4CE4-9197-C795B861B200}") = "LGW-DEMO-V02", "LGW-DEMO-V02\LGW-DEMO-V02.naprj", "{9080BC99-FFBD-4210-ADA3-3BDA44523416}"
+Project("{FC61D5BA-C18D-4CE4-9197-C795B861B200}") = "LGW-DEMO-V08", "LGW-DEMO-V08\LGW-DEMO-V08.naprj", "{9080BC99-FFBD-4210-ADA3-3BDA44523416}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
