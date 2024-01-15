@@ -586,6 +586,8 @@ void key_short_process(u8 key_num)
                 user_set_sound_type(SOUND_TYPE_SONG);
                 user_play_mode_set_cmd(USER_PLAY_MODE_ON_OFF_NEXT);
             #endif
+
+            user_led_set_cmd(LED_CMD_ALL_OFF);
 			break;
 
 		case 1:
