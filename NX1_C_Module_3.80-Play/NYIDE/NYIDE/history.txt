@@ -1,0 +1,644 @@
+------------------------------------------------------------------------------------------------------------------------
+v3.80  2023/08/31
+------------------------------------------------------------------------------------------------------------------------
+
+Add:
+    1. RT Howling Suppress function.
+    2. Sound Detection Module.
+    3. IR carrier on/off function.
+    4. Sync Play LED Strip Module.
+    5. Scrolling Text LED Strip Module.
+
+Change:
+    1. Update kernel library Nx1Lib_V108.a.
+    2. Update NX1_MIDI_Lib 0.14 [Build 230810.00].zip.
+    3. Update Multi_Channel_LEDSTR.a
+    4. Optimize ADPCM Decode to reduce loading.
+    5. Extend the time duration of MIDI timbre on EF/OTP mode.
+    6. Optimize QIO and VIO Module.
+
+Fix:
+    1. MIDI volume saturation.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v3.70  2023/05/31
+------------------------------------------------------------------------------------------------------------------------
+
+Add:
+    1. LED Strip multi-channel function.
+
+Change:
+    1. Update kernel library Nx1Lib_V106.a.
+    2. Update NX1_MIDI_Lib 0.14 [Build 230421.00].zip.
+    3. ADPCM supports simultaneous playback of 3 to 8 channels depending on the sample rate and EQ setting."
+    4. Optimize decoding of ADPCM sound effects.
+    5. Restructure I2C program and APIs.
+    6. VR_GroupAddr() and VR_CVRGroupAddr() support to get address from internal ROM or SPI Flash.
+    7. Merge XIP functions into utilityctl_xip and callback_xip.c files.
+    8. Enable/disable mechanism for SPI0_VDD on NX1 EF.
+    9. Optimize SPI reading.
+
+Fix:
+    1. ECHO sound effect may produce abnormal noise.
+    2. ADPCM SpeedPitchN abnormal noise when both _ADPCM_SPEED_CHANGE and _ADPCM_PITCH_CHANGE are enabled.
+    3. MIDI NoteOn isn't properly released when the sustain pedal is off.
+    4. Incorrect reset behavior of MIDI Tempo.
+    5. Extra power consumption caused by floating SPI MISO pin during halt mode on partial IC body of NX1 EF.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v3.60  2023/02/24
+------------------------------------------------------------------------------------------------------------------------
+
+Add:
+    1. ADPCM software upsample function.
+    2. ADPCM Animal Roar sound effect.
+    3. 800msec and custom-defined delay time type for ADPCM and RT echo sound effect.
+    4. MIDI instrument gliss function.
+    5. Saving the location of SBC play back.
+    6. Sound Localization with 2 microphones.
+
+Change:
+    1. Update kernel library.
+    2. Update touch library.
+    3. Update NX1_MIDI_Lib 0.14 [Build 230210.00].zip.
+    4. Decode optimization of ADPCM sound effect.
+    5. Touch optimization.
+    6. SPI reading optimization.
+
+Fix:
+    1. SPI_ProgChecksum() returns wrong checksum result on NX1 OTP with only XIP content.
+    2. Reset may occur if MIDI-NoteOn TYPE1 is triggered again at the same pitch. 
+
+
+------------------------------------------------------------------------------------------------------------------------
+v3.50  2022/12/13
+------------------------------------------------------------------------------------------------------------------------
+
+Add:
+    1. QIO Module and Action Module support HW PWM-IO resources.
+
+Change:
+    1. Update kernel library.
+    2. Update touch library.
+    3. Update NX1_MIDI_Lib 0.14 [Build 221116.00].zip.
+    4. MIDI Instrument NoteOn optimization.
+    5. Release ADPCM encode buffer for using heap RAM applications.
+    6. DC remove filter set as ENABLE for all ADC applications.
+    7. DGC parameters for better recording quality.
+    8. CB_SYS_isAppBusy() can check busy status of all applications.
+    9. Key event of DirectKey Module is modified to queue structure.
+   10. LVD Monitor optimization.
+   11. LED Strings support SPI/SPI1/OTP/EF mode.
+
+Fix:
+    1. SMU_CpuReset and SMU_ChipReset work incorrectly when reset flag is not cleared first.
+    2. ADC Scan mode of Sound Localization gets wrong FIFO data numbers.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v3.40  2022/08/31
+------------------------------------------------------------------------------------------------------------------------
+
+Add:
+    1. AUDIO_IsRecorded() for checking if there is an audio data.
+    2. Recovering original data automatically when sound detecting doesn't occur on _ADPCM_RECORD_SOUND_TRIG application.
+    3. Power source setting of GPIO PB0~PB5 on NX1 OTP.
+    4. Touch_ENABLE() and Touch_DISABLE() to enable/disable Touch Module.
+
+Change:
+    1. Update kernel library.
+    2. Update touch library.
+    3. SW PWM-IO and QIO optimization, no need to enable SW_PWM Module when using only QIO Mark.
+    4. Remove Sound Detect timeout setting.
+
+Fix:
+    1. Write header only if there is record data after recording is stopped. 
+
+
+------------------------------------------------------------------------------------------------------------------------
+v3.30  2022/06/30
+------------------------------------------------------------------------------------------------------------------------
+
+Add:
+    1. ADPCM Darth Vader sound effect.
+    2. ADPCM speedpitchN sound effect without changing DAC sample rate.
+    3. DAC up sample point setting for NX1 EF.
+    4. NX1 EF UART TX/RX can be switched to PD0/PD1 pins.
+    5. Storage Module.
+    6. SPI Flash erase time max spec settings for Block/Sector erasing.
+
+Change:
+    1. Update library and NX1_MIDI_Lib 0.13 [Build 220315.00].zip.
+    2. ADPCM SpeedPitch sound effect optimization.
+    3. DAC Mode optimization.
+    4. Action optimization.
+
+Fix:
+    1. ADPCM record playback maybe have pop noise at the end of playback.
+    2. NoteOn RAM initialization fail when using heap RAM or playing MIDI song. 
+    3. Reading FIFO data may be wrong when processing XIP on NX1 OTP.
+    4. FMC_BurstWrite() writing fail when writing data length is less than 4.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v3.21  2022/04/13
+------------------------------------------------------------------------------------------------------------------------
+
+Add:
+    1. Support NX12FM52A, NX12FM54A, NX13FM52A and NX13FM54A.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v3.20  2022/02/25
+------------------------------------------------------------------------------------------------------------------------
+
+Add:
+    1. RT Darth Vader sound effect.
+    2. RT Chorus sound effect.
+
+Change:
+    1. Update library.
+    2. ADPCM SpeedPitch sound effect optimization, and add high quality effect option.
+    3. DirectKey code simplification.
+    4. Action supports SPI1 mode.
+    5. Sound Localization updates for new HW microphone placement.
+
+Fix:
+    1. Port C initial settings for measuring halt mode current on NX12F/NX13F EVB/AB.
+    2. ADC noisy tone caused by Audio-PWM carrier frequency when using pitch sound effect applications on NX1 EF.
+    3. Memory allocation failure caused by allocating more unused RAM size on SBC/ADPCM/PCM record APIs.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v3.10  2021/11/30
+------------------------------------------------------------------------------------------------------------------------
+
+Add:
+    1. Robot4 sound effect for ADPCM and RT Play.
+    2. Support SBC Record Erasing while ADPCM playback.
+    3. MIDI Instrument NoteOn max channel.
+    4. Pitch detection mode for human voice and pure tone.
+    5. LVD Monitor.
+    6. Output 1KHz waveform through GPIO.
+
+Change:
+    1. Update library and NX1_MIDI_Lib 0.13 [Build 211105.00].zip.
+    2. MIDI Play supports SPI1 mode.
+
+Fix:
+    1. ADC noisy tone is caused by DAC-PWM carrier frequency on NX1 EF.
+    2. _ADPCM_RECORD_SOUND_TRIG erasing bug on EF mode.
+    3. ADC scan mode switches channel incorrectly.
+    4. DAC FIFO data can't be written immediately after DAC FIFO reset.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v3.00  2021/09/30
+------------------------------------------------------------------------------------------------------------------------
+
+Add:
+    1. Support NX12FS51A and NX13FS51A.
+    2. SBC-1 and SBC-2 support Audio Filter of NYIDE.
+    3. Record functions support SPI1 mode.
+    4. RESOURCE_EF series APIs for NX1 EF.
+    5. Sound Location Module.
+
+Change:
+    1. Update library and NX1_MIDI_Lib 0.13 [Build 210906.00].zip.
+    2. Smooth MIDI volume change.
+    3. MIDI Play and Instrument optimization.
+    4. LED Strings optimization.
+    5. WaveID optimization.
+
+Fix:
+    1. Sound Effect Speed Change doesn't work on certain conditions.
+    2. Initialize Digital Gain Control buffers of SBC-1 and RT Play.
+    3. MIDI abnormal noise when Instrument NoteOn is playing.
+    4. MIDI initialization error when MIDI is SPI sentence order type.
+    5. EXT INT wrong flag state when switching to EXT INT pin from GPIO.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v2.10  2021/05/31
+------------------------------------------------------------------------------------------------------------------------
+
+Add:
+    1. Audio record function for HW DAC channels. 
+    2. ADPCM supports Audio Filter of NYIDE.
+    3. DirectKey supports pull-up resistor setting and short debounce key.
+    4. SPI0 VDD can be kept in sleep mode.
+    5. QFID supports RTC, detect and leave debounce.
+
+Change:
+    1. Update library and NX1_MIDI_Lib 0.13 [Build 210127.00].zip .
+    2. DAC mode optimization.
+    3. ADPCM sound trig record function optimization.
+    4. Pitch detection optimization.
+    5. DirectKey optimization.
+    6. QFID optimization.
+
+Fix:
+    1. ADPCM and RT play pop noise when using digital gain control.
+    2. RT Play abnormal noise on sample rate 12KHz.
+    3. QIO initial short pulse and QIO wrong state after waking up by audio resume from sleep mode.
+    4. QIO and VIO frequency offset are caused by RTC.
+    5. I2C read missing.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v2.00  2020/11/30
+------------------------------------------------------------------------------------------------------------------------
+
+Add:
+    1. MIDI_MaskCh() and MIDI_MaskPercu() can mask sequencer note of MIDI channels.
+
+Change:
+    1. Update library and NX1_MIDI_Lib 0.12 [Build 201119.00].zip .
+    2. Increase the decode buffer of PCM playback.
+    3. DAC process merges with WaveID DAC flow.
+    4. I2C APIs read/write without 4-bytes alignment and increase the read/write bytes.
+    5. QIO and VIO optimization.
+    6. Structure alignment optimization.
+    7. Voice Tag training flow for more stable results.
+    8. Wakeup flow works for general input pins even when _DIRECTKEY_MODULE set as ENABLE.
+
+Fix:
+    1. WaveID pop noise.
+    2. Add the mechanism to avoid going with unstable external low clock crystal (E_LXT).
+    3. Press and release state of DirectKeys will be kept until DIRECTKEY_GetKey is executed.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.90  2020/08/31
+------------------------------------------------------------------------------------------------------------------------
+Add:
+    1. DRC(Dynamic Range Compression) and EQ Type 1 for ADPCM record play.
+    2. ADPCM supports repeat play for playback only or speed/pitch/robot3 sound effect.
+    3. DAC mode flow.
+    4. SPI 4-Byte address mode for Winbond W25Q256FV and XMC XM25QH256B.
+    5. Check if play index of SPI_Encoder is valid.
+    6. VR_SetNumTrainingUttr() can set the number of training utterances on Voice Tag and Voice Password application.
+    7. SPI EEPROM MODULE.
+
+Change:
+    1. NX1 library, MIDI library and TouchKey library. 
+    2. AUDIO_Play(), AUDIO_Pause(), AUDIO_Resume(), AUDIO_Stop() and AUDIO_GetStatus() support sentence playback.
+    3. Sleep flow of LED strings.
+    4. TouchKey module can wake up by GPIO pins and go to sleep after DELAY_SLEEP_TIME.
+    5. Modify the code flow of VR and VR Voice Tag, and VR Voice Tag can support up to 8 Tags.
+    6. NX1 example code can be created automatically by NYIDE New Project.
+
+Fix:
+    1. Set correctly MIDI Instrument Note OFF.
+    2. Set correctly GPIO_SetCurrent for Constant Sink Current.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.80  2020/06/05
+------------------------------------------------------------------------------------------------------------------------
+Add:
+    1. VR 32bit.
+    2. VR Voice Password function.
+    3. Tool version checking mechanism.
+	4. New example code with Resource Files and project setting files.
+
+Change:
+    1. AUDIO_SetChVolume control flow.
+    2. Rename the define and API about all Robot sound effects.
+    3. Reorder the sleep control flow.
+    4. AGC is enabled by default.
+    5. Change the default timer settings of PWM-IO to support the duty count mode.
+    6. The new Action algorithm and control flow.
+    7. SW PWM-IO control flow.
+    8. Quick-IO can support OTP and SPI1 mode.
+
+Fix:
+    1. SBC-1/SBC-2 Play Repeat bug on some sound files.
+    2. Set KEY_SCAN_COUNT correctly and scan losslessly key-release of DirectKey Module.
+    3. Set correctly the non-busy level when using Quick-IO functon.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.70  2020/03/20
+------------------------------------------------------------------------------------------------------------------------
+Add:
+    1. The new MIDI APIs: OneKey_Func, OneKey_GetStatus, Set_LongInst_PlayTick, MIDI_SetPitch, NoteEnv_GetStatus.
+    2. MIDI pause and auto sleep can support instrument mode.
+    3. OKON supports instrument trigger by NoteOn/Off.
+    4. New way for instrument NoteOn/Off.
+    5. Instrument record function.
+    6. SBC-2 Module.
+    7. Volume change smooth function for all audio-algorithm.
+    8. Digital gain control for SBC-1/ADPCM record play and Real time play, it can make louder volume of the voice and speech.
+    9. Initial status setting for PWM-IO Module.
+   10. SW PWM-IO Module.
+   11. Quick-IO function for SBC-1/SBC-2/ADPCM Module.
+   12. Rolling code function.
+
+Change:
+    1. NX1 library.
+    2. MIDI Library moves into the path \src\Library\MIDI_Lib\.
+    3. The setting time of main channel on MIDI learning mode.
+    4. Volume Setting flow for AUDIO_Play().
+    5. SetNoiseFilter can support DAC_CH0 and DAC_CH1.
+    6. Up-sample for record play.
+    7. Skip tail time for record can be set freely.
+    8. The default setting of GPIO PA0~PA7.
+    9. New Voice Tag library needs a larger user defined space and more RAM sizes.
+
+Fix:
+    1. _SBC_RECORD_ERASING will build fail when setting _USE_HEAP_RAM as ENABLE.
+    2. PWM-IO duty setting.
+    3. Action bug for short and steep lines.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.60  2019/11/15
+------------------------------------------------------------------------------------------------------------------------
+Add:
+    1. Support the IC Body NX11S2xA.
+    2. Support XIP size up to 2M bytes.
+    3. The new MIDI APIs: Set_ShortInst_HoldTick, Change_InstVibrato, InstNote_AllOff, CB_MIDI_PlayPreprocess.
+    4. The new ghost sound effect for Real time Play Module.
+    5. Wave_ID module and Wave_ID example.
+    6. UART_ISR() and UART example.
+    7. VR_GetLoading() to get dynamically the VR loading percentage.
+    8. The new Voice Tag APIs replace the VR_Train().
+
+Change:
+    1. NX1 library.
+	2. Set the attack and release time of AGC to the fast setting.
+    3. ADPCM_SetSpeedPitch flow with the new sound effect algorithm.
+    4. SBC play supports the old and new SBC-1 algorithm and improve the continuity of SBC repeat play at the last frame.
+    5. Touch flow and Touch library.
+    6. vr_example.c and vr_voicetag_example.c
+    7. The default IC Body to NX12P64A.
+    8. The default setting of XIP to XIP_1_IO_MODE.
+    9. Support SPI_Encoder Noise Filter and set up-sample function manually.
+   10. MIDI stop too slow at instrument mode.
+   11. The initial timing of MIDI-NoteOn.
+   12. The setting time of main channel on MIDI One Key One Note.
+   13. The max operating number of LEDs on LED Strings module.
+   14. The restriction of CSMT project settings on internal ROM or SPI Flash.
+   15. Update VR VAD flow and integrate _VR_UNKNOWN_COMMAND into _VR_VAD extended application.
+
+Fix:
+    1. The pop noise of the channel data mixer about DAC0 and DAC1.
+    2. The SPI Checksum calculating when the SPI content doesn't exist.
+    3. MIDI-NoteOn State call function incorrectly.
+    4. CB_PlayEnd flow bug on all audio record functions.
+    5. Action_Mark bug at last frame and pause state.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.50  2019/07/08
+------------------------------------------------------------------------------------------------------------------------
+Add:
+    1. Add LED Strings module.
+    2. Add the new Ultra Sound module and the example.
+    3. Add the new ECHO algorithm for ADPCM and Real Time Module, it can switch effect level normal or special mode.
+    4. Add the CB_InitAdc() on reg_callback.c to set the AGC and PGA gain for user.
+    5. Add the example of coc_xipram, then remove XIP_RamInit() flow on sys.c and user_xip.c.
+
+Change:
+    1. Update Touch and Nx1 library.
+    2. Update Touch standby process to integrate into SYS_ServiceLoop().
+    3. Update the reference definition and rename the macro definition.
+    4. Update ADPCM CH3 and ADPCM CH4 to synchronize with ADPCM CH2.
+    5. Update QFID flow to improve the performance of QFID_RX.
+    6. Update to set the default pull-high resistor to 100K ohms for DirectKey Module.
+    7. Modify the IRQ priority of DAC to the highest level and it is unable to be changed.
+    8. Modify Touch module to support U32 touch count setting.
+    9. Modify vr_example.c and vr_voicetag_example.c to set the times of the VAD timeout extension to 1.
+   10. Modify the CB_VR_TrainTag_PromptAction_BeforeSayingTag() to get the number of times automatically.
+   11. Modify and rename the CB_Sentence() to CB_SPI_MARK() in order to support SPI_Encoder Mark Number.
+   12. Modify and improve the voice recognition rate on NX1_FDB(B) when using VR VAD and Sound Detection.
+   13. Modify the control flow of 1-4-4 Quad mode to improve the stability of SPI Flash operation.
+
+Fix:
+    1. Fix SBC Play Repeat bug on some sound files.
+    2. Fix the combined bug of Record play with speed and pitch sound effect.
+    3. Fix the CB_PlayEnd flow bug on all audio algorithm.
+    4. Fix the VR Id keeping issue on VR VAD and VR Unknown Command Detection.
+    5. Fix Touch wakeup incorrectly by GPIO.
+    6. Fix EXT1 interrupt ISR.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.40  2019/03/27
+------------------------------------------------------------------------------------------------------------------------
+Add:
+    1. Set the highest IRQ priority for ADC and DAC.
+    2. Block the unused register by OPTION_IC_BODY.
+    3. Add OTP MIDI NoteOn function.
+    4. Add SetSpeedPitch function for ADPCM audio-algorithm.
+    5. Add SetPPGain() to set register PP_GAIN immediately.
+    6. Add the call-back function CB_Sentence() to support the SPI_Encoder Mark on SentenceOrder Play application.
+    7. Add INTC_IrqCmd for GPIOA, GPIOB, GPIOC, SPI, SPI1, I2C, SWI and SWA interrupt.
+    8. Add IR module for 33.5KHz and 55.5KHz IR sensor application and add IR example code.
+    9. Add Action_Mark function and extend the new Action timer PWMA & PWMB.
+   10. Add the new define _VR_VAD_TIMEOUT_EXTENSION for VR Timeout Extension.
+   11. Add utility_define.h for VR VAD and sound detection setting and set the sound detection frame to 16ms.
+   12. Add VR_SPI_CVRGroupAddr() to support the many CVR files application.
+
+Change:
+    1. Update Record Play, SentenceOrder Play, VR and VR Voice-Tag example code.
+    2. Update Touch and Nx1 library.
+    3. Update the linker script file.
+    4. Modify the _ADPCM_RECORD_SOUND_TRIG control flow, user can stop the function by 3 methods. 
+    5. Modify the _AUDIO_IDLE_INTO_HALT control flow to be executed correctly for the sleeping preprocess.
+    6. Modify DirectKey function to support GPIOB and GPIOC.
+    7. Modify InitADC() flow to avoid resulting in the different OTP checksum by changing the different xip value.
+    8. Modify VR VAD and sound detection flow to avoid resulting in the different OTP checksum by changing the different xip value.
+    9. Rename the define VR_UNKNOWN_COMMAND, and re-combine the VR+SoundDetection flow to let VR_ServiceLoop() can return unknown command.
+
+Fix:
+    1. Fix the memory leak of RT_Play and update the memory usage of RT_Play.
+    2. Fix the error mute count for the SentenceOrder Play.
+    3. Fix SentenceOrder Play bug that can't stop when playing the last action order.
+    4. Fix Pitch detection to be executed correctly on 1KHz/4KHz/16KHz RTC IC body.
+    5. Fix Action begin and final output state and fix Action bug on 16KHz RTC IC body.
+    6. Fix some control flow bug to change the position of SYS_ServiceLoop() and UTILITY_ServiceLoop() each other.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.31  2018/12/20
+------------------------------------------------------------------------------------------------------------------------
+Fix:
+    1. Fix the scratchy sound of SBC_RecordErase and ADPCM_RecordErase.
+    2. Fix the incorrect issue of VR_GetVadSts().
+    3. Fix Action data overflow issue.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.30  2018/12/10
+------------------------------------------------------------------------------------------------------------------------
+Add:
+    1. HitScore and VAD function for VR.
+    2. Delay time for ADC stable voltage.
+    3. VR_SPI_GroupAddr() can get VR group address dynamically.
+    4. New XIP and XIP COC function.
+    5. Skip tail function for SBC/ADPCM/PCM Recording.
+    6. MIDI Channel gate, NoteOn Busy Flag and Get_Pitch for MIDI_Play.
+
+Change:
+    1. Modify High-Pass filter and rename to DCRemove_10kHz.
+    2. Modify QFID control flow.
+    3. Add the flag RT_PlayFlag to distinguish between RT_Play InitAdc and default InitAdc.
+    4. Update the linker script file.
+    5. Update VR and VR Voice-Tag example code.
+    6. VAD threshold value, ADC_SetGain value and ADC_MicPreGain value move into XIP if _SPI_MODULE is Enable.
+
+Fix:
+    1. SBC Play Repeat function bug on some sound files.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.20  2018/11/02
+------------------------------------------------------------------------------------------------------------------------
+Add:
+    1. SPI1 module.
+    2. SentenceOrder Play example code and status STATUS_MUTE for SentenceOrder Play.
+    3. Record Play example code.
+    4. SBC Play Repeat function and SBC can support 3 buffer for Decoding.
+    5. SleepFlag to control manually when _AUDIO_IDLE_INTO_HALT is ENABLE.
+
+Change:
+    1. The description of the all sound effect API.
+    2. Update VR and VR Voice-Tag example code.
+    3. Update the linker script file.
+    4. Touch Key module control flow..
+    5. Real Time Play module control flow.
+    6. Modify the sound detecting parameters of Record Play for NX1_FDB Ver.B .
+    7. Modify MIDI_STOP functions.
+
+Fix:
+    1. The VAD warning and initial value of VAD local variables.
+    2. The Record-Play compiler error when _USE_HEAP_RAM is ENABLE.
+    3. The QFID compiler error when using PWM output carrier frequency.
+    4. The initialization of MIDI-NoteOn.
+    5. The clear process of RTC Flag and add RTC_INT_ReEn().
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.10  2018/08/31
+------------------------------------------------------------------------------------------------------------------------
+Add:
+    1. MIDI Mark Sequencer Store/Return function and MIDI Learning Mode.
+    2. MIDI PitchBend_Ratio/Patch/Volume/Tempo Control function and One Key One Note function(OKON).
+    3. AUDIO_Play() can support Audio-Sentence/Action-Sentence function.
+    4. New Echo and EQ sound effect for ADPCM1 audio-algorithm.
+    5. VR CallBack functions can be programmed code for user.
+    6. SPI Checksum control flow.
+    7. Key release is added for DIRECTKEY_GetKey().
+    8. Touch Key module.
+    9. GPIO_I2C module.
+
+Change:
+    1. _AUDIO_API_CH_NUM can support max 4-channel.
+    2. _RT_PITCH_CHANGE and _RT_ECHO_SOUND control flow.
+    3. AUDIO_Play() can support ADPCM3, ADPCM4, PCM2 and PCM3 audio-algorithm.
+    4. CB functions of all audio-algorithm are independent of each other.
+    5. Pitch Detection control flow.
+    6. VR and VR Voice-Tag control flow.
+    7. ProgChecksum control flow.
+    8. Action multi channels control flow and enlarge Action buffer.
+    9. Reduce code size for initial setting of all GPIO pin.
+   10. Update all example code.
+
+Fix:
+    1. Add the prevention of DAC output to solve the over-saturation volume on multi audio channels.
+    2. Improve the randomness of C_Module Random function.
+    3. Make sure the key release state will be scanned before going sleep(Halt Mode).
+    4. Modify PWM_InitDuty() and PWM_Cmd() to fix the flashing output state when power on initial. 
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.05  2018/05/31
+------------------------------------------------------------------------------------------------------------------------
+    1. Fix the flow of entering halt mode.    
+    2. Modify VR functions and VR control flow
+    3. Modify Action
+    4. Modify QFID
+    5. Add VR Voice-Tag
+    6. Add to get SPI-VendorID
+    7. Add MIDI NoteOn function
+    8. Add SBC/ADPCM Record Erasing function
+    9. ADPCM add 2 channels
+   10. Modify SBC-1 algorithm for some special wave
+   11. Modify UltraSound
+   12. Add Pitch Detection function
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.04  2018/04/27
+------------------------------------------------------------------------------------------------------------------------
+    1. System initial flow add SPI Flash release deep power down 
+
+------------------------------------------------------------------------------------------------------------------------
+v1.04  2018/04/26
+------------------------------------------------------------------------------------------------------------------------
+    1. Add QFID
+    2. enter halt mode flow modify
+
+------------------------------------------------------------------------------------------------------------------------
+v1.04, 2017/11/30 Beta
+------------------------------------------------------------------------------------------------------------------------
+    1. Fix bug for optimize error.
+    2. Add SBC-1 in Library.
+
+------------------------------------------------------------------------------------------------------------------------
+v1.04, 2017/10/31 Beta
+------------------------------------------------------------------------------------------------------------------------
+    1. Add real time play, and dynamic memory.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.03, 2017/08/31
+------------------------------------------------------------------------------------------------------------------------
+    1. INTC_SetPriority input IRQ modify declaration from U8 to U32.
+    2. Modify HEAP RAM size and show when enable _USE_HEAP_RAM. Sound effect which use HEAP RAM is not in this version.
+    3. AUDIO_SetSpeed/AUDIO_SetPitch add channel parameters.
+    4. Modify SPI1 FIFO level.
+    5. Add sound effect, Robot01, Robot02, and Reverb, in each compress algorithm.
+    6. Add 2nd/3rd channel PCM
+    7. Add XIP.
+    8. vioctl.c modify for Action convert change.
+    9. Add wake up delay for SPI Flash.
+   10. When enable Heap RAM. VR does not free memory clearly.
+   11. Modify for SBC noise sound in some factors.
+   12. Modify for ADPCM noise sound.
+   13. Add SMU_DIS_INT() function to check all interrupt status and disable them before enter halt mode.  
+   14. Add VAD on VR environment.
+   15. Fix nx1_reg.h SPI1 define error.
+   16. Add Midi Speed change API.
+   17. Fix PP_Gain setting error. Original version is one step large.
+   18. Fix Record status error.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.02, 2017/02/24
+------------------------------------------------------------------------------------------------------------------------
+    1. Add Dynamic Allocate Memory(heap) for RAM size reduce.
+    2. Modify for Speed/Pitch change together.
+    3. Add Resource API and example.
+    4. Add Action function.
+    5. Fix GPIO_SetCurrent() bug.
+    6. Add Echo sound effect.
+    7. Add Speech source in OTP.
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.01, 2017/01/17
+------------------------------------------------------------------------------------------------------------------------
+    1. Add support for VR commands in SPI-Flash.
+    2. Codecs share one call-back function(audio_callback.c).   
+
+
+------------------------------------------------------------------------------------------------------------------------
+v1.00, 2016/12/01
+------------------------------------------------------------------------------------------------------------------------
+    1. First edition
+    

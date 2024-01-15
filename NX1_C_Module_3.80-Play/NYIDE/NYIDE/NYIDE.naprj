@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup Condition="">
+    <AlignmentCheck>True</AlignmentCheck>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>NYIDE</AssemblyName>
+    <BuildCCompilerVersion>NYC_NX1 3.20 [Build: 210928.00]</BuildCCompilerVersion>
+    <BuildNYASMVersion>NYASM 2.40 [Build: 230823.00]</BuildNYASMVersion>
+    <BuildNYIDEVersion>NYIDE 5.10 [Build: 230831.00]</BuildNYIDEVersion>
+    <CCompilerInstallDir>C:\Nyquest\NYC_NX1\</CCompilerInstallDir>
+    <ChipId>NX11P21A</ChipId>
+    <ClientName>ClientName</ClientName>
+    <CommonOTPEnable>False</CommonOTPEnable>
+    <CommonOTPRefBin></CommonOTPRefBin>
+    <Configuration>Debug</Configuration>
+    <GenDisAsm>False</GenDisAsm>
+    <GenFileDef>True</GenFileDef>
+    <GenStackRam>True</GenStackRam>
+    <IncludePath>src|src/Driver|src/Kernel|src/Kernel/Audio|src/Kernel/Callback|src/Kernel/System|src/Kernel/Utility|src/Kernel/Utility/IRAM|src/Table|src/Table/IO|src/Table/Midi|src/Table/Voice|src/Table/Midi/Table|src/Table/Vr|src/Table/TouchTab|src/Table/UserDefined|src/Table/LEDSTR|src/user_code</IncludePath>
+    <IntermediateDir>OBJ</IntermediateDir>
+    <IsISPProject>False</IsISPProject>
+    <ISPProgram></ISPProgram>
+    <LibraryFiles>src/Library/Nx1Lib_V108.a|src/Library/touch.a|src/Library/spi_eeprom.a|src/Library/StorageModuleLib.a|src/Library/Multi_Channel_LEDSTR.a|src/Library/Sync_Play_LED_Strip.a|src/Library/Scrolling_text_LED_Strip.a</LibraryFiles>
+    <Nx1AutoGenFiles>OBJ\init-default.c|OBJ\crt0.s|OBJ\interrupt.h|OBJ\security_empty.c|Table\MidiLib.h|Table\resample.h|Table\type_def.h|OBJ\option.h</Nx1AutoGenFiles>
+    <Nx1MidiLibName>NX1__MIDI__Lib 0.11 [Build 190125.00]</Nx1MidiLibName>
+    <Nx1VrLibName>NX1__VR__Lib 6.45 [Build 230117.00]</Nx1VrLibName>
+    <NYASMInstallDir>C:\Nyquest\NYASM\</NYASMInstallDir>
+    <NYIDEInstallDir>C:\Nyquest\NYIDE\</NYIDEInstallDir>
+    <OptimizationLevel>2</OptimizationLevel>
+    <OptimizationType>0</OptimizationType>
+    <OutputType>bin</OutputType>
+    <Platform>CNxp</Platform>
+    <ProjectGuid>{9080BC99-FFBD-4210-ADA3-3BDA44523416}</ProjectGuid>
+    <ProjectOptionChanged>False</ProjectOptionChanged>
+    <RootNamespace>NYIDE</RootNamespace>
+    <ShowAllWarning>True</ShowAllWarning>
+    <StopAtMain>True</StopAtMain>
+    <UseParallelBuild>True</UseParallelBuild>
+    <WarningMsgCode0></WarningMsgCode0>
+    <WarningMsgCount>0</WarningMsgCount>
+    <WarningMsgFileName0>src/Kernel/Audio/sbc_audioapi.c</WarningMsgFileName0>
+    <WarningMsgLineNumber0>3301</WarningMsgLineNumber0>
+    <WarningMsgMessage0>#warning "_SBC_AUTO_SAVE_TIME does not support sentence play" [-Wcpp]</WarningMsgMessage0>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="NYIDE.cb" EntryPoint="false" MetaData="" />
+    <Folder Include="ResourceFiles" EntryPoint="false" MetaData="" />
+    <Folder Include="ResourceFiles\Action Files" EntryPoint="false" MetaData="" />
+    <Folder Include="ResourceFiles\Melody Database" EntryPoint="false" MetaData="" />
+    <Folder Include="ResourceFiles\SPI Flash" EntryPoint="false" MetaData="" />
+    <Folder Include="ResourceFiles\Voice Files" EntryPoint="false" MetaData="" />
+    <Folder Include="ResourceFiles\VR_Module" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\eeprom_24LC256.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_adc.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_adc.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_dac.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_dac.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_fmc.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_fmc.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_gpio.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_gpio.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_gpio_i2c.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_i2c.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_i2c.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_intc.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_intc.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_ir.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_ir.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_pwm.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_pwm.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_rtc.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_rtc.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_sdc.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_sdc.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_smu.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_smu.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_spi.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_spi.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_spi1.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_timer.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_timer.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_uart.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_uart.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Driver\nx1_wdt.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Driver\nx1_wdt.h" EntryPoint="false" MetaData="" />
+    <None Include="src\Kernel\_queueTemplate.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\adpcm_audioapi.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\adpcm_chx_audioapi.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\audio_record_audioapi.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\audioctl.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\celp_audioapi.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\midi_audioapi.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\midi_inst_noteon.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\pcm_audioapi.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\pcm_ch2_audioapi.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\pcm_ch3_audioapi.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\rt_audioapi.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\sbc_audioapi.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\sbc_ch2_audioapi.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Audio\sbc2_audioapi.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\adpcm_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\adpcm_chx_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\audio_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\callback_xip.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\celp_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\LVD_monitor_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\midi_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\Multi_Channel_ledstr_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\nx1_i2c_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\nx1_spi_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\pcm_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\pcm_ch2_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\pcm_ch3_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\pitch_detect_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\qfid_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\qio_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\reg_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\rt_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\sbc_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\sbc_ch2_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\sbc2_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\sbc2_ch2_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\Scrolling_Text_ledstr_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\sound_detect_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\sw_pwm_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\Sync_Play_ledstr_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\sys_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\touch_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\vio_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\vrctl_callback.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Callback\wave_id_callback.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Kernel\include.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\isr.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\System\debug.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Kernel\System\debug.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\System\delay.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\System\interrupt.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\System\sys.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\adc_input.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\ir.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Kernel\Utility\IRAM\crt_iram1.S" EntryPoint="false" MetaData="" />
+    <None Include="src\Kernel\Utility\IRAM\iram_interrupt_iram1.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\IRAM\record_erasing_iram1.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\IRAM\vector_iram1.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\key.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Kernel\Utility\key.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\LVD_monitor.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\nx1_dacAssigner.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\nx1_dacMixerRamp.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\nx1_math.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\nx1_qio.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\nx1_sw_pwm.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\pitch_detection.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\prog_checksum.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\qfid.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\resource.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\Sound_Localization.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\sounddet.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\storage_access.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\touch.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Kernel\Utility\utility_define.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\utilityctl.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\utilityctl_xip.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\vadctl.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\vioctl.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\vrctl.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Kernel\Utility\wave_id.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\main.c" EntryPoint="false" MetaData="" />
+    <Compile Include="src\mem.c" EntryPoint="false" MetaData="" />
+    <None Include="src\nx1_config.h" EntryPoint="false" MetaData="" />
+    <None Include="src\nx1_config_check.h" EntryPoint="false" MetaData="" />
+    <None Include="src\nx1_def.h" EntryPoint="false" MetaData="" />
+    <None Include="src\nx1_lib.h" EntryPoint="false" MetaData="" />
+    <None Include="src\nx1_reg.h" EntryPoint="false" MetaData="" />
+    <None Include="src\nx1_tool_ver.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Table\Io\IoTab.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Table\Io\IoTab.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Table\LEDSTR\LEDSTRTab.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Table\LEDSTR\LEDSTRTab.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Table\NX1_Tab.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Table\NX1_Tab.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Table\NX1_VoiceChangerTab.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Table\NX1_VoiceChangerTab.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Table\TouchTab\TouchTab.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Table\TouchTab\TouchTab.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Table\UserDefined\UserDefinedTab.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Table\UserDefined\UserDefinedTab.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Table\Voice\VoiceTab.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Table\Voice\VoiceTab.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\Table\Vr\VRCmdTab.c" EntryPoint="false" MetaData="" />
+    <None Include="src\Table\Vr\VRCmdTab.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\user_code\user_key.c" EntryPoint="false" MetaData="" />
+    <None Include="src\user_code\user_key.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\user_code\user_led.c" EntryPoint="false" MetaData="" />
+    <None Include="src\user_code\user_led.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\user_code\user_main.c" EntryPoint="false" MetaData="" />
+    <None Include="src\user_code\user_main.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\user_code\user_motion.c" EntryPoint="false" MetaData="" />
+    <None Include="src\user_code\user_motion.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\user_code\user_play.c" EntryPoint="false" MetaData="" />
+    <None Include="src\user_code\user_play.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\user_code\user_record.c" EntryPoint="false" MetaData="" />
+    <None Include="src\user_code\user_record.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\user_code\user_storage_break_point.c" EntryPoint="false" MetaData="" />
+    <None Include="src\user_code\user_storage_break_point.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\user_code\user_talkback_adpcm.c" EntryPoint="false" MetaData="" />
+    <None Include="src\user_code\user_talkback_adpcm.h" EntryPoint="false" MetaData="" />
+    <Compile Include="src\user_code\user_vr.c" EntryPoint="false" MetaData="" />
+    <None Include="src\user_code\user_vr.h" EntryPoint="false" MetaData="" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Client: ClientName" EntryPoint="false" MetaData="" />
+    <Reference Include="Config Block: NYIDE.cb" EntryPoint="false" MetaData="" />
+    <Reference Include="IC Body: NX11P21A" EntryPoint="false" MetaData="" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\Table\UserDefined" EntryPoint="false" MetaData="" />
+  </ItemGroup>
+  <Properties>
+    <Array name="ActionFiles" />
+    <Array name="bookmarks" />
+    <Array name="EEPROMOverwriteData" />
+    <Array name="EnvelopFiles" />
+    <Array name="ExternalResource">
+      <Element value="|ResourceFiles/SPI Flash/SPI_Demo.spiprj|0|Unknown|Unknown|False|False|0|False|Visible|False|False|Visible|Visible|-8585065816464943324|0|0|vix|False|Unknown|Unknown|0|Unknown|C4|False||False|||False|True|RGB|Single-String" />
+    </Array>
+    <Array name="files" />
+    <Array name="InstrumentFiles" />
+    <Array name="LedStripFiles" />
+    <Array name="MelodyDatabaseFiles" />
+    <Array name="MusicFiles" />
+    <Array name="RegisterWindowExpandInfo">
+      <Element value="SMU|False" />
+      <Element value="P_SMU_CLK_Ctrl@SMU|False" />
+      <Element value="P_SMU_PWR_Ctrl@SMU|False" />
+      <Element value="P_SMU_SW_INT@SMU|False" />
+      <Element value="P_SMU_RST_Flag@SMU|False" />
+      <Element value="P_SMU_RST_Ctrl@SMU|False" />
+      <Element value="P_SMU_FUNC_Ctrl@SMU|False" />
+      <Element value="P_SMU_FUNC_RST@SMU|False" />
+      <Element value="GPIO|False" />
+      <Element value="P_PA_DIR@GPIO|False" />
+      <Element value="P_PA_Data@GPIO|False" />
+      <Element value="P_PA_PAD@GPIO|False" />
+      <Element value="P_PA_Wakeup_Mask@GPIO|False" />
+      <Element value="P_PA_CFG@GPIO|False" />
+      <Element value="P_PA_MFP@GPIO|False" />
+      <Element value="P_PB_DIR@GPIO|False" />
+      <Element value="P_PB_Data@GPIO|False" />
+      <Element value="P_PB_PAD@GPIO|False" />
+      <Element value="P_PB_Wakeup_Mask@GPIO|False" />
+      <Element value="P_PB_CFG@GPIO|False" />
+      <Element value="P_PB_MFP@GPIO|False" />
+      <Element value="P_PC_DIR@GPIO|False" />
+      <Element value="P_PC_Data@GPIO|False" />
+      <Element value="P_PC_PAD@GPIO|False" />
+      <Element value="P_PC_Wakeup_Mask@GPIO|False" />
+      <Element value="P_PC_CFG@GPIO|False" />
+      <Element value="P_PC_MFP@GPIO|False" />
+      <Element value="P_EXINT_Trig@GPIO|False" />
+      <Element value="P_EXINT_Ctrl@GPIO|False" />
+      <Element value="P_EXINT_Flag@GPIO|False" />
+      <Element value="P_PULL_HIGH_CFG@GPIO|False" />
+      <Element value="ADC|False" />
+      <Element value="P_ADC_Ctrl@ADC|False" />
+      <Element value="P_ADC_AGC_Ctrl@ADC|False" />
+      <Element value="P_ADC_FIFO_Ctrl@ADC|False" />
+      <Element value="P_ADC_Flag@ADC|False" />
+      <Element value="P_ADC_Data_CH0@ADC|False" />
+      <Element value="P_ADC_Data_CH1@ADC|False" />
+      <Element value="P_ADC_Data_CH2@ADC|False" />
+      <Element value="P_ADC_Data_CH3@ADC|False" />
+      <Element value="P_ADC_Data_CH4@ADC|False" />
+      <Element value="P_ADC_Data_CH5@ADC|False" />
+      <Element value="P_ADC_Data_CH6@ADC|False" />
+      <Element value="P_ADC_Data_CH7@ADC|False" />
+      <Element value="DAC|False" />
+      <Element value="P_DAC_CH0_Ctrl@DAC|False" />
+      <Element value="P_DAC_CH0_Data@DAC|False" />
+      <Element value="P_DAC_CH0_FIFO@DAC|False" />
+      <Element value="P_DAC_CH0_Flag@DAC|False" />
+      <Element value="P_DAC_CH1_Ctrl@DAC|False" />
+      <Element value="P_DAC_CH1_Data@DAC|False" />
+      <Element value="P_DAC_CH1_FIFO@DAC|False" />
+      <Element value="P_DAC_CH1_Flag@DAC|False" />
+      <Element value="TM|False" />
+      <Element value="P_TMR0_Ctrl@TM|False" />
+      <Element value="P_TMR0_Data@TM|False" />
+      <Element value="P_TMR0_INT_Ctrl@TM|False" />
+      <Element value="P_TMR0_Flag@TM|False" />
+      <Element value="P_TMR1_Ctrl@TM|False" />
+      <Element value="P_TMR1_Data@TM|False" />
+      <Element value="P_TMR1_INT_Ctrl@TM|False" />
+      <Element value="P_TMR1_Flag@TM|False" />
+      <Element value="P_TMR2_Ctrl@TM|False" />
+      <Element value="P_TMR2_Data@TM|False" />
+      <Element value="P_TMR2_INT_Ctrl@TM|False" />
+      <Element value="P_TMR2_Flag@TM|False" />
+      <Element value="PWM|False" />
+      <Element value="P_PWMA_TMR_Ctrl@PWM|False" />
+      <Element value="P_PWMA_TMR_Data@PWM|False" />
+      <Element value="P_PWMA_TMR_INT_Ctrl@PWM|False" />
+      <Element value="P_PWMA_TMR_Flag@PWM|False" />
+      <Element value="P_PWMA0_Duty@PWM|False" />
+      <Element value="P_PWMA1_Duty@PWM|False" />
+      <Element value="P_PWMA2_Duty@PWM|False" />
+      <Element value="P_PWMA3_Duty@PWM|False" />
+      <Element value="P_PWMA_CAP_Data@PWM|False" />
+      <Element value="P_PWMA_CAP_INT_Ctrl@PWM|False" />
+      <Element value="P_PWMA_CAP_Flag@PWM|False" />
+      <Element value="P_PWMB_TMR_Ctrl@PWM|False" />
+      <Element value="P_PWMB_TMR_Data@PWM|False" />
+      <Element value="P_PWMB_TMR_INT_Ctrl@PWM|False" />
+      <Element value="P_PWMB_TMR_Flag@PWM|False" />
+      <Element value="P_PWMB0_Duty@PWM|False" />
+      <Element value="P_PWMB1_Duty@PWM|False" />
+      <Element value="P_PWMB2_Duty@PWM|False" />
+      <Element value="P_PWMB3_Duty@PWM|False" />
+      <Element value="IR|False" />
+      <Element value="P_IR_Ctrl@IR|False" />
+      <Element value="UART|False" />
+      <Element value="P_UART_Data@UART|False" />
+      <Element value="P_UART_Ctrl@UART|False" />
+      <Element value="P_UART_Flag@UART|False" />
+      <Element value="P_UART_BaudRate@UART|False" />
+      <Element value="SPI|False" />
+      <Element value="P_SPI0_Ctrl@SPI|False" />
+      <Element value="P_SPI0_Addr_Mode@SPI|False" />
+      <Element value="P_SPI0_FIFO_RST@SPI|False" />
+      <Element value="P_SPI0_Data@SPI|False" />
+      <Element value="P_SPI1_Ctrl@SPI|False" />
+      <Element value="P_SPI1_FIFO_RST@SPI|False" />
+      <Element value="P_SPI1_Data@SPI|False" />
+      <Element value="RTC|False" />
+      <Element value="P_RTC_INT_Ctrl@RTC|False" />
+      <Element value="P_RTC_Flag@RTC|False" />
+      <Element value="WDT|False" />
+      <Element value="P_WDT_Ctrl@WDT|False" />
+      <Element value="P_WDT_CLR@WDT|False" />
+      <Element value="SDC|False" />
+      <Element value="P_SDC_CMD@SDC|False" />
+      <Element value="P_SDC_ARG@SDC|False" />
+      <Element value="P_SDC_RSP_Status0@SDC|False" />
+      <Element value="P_SDC_RSP_Status1@SDC|False" />
+      <Element value="P_SDC_RSP_Status2@SDC|False" />
+      <Element value="P_SDC_RSP_Status3@SDC|False" />
+      <Element value="P_SDC_RSP_CMD@SDC|False" />
+      <Element value="P_SDC_RW_Ctrl@SDC|False" />
+      <Element value="P_SDC_TimeOut@SDC|False" />
+      <Element value="P_SDC_LEN@SDC|False" />
+      <Element value="P_SDC_Status@SDC|False" />
+      <Element value="P_SDC_CLR@SDC|False" />
+      <Element value="P_SDC_INT_Mask@SDC|False" />
+      <Element value="P_SDC_PWR_Ctrl@SDC|False" />
+      <Element value="P_SDC_CLK@SDC|False" />
+      <Element value="P_SDC_BUS_Mode@SDC|False" />
+      <Element value="P_SDC_Data_Window@SDC|False" />
+      <Element value="P_SDC_MMC_INT@SDC|False" />
+      <Element value="P_SDC_GPIO_Out@SDC|False" />
+      <Element value="P_SDC_SDIO_Ctrl1@SDC|False" />
+      <Element value="P_SDC_SDIO_Ctrl2@SDC|False" />
+      <Element value="P_SDC_SDIO_Status@SDC|False" />
+      <Element value="P_SDC_FIFO_Ctrl@SDC|False" />
+      <Element value="I2C|False" />
+      <Element value="P_I2C_FIFO_Ctrl@I2C|False" />
+      <Element value="P_I2C_INT_Ctrl@I2C|False" />
+      <Element value="P_I2C_Status@I2C|False" />
+      <Element value="P_I2C_Addr@I2C|False" />
+      <Element value="P_I2C_Data@I2C|False" />
+      <Element value="P_I2C_Mode@I2C|False" />
+      <Element value="P_I2C_Cmd@I2C|False" />
+      <Element value="P_I2C_Ctrl@I2C|False" />
+    </Array>
+    <Array name="ResourceManager" />
+    <Array name="UpdateableResources" />
+    <Array name="UserDefinedSection" />
+    <Array name="VoiceFiles" />
+    <Array name="VRModule" />
+    <Array name="WatchItemInfo" />
+  </Properties>
+</Project>

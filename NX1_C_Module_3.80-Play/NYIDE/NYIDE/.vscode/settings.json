@@ -1,0 +1,17 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "user_main.h": "c",
+        "nx1_dac.h": "c",
+        "nx1_lib.h": "c",
+        "debug.h": "c",
+        "user_storage_break_point.h": "c",
+        "include.h": "c",
+        "user_play.h": "c"
+    },
+
+    // "files.associations": {
+    //     "user_main.h": "c",
+    //     "user_communication.h": "c"
+    // }
+}
