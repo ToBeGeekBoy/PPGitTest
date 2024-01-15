@@ -22,8 +22,8 @@ user_led_t gst_led =
 const user_gpio_type lcst_user_led_gpio_a[]=
 {
     {.GPIOx = GPIOA, .Pin = 13},
-    // {.GPIOx = GPIOA, .Pin = 5},
-    // {.GPIOx = GPIOA, .Pin = 2},
+    {.GPIOx = GPIOA, .Pin = 5},
+    {.GPIOx = GPIOA, .Pin = 2},
     // {.GPIOx = GPIOA, .Pin = 3},
     // {.GPIOx = GPIOA, .Pin = 4},
     // {.GPIOx = GPIOA, .Pin = 5},
