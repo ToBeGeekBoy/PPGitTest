@@ -1,16 +1,13 @@
 Archive member included because of file (symbol)
 
-OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
-                              OBJ//src/Kernel/Audio/sbc_audioapi.o (SBCDecInit)
-OBJ/Zc3XOQVMd.tmp(coef2sam.o)
-                              OBJ/Zc3XOQVMd.tmp(SBCDecMain.o) (rmlt_coefs_to_samples)
-OBJ/Zc3XOQVMd.tmp(decoder.o)  OBJ/Zc3XOQVMd.tmp(SBCDecMain.o) (decoder)
-OBJ/Zc3XOQVMd.tmp(huff_tab.o)
-                              OBJ/Zc3XOQVMd.tmp(decoder.o) (table_of_decoder_tables)
-OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
-                              OBJ/Zc3XOQVMd.tmp(decoder.o) (mult)
-OBJ/Zc3XOQVMd.tmp(tables.o)   OBJ/Zc3XOQVMd.tmp(decoder.o) (noise_fill_factor)
-OBJ/Zc3XOQVMd.tmp(common.o)   OBJ/Zc3XOQVMd.tmp(decoder.o) (categorize_Reduce)
+OBJ/dVtPIG.tmp(SBCDecMain.o)  OBJ//src/Kernel/Audio/sbc_audioapi.o (SBCDecInit)
+OBJ/dVtPIG.tmp(coef2sam.o)    OBJ/dVtPIG.tmp(SBCDecMain.o) (rmlt_coefs_to_samples)
+OBJ/dVtPIG.tmp(decoder.o)     OBJ/dVtPIG.tmp(SBCDecMain.o) (decoder)
+OBJ/dVtPIG.tmp(huff_tab.o)    OBJ/dVtPIG.tmp(decoder.o) (table_of_decoder_tables)
+OBJ/dVtPIG.tmp(sbc2_basop32.o)
+                              OBJ/dVtPIG.tmp(decoder.o) (mult)
+OBJ/dVtPIG.tmp(tables.o)      OBJ/dVtPIG.tmp(decoder.o) (noise_fill_factor)
+OBJ/dVtPIG.tmp(common.o)      OBJ/dVtPIG.tmp(decoder.o) (categorize_Reduce)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/mvh/libgcc.a(_addsub_df.o)
                               OBJ//src/Kernel/Utility/sounddet.o (__adddf3)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/mvh/libgcc.a(_mul_df.o)
@@ -30,9 +27,9 @@ OBJ/Zc3XOQVMd.tmp(common.o)   OBJ/Zc3XOQVMd.tmp(decoder.o) (categorize_Reduce)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-memset.o)
                               OBJ//init-default.o (memset)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-printf.o)
-                              OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o) (printf)
+                              OBJ/dVtPIG.tmp(sbc2_basop32.o) (printf)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-puts.o)
-                              OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o) (puts)
+                              OBJ/dVtPIG.tmp(sbc2_basop32.o) (puts)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-vprintf.o)
                               /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-printf.o) (vprintf)
 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-do_printf.o)
@@ -59,6 +56,7 @@ Common symbol       size              file
 
 SentenceStatusMuteTimer
                     0x10              OBJ//src/Kernel/Audio/audioctl.o
+gst_motion          0x8               OBJ//src/user_code/user_motion.o
 SentenceCB          0x4               OBJ//src/Kernel/Audio/audioctl.o
 g_sd_mute_count     0x2               OBJ//src/Kernel/Utility/sounddet.o
 g_sd_active_count   0x2               OBJ//src/Kernel/Utility/sounddet.o
@@ -100,7 +98,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x11 OBJ//security_empty.o
  .debug_macro   0x00000000      0x55c OBJ//security_empty.o
  .debug_line    0x00000000       0x74 OBJ//security_empty.o
- .debug_str     0x00000000     0x18ec OBJ//security_empty.o
+ .debug_str     0x00000000     0x18e2 OBJ//security_empty.o
  .comment       0x00000000       0x30 OBJ//security_empty.o
  .debug_frame   0x00000000       0x40 OBJ//security_empty.o
  .group         0x00000000        0x8 OBJ//src/Driver/eeprom_24LC256.o
@@ -130,7 +128,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/Driver/eeprom_24LC256.o
  .debug_macro   0x00000000      0xa2c OBJ//src/Driver/eeprom_24LC256.o
  .debug_line    0x00000000      0x113 OBJ//src/Driver/eeprom_24LC256.o
- .debug_str     0x00000000    0x141cb OBJ//src/Driver/eeprom_24LC256.o
+ .debug_str     0x00000000    0x141c8 OBJ//src/Driver/eeprom_24LC256.o
  .comment       0x00000000       0x30 OBJ//src/Driver/eeprom_24LC256.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Driver/eeprom_24LC256.o
@@ -165,7 +163,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x10c OBJ//src/Driver/nx1_adc.o
  .debug_macro   0x00000000       0x58 OBJ//src/Driver/nx1_adc.o
  .debug_line    0x00000000      0x170 OBJ//src/Driver/nx1_adc.o
- .debug_str     0x00000000    0x18d19 OBJ//src/Driver/nx1_adc.o
+ .debug_str     0x00000000    0x18d16 OBJ//src/Driver/nx1_adc.o
  .comment       0x00000000       0x30 OBJ//src/Driver/nx1_adc.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Driver/nx1_adc.o
@@ -277,7 +275,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x28 OBJ//src/Driver/nx1_fmc.o
  .debug_macro   0x00000000      0x1be OBJ//src/Driver/nx1_fmc.o
  .debug_line    0x00000000      0x360 OBJ//src/Driver/nx1_fmc.o
- .debug_str     0x00000000    0x16c88 OBJ//src/Driver/nx1_fmc.o
+ .debug_str     0x00000000    0x16c85 OBJ//src/Driver/nx1_fmc.o
  .comment       0x00000000       0x30 OBJ//src/Driver/nx1_fmc.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Driver/nx1_fmc.o
@@ -294,8 +292,6 @@ Discarded input sections
  .text          0x00000000        0x0 OBJ//src/Driver/nx1_gpio.o
  .data          0x00000000        0x0 OBJ//src/Driver/nx1_gpio.o
  .bss           0x00000000        0x0 OBJ//src/Driver/nx1_gpio.o
- .text.GPIO_Toggle
-                0x00000000       0x20 OBJ//src/Driver/nx1_gpio.o
  .text.GPIO_WritePort
                 0x00000000       0x14 OBJ//src/Driver/nx1_gpio.o
  .text.GPIO_ReadPort
@@ -363,7 +359,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Driver/nx1_gpio_i2c.o
  .debug_macro   0x00000000      0x1be OBJ//src/Driver/nx1_gpio_i2c.o
  .debug_line    0x00000000      0x11f OBJ//src/Driver/nx1_gpio_i2c.o
- .debug_str     0x00000000    0x14904 OBJ//src/Driver/nx1_gpio_i2c.o
+ .debug_str     0x00000000    0x14901 OBJ//src/Driver/nx1_gpio_i2c.o
  .comment       0x00000000       0x30 OBJ//src/Driver/nx1_gpio_i2c.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Driver/nx1_gpio_i2c.o
@@ -426,7 +422,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 OBJ//src/Driver/nx1_i2c.o
  .debug_macro   0x00000000       0x1f OBJ//src/Driver/nx1_i2c.o
  .debug_line    0x00000000      0x343 OBJ//src/Driver/nx1_i2c.o
- .debug_str     0x00000000    0x17010 OBJ//src/Driver/nx1_i2c.o
+ .debug_str     0x00000000    0x1700d OBJ//src/Driver/nx1_i2c.o
  .comment       0x00000000       0x30 OBJ//src/Driver/nx1_i2c.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Driver/nx1_i2c.o
@@ -502,7 +498,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x58 OBJ//src/Driver/nx1_ir.o
  .debug_macro   0x00000000       0x82 OBJ//src/Driver/nx1_ir.o
  .debug_line    0x00000000      0x20f OBJ//src/Driver/nx1_ir.o
- .debug_str     0x00000000    0x10a51 OBJ//src/Driver/nx1_ir.o
+ .debug_str     0x00000000    0x10a4e OBJ//src/Driver/nx1_ir.o
  .comment       0x00000000       0x30 OBJ//src/Driver/nx1_ir.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Driver/nx1_ir.o
@@ -530,7 +526,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xeb OBJ//src/Driver/nx1_pwm.o
  .debug_macro   0x00000000     0x1cae OBJ//src/Driver/nx1_pwm.o
  .debug_line    0x00000000       0xd1 OBJ//src/Driver/nx1_pwm.o
- .debug_str     0x00000000     0xfd5b OBJ//src/Driver/nx1_pwm.o
+ .debug_str     0x00000000     0xfd58 OBJ//src/Driver/nx1_pwm.o
  .comment       0x00000000       0x30 OBJ//src/Driver/nx1_pwm.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Driver/nx1_pwm.o
@@ -581,7 +577,7 @@ Discarded input sections
  .debug_macro   0x00000000     0x1cae OBJ//src/Driver/nx1_sdc.o
  .debug_macro   0x00000000       0xd6 OBJ//src/Driver/nx1_sdc.o
  .debug_line    0x00000000       0xde OBJ//src/Driver/nx1_sdc.o
- .debug_str     0x00000000    0x10195 OBJ//src/Driver/nx1_sdc.o
+ .debug_str     0x00000000    0x10192 OBJ//src/Driver/nx1_sdc.o
  .comment       0x00000000       0x30 OBJ//src/Driver/nx1_sdc.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Driver/nx1_sdc.o
@@ -818,7 +814,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/Driver/nx1_spi1.o
  .debug_macro   0x00000000      0xa2c OBJ//src/Driver/nx1_spi1.o
  .debug_line    0x00000000      0x135 OBJ//src/Driver/nx1_spi1.o
- .debug_str     0x00000000    0x14f26 OBJ//src/Driver/nx1_spi1.o
+ .debug_str     0x00000000    0x14f23 OBJ//src/Driver/nx1_spi1.o
  .comment       0x00000000       0x30 OBJ//src/Driver/nx1_spi1.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Driver/nx1_spi1.o
@@ -870,7 +866,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xeb OBJ//src/Driver/nx1_uart.o
  .debug_macro   0x00000000     0x1cae OBJ//src/Driver/nx1_uart.o
  .debug_line    0x00000000       0xd3 OBJ//src/Driver/nx1_uart.o
- .debug_str     0x00000000     0xfd5d OBJ//src/Driver/nx1_uart.o
+ .debug_str     0x00000000     0xfd5a OBJ//src/Driver/nx1_uart.o
  .comment       0x00000000       0x30 OBJ//src/Driver/nx1_uart.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Driver/nx1_uart.o
@@ -960,7 +956,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x10c OBJ//src/Kernel/Audio/adpcm_audioapi.o
  .debug_macro   0x00000000       0x5e OBJ//src/Kernel/Audio/adpcm_audioapi.o
  .debug_line    0x00000000      0x3a4 OBJ//src/Kernel/Audio/adpcm_audioapi.o
- .debug_str     0x00000000    0x1f71a OBJ//src/Kernel/Audio/adpcm_audioapi.o
+ .debug_str     0x00000000    0x1f717 OBJ//src/Kernel/Audio/adpcm_audioapi.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Audio/adpcm_audioapi.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Audio/adpcm_audioapi.o
@@ -1021,7 +1017,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Audio/adpcm_chx_audioapi.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Audio/adpcm_chx_audioapi.o
  .debug_line    0x00000000      0x344 OBJ//src/Kernel/Audio/adpcm_chx_audioapi.o
- .debug_str     0x00000000    0x165c8 OBJ//src/Kernel/Audio/adpcm_chx_audioapi.o
+ .debug_str     0x00000000    0x165c5 OBJ//src/Kernel/Audio/adpcm_chx_audioapi.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Audio/adpcm_chx_audioapi.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Audio/adpcm_chx_audioapi.o
@@ -1094,7 +1090,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x28 OBJ//src/Kernel/Audio/audio_record_audioapi.o
  .debug_macro   0x00000000      0x1be OBJ//src/Kernel/Audio/audio_record_audioapi.o
  .debug_line    0x00000000      0x3be OBJ//src/Kernel/Audio/audio_record_audioapi.o
- .debug_str     0x00000000    0x1fecb OBJ//src/Kernel/Audio/audio_record_audioapi.o
+ .debug_str     0x00000000    0x1fec8 OBJ//src/Kernel/Audio/audio_record_audioapi.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Audio/audio_record_audioapi.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Audio/audio_record_audioapi.o
@@ -1287,7 +1283,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Audio/celp_audioapi.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Audio/celp_audioapi.o
  .debug_line    0x00000000      0x33f OBJ//src/Kernel/Audio/celp_audioapi.o
- .debug_str     0x00000000    0x165c3 OBJ//src/Kernel/Audio/celp_audioapi.o
+ .debug_str     0x00000000    0x165c0 OBJ//src/Kernel/Audio/celp_audioapi.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Audio/celp_audioapi.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Audio/celp_audioapi.o
@@ -1352,7 +1348,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x175 OBJ//src/Kernel/Audio/midi_audioapi.o
  .debug_macro   0x00000000      0x1be OBJ//src/Kernel/Audio/midi_audioapi.o
  .debug_line    0x00000000      0x35a OBJ//src/Kernel/Audio/midi_audioapi.o
- .debug_str     0x00000000    0x172d3 OBJ//src/Kernel/Audio/midi_audioapi.o
+ .debug_str     0x00000000    0x172d0 OBJ//src/Kernel/Audio/midi_audioapi.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Audio/midi_audioapi.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Audio/midi_audioapi.o
@@ -1411,7 +1407,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/Kernel/Audio/midi_inst_noteon.o
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Audio/midi_inst_noteon.o
  .debug_line    0x00000000      0x32a OBJ//src/Kernel/Audio/midi_inst_noteon.o
- .debug_str     0x00000000    0x1649f OBJ//src/Kernel/Audio/midi_inst_noteon.o
+ .debug_str     0x00000000    0x1649c OBJ//src/Kernel/Audio/midi_inst_noteon.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Audio/midi_inst_noteon.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Audio/midi_inst_noteon.o
@@ -1472,7 +1468,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Audio/pcm_audioapi.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Audio/pcm_audioapi.o
  .debug_line    0x00000000      0x33e OBJ//src/Kernel/Audio/pcm_audioapi.o
- .debug_str     0x00000000    0x165c2 OBJ//src/Kernel/Audio/pcm_audioapi.o
+ .debug_str     0x00000000    0x165bf OBJ//src/Kernel/Audio/pcm_audioapi.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Audio/pcm_audioapi.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Audio/pcm_audioapi.o
@@ -1533,7 +1529,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Audio/pcm_ch2_audioapi.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Audio/pcm_ch2_audioapi.o
  .debug_line    0x00000000      0x342 OBJ//src/Kernel/Audio/pcm_ch2_audioapi.o
- .debug_str     0x00000000    0x165c6 OBJ//src/Kernel/Audio/pcm_ch2_audioapi.o
+ .debug_str     0x00000000    0x165c3 OBJ//src/Kernel/Audio/pcm_ch2_audioapi.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Audio/pcm_ch2_audioapi.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Audio/pcm_ch2_audioapi.o
@@ -1594,7 +1590,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Audio/pcm_ch3_audioapi.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Audio/pcm_ch3_audioapi.o
  .debug_line    0x00000000      0x342 OBJ//src/Kernel/Audio/pcm_ch3_audioapi.o
- .debug_str     0x00000000    0x165c6 OBJ//src/Kernel/Audio/pcm_ch3_audioapi.o
+ .debug_str     0x00000000    0x165c3 OBJ//src/Kernel/Audio/pcm_ch3_audioapi.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Audio/pcm_ch3_audioapi.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Audio/pcm_ch3_audioapi.o
@@ -1655,7 +1651,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Audio/rt_audioapi.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Audio/rt_audioapi.o
  .debug_line    0x00000000      0x33d OBJ//src/Kernel/Audio/rt_audioapi.o
- .debug_str     0x00000000    0x165e1 OBJ//src/Kernel/Audio/rt_audioapi.o
+ .debug_str     0x00000000    0x165de OBJ//src/Kernel/Audio/rt_audioapi.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Audio/rt_audioapi.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Audio/rt_audioapi.o
@@ -1718,7 +1714,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Audio/sbc2_audioapi.o
  .debug_macro   0x00000000      0x175 OBJ//src/Kernel/Audio/sbc2_audioapi.o
  .debug_line    0x00000000      0x34c OBJ//src/Kernel/Audio/sbc2_audioapi.o
- .debug_str     0x00000000    0x16b98 OBJ//src/Kernel/Audio/sbc2_audioapi.o
+ .debug_str     0x00000000    0x16b95 OBJ//src/Kernel/Audio/sbc2_audioapi.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Audio/sbc2_audioapi.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Audio/sbc2_audioapi.o
@@ -1846,7 +1842,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Audio/sbc_ch2_audioapi.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Audio/sbc_ch2_audioapi.o
  .debug_line    0x00000000      0x342 OBJ//src/Kernel/Audio/sbc_ch2_audioapi.o
- .debug_str     0x00000000    0x165c6 OBJ//src/Kernel/Audio/sbc_ch2_audioapi.o
+ .debug_str     0x00000000    0x165c3 OBJ//src/Kernel/Audio/sbc_ch2_audioapi.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Audio/sbc_ch2_audioapi.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Audio/sbc_ch2_audioapi.o
@@ -1877,7 +1873,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/Kernel/Callback/LVD_monitor_callback.o
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/LVD_monitor_callback.o
  .debug_line    0x00000000      0x122 OBJ//src/Kernel/Callback/LVD_monitor_callback.o
- .debug_str     0x00000000    0x141da OBJ//src/Kernel/Callback/LVD_monitor_callback.o
+ .debug_str     0x00000000    0x141d7 OBJ//src/Kernel/Callback/LVD_monitor_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/LVD_monitor_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/LVD_monitor_callback.o
@@ -1952,7 +1948,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 OBJ//src/Kernel/Callback/Multi_Channel_ledstr_callback.o
  .debug_macro   0x00000000       0x1f OBJ//src/Kernel/Callback/Multi_Channel_ledstr_callback.o
  .debug_line    0x00000000      0x3e3 OBJ//src/Kernel/Callback/Multi_Channel_ledstr_callback.o
- .debug_str     0x00000000    0x20223 OBJ//src/Kernel/Callback/Multi_Channel_ledstr_callback.o
+ .debug_str     0x00000000    0x20220 OBJ//src/Kernel/Callback/Multi_Channel_ledstr_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/Multi_Channel_ledstr_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/Multi_Channel_ledstr_callback.o
@@ -2029,7 +2025,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x1f OBJ//src/Kernel/Callback/Scrolling_Text_ledstr_callback.o
  .debug_macro   0x00000000       0x10 OBJ//src/Kernel/Callback/Scrolling_Text_ledstr_callback.o
  .debug_line    0x00000000      0x404 OBJ//src/Kernel/Callback/Scrolling_Text_ledstr_callback.o
- .debug_str     0x00000000    0x20240 OBJ//src/Kernel/Callback/Scrolling_Text_ledstr_callback.o
+ .debug_str     0x00000000    0x2023d OBJ//src/Kernel/Callback/Scrolling_Text_ledstr_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/Scrolling_Text_ledstr_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/Scrolling_Text_ledstr_callback.o
@@ -2106,7 +2102,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x1f OBJ//src/Kernel/Callback/Sync_Play_ledstr_callback.o
  .debug_macro   0x00000000       0x10 OBJ//src/Kernel/Callback/Sync_Play_ledstr_callback.o
  .debug_line    0x00000000      0x3ff OBJ//src/Kernel/Callback/Sync_Play_ledstr_callback.o
- .debug_str     0x00000000    0x2023b OBJ//src/Kernel/Callback/Sync_Play_ledstr_callback.o
+ .debug_str     0x00000000    0x20238 OBJ//src/Kernel/Callback/Sync_Play_ledstr_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/Sync_Play_ledstr_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/Sync_Play_ledstr_callback.o
@@ -2161,7 +2157,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/adpcm_callback.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Callback/adpcm_callback.o
  .debug_line    0x00000000      0x23c OBJ//src/Kernel/Callback/adpcm_callback.o
- .debug_str     0x00000000    0x1442e OBJ//src/Kernel/Callback/adpcm_callback.o
+ .debug_str     0x00000000    0x1442b OBJ//src/Kernel/Callback/adpcm_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/adpcm_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/adpcm_callback.o
@@ -2197,7 +2193,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Callback/adpcm_chx_callback.o
  .debug_macro   0x00000000       0x28 OBJ//src/Kernel/Callback/adpcm_chx_callback.o
  .debug_line    0x00000000      0x162 OBJ//src/Kernel/Callback/adpcm_chx_callback.o
- .debug_str     0x00000000    0x1436b OBJ//src/Kernel/Callback/adpcm_chx_callback.o
+ .debug_str     0x00000000    0x14368 OBJ//src/Kernel/Callback/adpcm_chx_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/adpcm_chx_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/adpcm_chx_callback.o
@@ -2298,7 +2294,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/Kernel/Callback/callback_xip.o
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/callback_xip.o
  .debug_line    0x00000000      0x134 OBJ//src/Kernel/Callback/callback_xip.o
- .debug_str     0x00000000    0x1420b OBJ//src/Kernel/Callback/callback_xip.o
+ .debug_str     0x00000000    0x14208 OBJ//src/Kernel/Callback/callback_xip.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/callback_xip.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/callback_xip.o
@@ -2346,7 +2342,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/celp_callback.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Callback/celp_callback.o
  .debug_line    0x00000000      0x1eb OBJ//src/Kernel/Callback/celp_callback.o
- .debug_str     0x00000000    0x143dc OBJ//src/Kernel/Callback/celp_callback.o
+ .debug_str     0x00000000    0x143d9 OBJ//src/Kernel/Callback/celp_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/celp_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/celp_callback.o
@@ -2428,7 +2424,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 OBJ//src/Kernel/Callback/midi_callback.o
  .debug_macro   0x00000000       0x1f OBJ//src/Kernel/Callback/midi_callback.o
  .debug_line    0x00000000      0x433 OBJ//src/Kernel/Callback/midi_callback.o
- .debug_str     0x00000000    0x16776 OBJ//src/Kernel/Callback/midi_callback.o
+ .debug_str     0x00000000    0x16773 OBJ//src/Kernel/Callback/midi_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/midi_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/midi_callback.o
@@ -2490,7 +2486,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x1f OBJ//src/Kernel/Callback/nx1_i2c_callback.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Callback/nx1_i2c_callback.o
  .debug_line    0x00000000      0x359 OBJ//src/Kernel/Callback/nx1_i2c_callback.o
- .debug_str     0x00000000    0x16ff3 OBJ//src/Kernel/Callback/nx1_i2c_callback.o
+ .debug_str     0x00000000    0x16ff0 OBJ//src/Kernel/Callback/nx1_i2c_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/nx1_i2c_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/nx1_i2c_callback.o
@@ -2530,7 +2526,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/Kernel/Callback/nx1_spi_callback.o
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/nx1_spi_callback.o
  .debug_line    0x00000000      0x15e OBJ//src/Kernel/Callback/nx1_spi_callback.o
- .debug_str     0x00000000    0x14244 OBJ//src/Kernel/Callback/nx1_spi_callback.o
+ .debug_str     0x00000000    0x14241 OBJ//src/Kernel/Callback/nx1_spi_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/nx1_spi_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/nx1_spi_callback.o
@@ -2586,7 +2582,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/pcm_callback.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Callback/pcm_callback.o
  .debug_line    0x00000000      0x23a OBJ//src/Kernel/Callback/pcm_callback.o
- .debug_str     0x00000000    0x14418 OBJ//src/Kernel/Callback/pcm_callback.o
+ .debug_str     0x00000000    0x14415 OBJ//src/Kernel/Callback/pcm_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/pcm_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/pcm_callback.o
@@ -2634,7 +2630,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/pcm_ch2_callback.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Callback/pcm_ch2_callback.o
  .debug_line    0x00000000      0x1ee OBJ//src/Kernel/Callback/pcm_ch2_callback.o
- .debug_str     0x00000000    0x143f1 OBJ//src/Kernel/Callback/pcm_ch2_callback.o
+ .debug_str     0x00000000    0x143ee OBJ//src/Kernel/Callback/pcm_ch2_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/pcm_ch2_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/pcm_ch2_callback.o
@@ -2682,7 +2678,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/pcm_ch3_callback.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Callback/pcm_ch3_callback.o
  .debug_line    0x00000000      0x1ee OBJ//src/Kernel/Callback/pcm_ch3_callback.o
- .debug_str     0x00000000    0x143f1 OBJ//src/Kernel/Callback/pcm_ch3_callback.o
+ .debug_str     0x00000000    0x143ee OBJ//src/Kernel/Callback/pcm_ch3_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/pcm_ch3_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/pcm_ch3_callback.o
@@ -2717,7 +2713,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/Kernel/Callback/pitch_detect_callback.o
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/pitch_detect_callback.o
  .debug_line    0x00000000      0x131 OBJ//src/Kernel/Callback/pitch_detect_callback.o
- .debug_str     0x00000000    0x141f0 OBJ//src/Kernel/Callback/pitch_detect_callback.o
+ .debug_str     0x00000000    0x141ed OBJ//src/Kernel/Callback/pitch_detect_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/pitch_detect_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/pitch_detect_callback.o
@@ -2749,7 +2745,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/Kernel/Callback/qfid_callback.o
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/qfid_callback.o
  .debug_line    0x00000000      0x11b OBJ//src/Kernel/Callback/qfid_callback.o
- .debug_str     0x00000000    0x141d3 OBJ//src/Kernel/Callback/qfid_callback.o
+ .debug_str     0x00000000    0x141d0 OBJ//src/Kernel/Callback/qfid_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/qfid_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/qfid_callback.o
@@ -2780,7 +2776,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/Kernel/Callback/qio_callback.o
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/qio_callback.o
  .debug_line    0x00000000      0x11a OBJ//src/Kernel/Callback/qio_callback.o
- .debug_str     0x00000000    0x141d2 OBJ//src/Kernel/Callback/qio_callback.o
+ .debug_str     0x00000000    0x141cf OBJ//src/Kernel/Callback/qio_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/qio_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/qio_callback.o
@@ -2811,7 +2807,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/Kernel/Callback/reg_callback.o
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/reg_callback.o
  .debug_line    0x00000000      0x132 OBJ//src/Kernel/Callback/reg_callback.o
- .debug_str     0x00000000    0x14259 OBJ//src/Kernel/Callback/reg_callback.o
+ .debug_str     0x00000000    0x14256 OBJ//src/Kernel/Callback/reg_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/reg_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/reg_callback.o
@@ -2860,7 +2856,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/rt_callback.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Callback/rt_callback.o
  .debug_line    0x00000000      0x20b OBJ//src/Kernel/Callback/rt_callback.o
- .debug_str     0x00000000    0x143da OBJ//src/Kernel/Callback/rt_callback.o
+ .debug_str     0x00000000    0x143d7 OBJ//src/Kernel/Callback/rt_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/rt_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/rt_callback.o
@@ -2912,7 +2908,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/sbc2_callback.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Callback/sbc2_callback.o
  .debug_line    0x00000000      0x219 OBJ//src/Kernel/Callback/sbc2_callback.o
- .debug_str     0x00000000    0x14403 OBJ//src/Kernel/Callback/sbc2_callback.o
+ .debug_str     0x00000000    0x14400 OBJ//src/Kernel/Callback/sbc2_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/sbc2_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/sbc2_callback.o
@@ -2960,7 +2956,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/sbc2_ch2_callback.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Callback/sbc2_ch2_callback.o
  .debug_line    0x00000000      0x1ef OBJ//src/Kernel/Callback/sbc2_ch2_callback.o
- .debug_str     0x00000000    0x143f8 OBJ//src/Kernel/Callback/sbc2_ch2_callback.o
+ .debug_str     0x00000000    0x143f5 OBJ//src/Kernel/Callback/sbc2_ch2_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/sbc2_ch2_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/sbc2_ch2_callback.o
@@ -3043,7 +3039,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/sbc_ch2_callback.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Callback/sbc_ch2_callback.o
  .debug_line    0x00000000      0x1ee OBJ//src/Kernel/Callback/sbc_ch2_callback.o
- .debug_str     0x00000000    0x143f1 OBJ//src/Kernel/Callback/sbc_ch2_callback.o
+ .debug_str     0x00000000    0x143ee OBJ//src/Kernel/Callback/sbc_ch2_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/sbc_ch2_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/sbc_ch2_callback.o
@@ -3146,11 +3142,11 @@ Discarded input sections
  .debug_macro   0x00000000       0xf3 OBJ//src/Kernel/Callback/sound_detect_callback.o
  .debug_macro   0x00000000      0x175 OBJ//src/Kernel/Callback/sound_detect_callback.o
  .debug_macro   0x00000000       0x10 OBJ//src/Kernel/Callback/sound_detect_callback.o
- .debug_macro   0x00000000       0x10 OBJ//src/Kernel/Callback/sound_detect_callback.o
- .debug_macro   0x00000000       0x10 OBJ//src/Kernel/Callback/sound_detect_callback.o
+ .debug_macro   0x00000000       0xa6 OBJ//src/Kernel/Callback/sound_detect_callback.o
+ .debug_macro   0x00000000       0xd6 OBJ//src/Kernel/Callback/sound_detect_callback.o
  .debug_macro   0x00000000       0x90 OBJ//src/Kernel/Callback/sound_detect_callback.o
  .debug_line    0x00000000      0x459 OBJ//src/Kernel/Callback/sound_detect_callback.o
- .debug_str     0x00000000    0x19469 OBJ//src/Kernel/Callback/sound_detect_callback.o
+ .debug_str     0x00000000    0x1991b OBJ//src/Kernel/Callback/sound_detect_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/sound_detect_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/sound_detect_callback.o
@@ -3182,7 +3178,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/Kernel/Callback/sw_pwm_callback.o
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/sw_pwm_callback.o
  .debug_line    0x00000000      0x11d OBJ//src/Kernel/Callback/sw_pwm_callback.o
- .debug_str     0x00000000    0x141d5 OBJ//src/Kernel/Callback/sw_pwm_callback.o
+ .debug_str     0x00000000    0x141d2 OBJ//src/Kernel/Callback/sw_pwm_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/sw_pwm_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/sw_pwm_callback.o
@@ -3250,7 +3246,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x1c OBJ//src/Kernel/Callback/touch_callback.o
  .debug_macro   0x00000000      0x1be OBJ//src/Kernel/Callback/touch_callback.o
  .debug_line    0x00000000      0x21c OBJ//src/Kernel/Callback/touch_callback.o
- .debug_str     0x00000000    0x1d9a0 OBJ//src/Kernel/Callback/touch_callback.o
+ .debug_str     0x00000000    0x1d99d OBJ//src/Kernel/Callback/touch_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/touch_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/touch_callback.o
@@ -3281,7 +3277,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/Kernel/Callback/vio_callback.o
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/vio_callback.o
  .debug_line    0x00000000      0x11a OBJ//src/Kernel/Callback/vio_callback.o
- .debug_str     0x00000000    0x141d2 OBJ//src/Kernel/Callback/vio_callback.o
+ .debug_str     0x00000000    0x141cf OBJ//src/Kernel/Callback/vio_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/vio_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/vio_callback.o
@@ -3314,7 +3310,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/vrctl_callback.o
  .debug_macro   0x00000000      0x175 OBJ//src/Kernel/Callback/vrctl_callback.o
  .debug_line    0x00000000      0x141 OBJ//src/Kernel/Callback/vrctl_callback.o
- .debug_str     0x00000000    0x147b4 OBJ//src/Kernel/Callback/vrctl_callback.o
+ .debug_str     0x00000000    0x147b1 OBJ//src/Kernel/Callback/vrctl_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/vrctl_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/vrctl_callback.o
@@ -3389,7 +3385,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Callback/wave_id_callback.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Callback/wave_id_callback.o
  .debug_line    0x00000000      0x41a OBJ//src/Kernel/Callback/wave_id_callback.o
- .debug_str     0x00000000    0x166c2 OBJ//src/Kernel/Callback/wave_id_callback.o
+ .debug_str     0x00000000    0x166bf OBJ//src/Kernel/Callback/wave_id_callback.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Callback/wave_id_callback.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Callback/wave_id_callback.o
@@ -3473,7 +3469,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 OBJ//src/Kernel/System/debug.o
  .debug_macro   0x00000000      0x1be OBJ//src/Kernel/System/debug.o
  .debug_line    0x00000000      0x3ba OBJ//src/Kernel/System/debug.o
- .debug_str     0x00000000    0x201e4 OBJ//src/Kernel/System/debug.o
+ .debug_str     0x00000000    0x201e1 OBJ//src/Kernel/System/debug.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/System/debug.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/System/debug.o
@@ -3654,8 +3650,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x13d OBJ//src/Kernel/System/sys.o
  .debug_macro   0x00000000       0xf3 OBJ//src/Kernel/System/sys.o
  .debug_macro   0x00000000       0x10 OBJ//src/Kernel/System/sys.o
- .debug_macro   0x00000000       0x10 OBJ//src/Kernel/System/sys.o
- .debug_macro   0x00000000       0x10 OBJ//src/Kernel/System/sys.o
+ .debug_macro   0x00000000       0xa6 OBJ//src/Kernel/System/sys.o
+ .debug_macro   0x00000000       0xd6 OBJ//src/Kernel/System/sys.o
  .debug_macro   0x00000000       0x90 OBJ//src/Kernel/System/sys.o
  .text          0x00000000        0x0 OBJ//src/Kernel/Utility/IRAM/crt_iram1.o
  .data          0x00000000        0x0 OBJ//src/Kernel/Utility/IRAM/crt_iram1.o
@@ -3753,11 +3749,11 @@ Discarded input sections
  .debug_macro   0x00000000       0xf3 OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
  .debug_macro   0x00000000      0x175 OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
  .debug_macro   0x00000000       0x10 OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
- .debug_macro   0x00000000       0x10 OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
- .debug_macro   0x00000000       0x10 OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
+ .debug_macro   0x00000000       0xa6 OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
+ .debug_macro   0x00000000       0xd6 OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
  .debug_macro   0x00000000       0x90 OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
  .debug_line    0x00000000      0x44b OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
- .debug_str     0x00000000    0x1943b OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
+ .debug_str     0x00000000    0x198ed OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/IRAM/record_erasing_iram1.o
@@ -3793,7 +3789,7 @@ Discarded input sections
  .debug_macro   0x00000000     0x1cae OBJ//src/Kernel/Utility/IRAM/vector_iram1.o
  .debug_macro   0x00000000       0x10 OBJ//src/Kernel/Utility/IRAM/vector_iram1.o
  .debug_line    0x00000000      0x12a OBJ//src/Kernel/Utility/IRAM/vector_iram1.o
- .debug_str     0x00000000     0xfe03 OBJ//src/Kernel/Utility/IRAM/vector_iram1.o
+ .debug_str     0x00000000     0xfe00 OBJ//src/Kernel/Utility/IRAM/vector_iram1.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/IRAM/vector_iram1.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/IRAM/vector_iram1.o
@@ -3827,7 +3823,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Utility/LVD_monitor.o
  .debug_macro   0x00000000       0xd6 OBJ//src/Kernel/Utility/LVD_monitor.o
  .debug_line    0x00000000      0x130 OBJ//src/Kernel/Utility/LVD_monitor.o
- .debug_str     0x00000000    0x1460a OBJ//src/Kernel/Utility/LVD_monitor.o
+ .debug_str     0x00000000    0x14607 OBJ//src/Kernel/Utility/LVD_monitor.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/LVD_monitor.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/LVD_monitor.o
@@ -3900,7 +3896,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x10c OBJ//src/Kernel/Utility/Sound_Localization.o
  .debug_macro   0x00000000      0x175 OBJ//src/Kernel/Utility/Sound_Localization.o
  .debug_line    0x00000000      0x3bd OBJ//src/Kernel/Utility/Sound_Localization.o
- .debug_str     0x00000000    0x201dd OBJ//src/Kernel/Utility/Sound_Localization.o
+ .debug_str     0x00000000    0x201da OBJ//src/Kernel/Utility/Sound_Localization.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/Sound_Localization.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/Sound_Localization.o
@@ -3937,7 +3933,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Utility/adc_input.o
  .debug_macro   0x00000000       0xd6 OBJ//src/Kernel/Utility/adc_input.o
  .debug_line    0x00000000      0x152 OBJ//src/Kernel/Utility/adc_input.o
- .debug_str     0x00000000    0x14626 OBJ//src/Kernel/Utility/adc_input.o
+ .debug_str     0x00000000    0x14623 OBJ//src/Kernel/Utility/adc_input.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/adc_input.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/adc_input.o
@@ -4007,7 +4003,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 OBJ//src/Kernel/Utility/ir.o
  .debug_macro   0x00000000       0x1f OBJ//src/Kernel/Utility/ir.o
  .debug_line    0x00000000      0x379 OBJ//src/Kernel/Utility/ir.o
- .debug_str     0x00000000    0x17842 OBJ//src/Kernel/Utility/ir.o
+ .debug_str     0x00000000    0x1783f OBJ//src/Kernel/Utility/ir.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/ir.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/ir.o
@@ -4291,7 +4287,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x1be OBJ//src/Kernel/Utility/nx1_qio.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Utility/nx1_qio.o
  .debug_line    0x00000000      0x35d OBJ//src/Kernel/Utility/nx1_qio.o
- .debug_str     0x00000000    0x17db5 OBJ//src/Kernel/Utility/nx1_qio.o
+ .debug_str     0x00000000    0x17db2 OBJ//src/Kernel/Utility/nx1_qio.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/nx1_qio.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/nx1_qio.o
@@ -4356,7 +4352,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x1be OBJ//src/Kernel/Utility/nx1_sw_pwm.o
  .debug_macro   0x00000000       0x58 OBJ//src/Kernel/Utility/nx1_sw_pwm.o
  .debug_line    0x00000000      0x368 OBJ//src/Kernel/Utility/nx1_sw_pwm.o
- .debug_str     0x00000000    0x171f9 OBJ//src/Kernel/Utility/nx1_sw_pwm.o
+ .debug_str     0x00000000    0x171f6 OBJ//src/Kernel/Utility/nx1_sw_pwm.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/nx1_sw_pwm.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/nx1_sw_pwm.o
@@ -4417,7 +4413,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 OBJ//src/Kernel/Utility/pitch_detection.o
  .debug_macro   0x00000000       0x1f OBJ//src/Kernel/Utility/pitch_detection.o
  .debug_line    0x00000000      0x352 OBJ//src/Kernel/Utility/pitch_detection.o
- .debug_str     0x00000000    0x16689 OBJ//src/Kernel/Utility/pitch_detection.o
+ .debug_str     0x00000000    0x16686 OBJ//src/Kernel/Utility/pitch_detection.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/pitch_detection.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/pitch_detection.o
@@ -4526,7 +4522,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x58 OBJ//src/Kernel/Utility/qfid.o
  .debug_macro   0x00000000       0x1c OBJ//src/Kernel/Utility/qfid.o
  .debug_line    0x00000000      0x3aa OBJ//src/Kernel/Utility/qfid.o
- .debug_str     0x00000000    0x1ff5d OBJ//src/Kernel/Utility/qfid.o
+ .debug_str     0x00000000    0x1ff5a OBJ//src/Kernel/Utility/qfid.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/qfid.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/qfid.o
@@ -4627,7 +4623,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Utility/resource.o
  .debug_macro   0x00000000      0x175 OBJ//src/Kernel/Utility/resource.o
  .debug_line    0x00000000      0x8b2 OBJ//src/Kernel/Utility/resource.o
- .debug_str     0x00000000    0x16e7d OBJ//src/Kernel/Utility/resource.o
+ .debug_str     0x00000000    0x16e7a OBJ//src/Kernel/Utility/resource.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/resource.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/resource.o
@@ -4711,7 +4707,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 OBJ//src/Kernel/Utility/sounddet.o
  .debug_macro   0x00000000       0x1f OBJ//src/Kernel/Utility/sounddet.o
  .debug_line    0x00000000      0x568 OBJ//src/Kernel/Utility/sounddet.o
- .debug_str     0x00000000    0x171e4 OBJ//src/Kernel/Utility/sounddet.o
+ .debug_str     0x00000000    0x171e1 OBJ//src/Kernel/Utility/sounddet.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/sounddet.o
  .debug_frame   0x00000000       0xa0 OBJ//src/Kernel/Utility/sounddet.o
  .scommon_h     0x00000000        0x8 OBJ//src/Kernel/Utility/sounddet.o
@@ -4774,7 +4770,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x175 OBJ//src/Kernel/Utility/storage_access.o
  .debug_macro   0x00000000       0x28 OBJ//src/Kernel/Utility/storage_access.o
  .debug_line    0x00000000      0x35f OBJ//src/Kernel/Utility/storage_access.o
- .debug_str     0x00000000    0x16ad5 OBJ//src/Kernel/Utility/storage_access.o
+ .debug_str     0x00000000    0x16ad2 OBJ//src/Kernel/Utility/storage_access.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/storage_access.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/storage_access.o
@@ -4841,7 +4837,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 OBJ//src/Kernel/Utility/touch.o
  .debug_macro   0x00000000       0x1f OBJ//src/Kernel/Utility/touch.o
  .debug_line    0x00000000      0x39a OBJ//src/Kernel/Utility/touch.o
- .debug_str     0x00000000    0x1f76c OBJ//src/Kernel/Utility/touch.o
+ .debug_str     0x00000000    0x1f769 OBJ//src/Kernel/Utility/touch.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/touch.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/touch.o
@@ -4902,7 +4898,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa2c OBJ//src/Kernel/Utility/utilityctl_xip.o
  .debug_macro   0x00000000       0x5e OBJ//src/Kernel/Utility/utilityctl_xip.o
  .debug_line    0x00000000      0x14b OBJ//src/Kernel/Utility/utilityctl_xip.o
- .debug_str     0x00000000    0x143ec OBJ//src/Kernel/Utility/utilityctl_xip.o
+ .debug_str     0x00000000    0x143e9 OBJ//src/Kernel/Utility/utilityctl_xip.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/utilityctl_xip.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/utilityctl_xip.o
@@ -4966,7 +4962,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 OBJ//src/Kernel/Utility/vadctl.o
  .debug_macro   0x00000000       0x1f OBJ//src/Kernel/Utility/vadctl.o
  .debug_line    0x00000000      0x353 OBJ//src/Kernel/Utility/vadctl.o
- .debug_str     0x00000000    0x166d6 OBJ//src/Kernel/Utility/vadctl.o
+ .debug_str     0x00000000    0x166d3 OBJ//src/Kernel/Utility/vadctl.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/vadctl.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/vadctl.o
@@ -5037,7 +5033,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 OBJ//src/Kernel/Utility/vioctl.o
  .debug_macro   0x00000000       0x46 OBJ//src/Kernel/Utility/vioctl.o
  .debug_line    0x00000000      0x39d OBJ//src/Kernel/Utility/vioctl.o
- .debug_str     0x00000000    0x1832a OBJ//src/Kernel/Utility/vioctl.o
+ .debug_str     0x00000000    0x18327 OBJ//src/Kernel/Utility/vioctl.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/vioctl.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/vioctl.o
@@ -5108,7 +5104,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 OBJ//src/Kernel/Utility/vrctl.o
  .debug_macro   0x00000000       0x1f OBJ//src/Kernel/Utility/vrctl.o
  .debug_line    0x00000000      0x3ba OBJ//src/Kernel/Utility/vrctl.o
- .debug_str     0x00000000    0x17469 OBJ//src/Kernel/Utility/vrctl.o
+ .debug_str     0x00000000    0x17466 OBJ//src/Kernel/Utility/vrctl.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/vrctl.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/vrctl.o
@@ -5173,7 +5169,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x1be OBJ//src/Kernel/Utility/wave_id.o
  .debug_macro   0x00000000       0x58 OBJ//src/Kernel/Utility/wave_id.o
  .debug_line    0x00000000      0x358 OBJ//src/Kernel/Utility/wave_id.o
- .debug_str     0x00000000    0x16ed8 OBJ//src/Kernel/Utility/wave_id.o
+ .debug_str     0x00000000    0x16ed5 OBJ//src/Kernel/Utility/wave_id.o
  .comment       0x00000000       0x30 OBJ//src/Kernel/Utility/wave_id.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/Utility/wave_id.o
@@ -5269,8 +5265,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xf3 OBJ//src/Kernel/isr.o
  .debug_macro   0x00000000      0x175 OBJ//src/Kernel/isr.o
  .debug_macro   0x00000000       0x10 OBJ//src/Kernel/isr.o
- .debug_macro   0x00000000       0x10 OBJ//src/Kernel/isr.o
- .debug_macro   0x00000000       0x10 OBJ//src/Kernel/isr.o
+ .debug_macro   0x00000000       0xa6 OBJ//src/Kernel/isr.o
+ .debug_macro   0x00000000       0xd6 OBJ//src/Kernel/isr.o
  .debug_macro   0x00000000       0x90 OBJ//src/Kernel/isr.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Kernel/isr.o
@@ -5297,7 +5293,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x20 OBJ//src/Table/Io/IoTab.o
  .debug_macro   0x00000000       0xeb OBJ//src/Table/Io/IoTab.o
  .debug_line    0x00000000       0xb7 OBJ//src/Table/Io/IoTab.o
- .debug_str     0x00000000     0x928a OBJ//src/Table/Io/IoTab.o
+ .debug_str     0x00000000     0x9287 OBJ//src/Table/Io/IoTab.o
  .comment       0x00000000       0x30 OBJ//src/Table/Io/IoTab.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Table/Io/IoTab.o
@@ -5324,7 +5320,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x20 OBJ//src/Table/LEDSTR/LEDSTRTab.o
  .debug_macro   0x00000000       0xeb OBJ//src/Table/LEDSTR/LEDSTRTab.o
  .debug_line    0x00000000       0xbf OBJ//src/Table/LEDSTR/LEDSTRTab.o
- .debug_str     0x00000000     0x9292 OBJ//src/Table/LEDSTR/LEDSTRTab.o
+ .debug_str     0x00000000     0x928f OBJ//src/Table/LEDSTR/LEDSTRTab.o
  .comment       0x00000000       0x30 OBJ//src/Table/LEDSTR/LEDSTRTab.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Table/LEDSTR/LEDSTRTab.o
@@ -5353,7 +5349,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x20 OBJ//src/Table/NX1_Tab.o
  .debug_macro   0x00000000       0xeb OBJ//src/Table/NX1_Tab.o
  .debug_line    0x00000000       0xb6 OBJ//src/Table/NX1_Tab.o
- .debug_str     0x00000000     0x929f OBJ//src/Table/NX1_Tab.o
+ .debug_str     0x00000000     0x929c OBJ//src/Table/NX1_Tab.o
  .comment       0x00000000       0x30 OBJ//src/Table/NX1_Tab.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Table/NX1_Tab.o
@@ -5380,7 +5376,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xeb OBJ//src/Table/NX1_VoiceChangerTab.o
  .debug_macro   0x00000000      0x101 OBJ//src/Table/NX1_VoiceChangerTab.o
  .debug_line    0x00000000       0xdb OBJ//src/Table/NX1_VoiceChangerTab.o
- .debug_str     0x00000000     0x96eb OBJ//src/Table/NX1_VoiceChangerTab.o
+ .debug_str     0x00000000     0x96e8 OBJ//src/Table/NX1_VoiceChangerTab.o
  .comment       0x00000000       0x30 OBJ//src/Table/NX1_VoiceChangerTab.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Table/NX1_VoiceChangerTab.o
@@ -5409,7 +5405,7 @@ Discarded input sections
  .debug_macro   0x00000000     0x1cae OBJ//src/Table/TouchTab/TouchTab.o
  .debug_macro   0x00000000      0x1be OBJ//src/Table/TouchTab/TouchTab.o
  .debug_line    0x00000000       0xf4 OBJ//src/Table/TouchTab/TouchTab.o
- .debug_str     0x00000000    0x104a0 OBJ//src/Table/TouchTab/TouchTab.o
+ .debug_str     0x00000000    0x1049d OBJ//src/Table/TouchTab/TouchTab.o
  .comment       0x00000000       0x30 OBJ//src/Table/TouchTab/TouchTab.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Table/TouchTab/TouchTab.o
@@ -5444,7 +5440,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x20 OBJ//src/Table/UserDefined/UserDefinedTab.o
  .debug_macro   0x00000000       0xeb OBJ//src/Table/UserDefined/UserDefinedTab.o
  .debug_line    0x00000000       0xc9 OBJ//src/Table/UserDefined/UserDefinedTab.o
- .debug_str     0x00000000     0x9302 OBJ//src/Table/UserDefined/UserDefinedTab.o
+ .debug_str     0x00000000     0x92ff OBJ//src/Table/UserDefined/UserDefinedTab.o
  .comment       0x00000000       0x30 OBJ//src/Table/UserDefined/UserDefinedTab.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Table/UserDefined/UserDefinedTab.o
@@ -5471,7 +5467,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x20 OBJ//src/Table/Voice/VoiceTab.o
  .debug_macro   0x00000000       0xeb OBJ//src/Table/Voice/VoiceTab.o
  .debug_line    0x00000000       0xbd OBJ//src/Table/Voice/VoiceTab.o
- .debug_str     0x00000000     0x928c OBJ//src/Table/Voice/VoiceTab.o
+ .debug_str     0x00000000     0x9289 OBJ//src/Table/Voice/VoiceTab.o
  .comment       0x00000000       0x30 OBJ//src/Table/Voice/VoiceTab.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Table/Voice/VoiceTab.o
@@ -5488,7 +5484,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x11 OBJ//src/Table/Vr/VRCmdTab.o
  .debug_macro   0x00000000      0x55c OBJ//src/Table/Vr/VRCmdTab.o
  .debug_line    0x00000000       0x38 OBJ//src/Table/Vr/VRCmdTab.o
- .debug_str     0x00000000     0x18d4 OBJ//src/Table/Vr/VRCmdTab.o
+ .debug_str     0x00000000     0x18d1 OBJ//src/Table/Vr/VRCmdTab.o
  .comment       0x00000000       0x30 OBJ//src/Table/Vr/VRCmdTab.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/Table/Vr/VRCmdTab.o
@@ -5580,8 +5576,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xf3 OBJ//src/main.o
  .debug_macro   0x00000000      0x175 OBJ//src/main.o
  .debug_macro   0x00000000       0x10 OBJ//src/main.o
- .debug_macro   0x00000000       0x10 OBJ//src/main.o
- .debug_macro   0x00000000       0x10 OBJ//src/main.o
+ .debug_macro   0x00000000       0xa6 OBJ//src/main.o
+ .debug_macro   0x00000000       0xd6 OBJ//src/main.o
  .debug_macro   0x00000000       0x90 OBJ//src/main.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/main.o
@@ -5612,7 +5608,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x101 OBJ//src/mem.o
  .debug_macro   0x00000000      0xa2c OBJ//src/mem.o
  .debug_line    0x00000000       0xfd OBJ//src/mem.o
- .debug_str     0x00000000    0x141b9 OBJ//src/mem.o
+ .debug_str     0x00000000    0x141b6 OBJ//src/mem.o
  .comment       0x00000000       0x30 OBJ//src/mem.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/mem.o
@@ -5723,9 +5719,10 @@ Discarded input sections
  .debug_macro   0x00000000      0x13d OBJ//src/user_code/user_key.o
  .debug_macro   0x00000000      0x175 OBJ//src/user_code/user_key.o
  .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_key.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_key.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_key.o
+ .debug_macro   0x00000000       0xa6 OBJ//src/user_code/user_key.o
+ .debug_macro   0x00000000       0xd6 OBJ//src/user_code/user_key.o
  .debug_macro   0x00000000       0x90 OBJ//src/user_code/user_key.o
+ .group         0x00000000        0x8 OBJ//src/user_code/user_led.o
  .group         0x00000000        0x8 OBJ//src/user_code/user_led.o
  .group         0x00000000        0x8 OBJ//src/user_code/user_led.o
  .group         0x00000000        0x8 OBJ//src/user_code/user_led.o
@@ -5772,11 +5769,10 @@ Discarded input sections
  .text          0x00000000        0x0 OBJ//src/user_code/user_led.o
  .data          0x00000000        0x0 OBJ//src/user_code/user_led.o
  .bss           0x00000000        0x0 OBJ//src/user_code/user_led.o
- .debug_info    0x00000000       0x7d OBJ//src/user_code/user_led.o
- .debug_abbrev  0x00000000       0x29 OBJ//src/user_code/user_led.o
- .debug_aranges
-                0x00000000       0x18 OBJ//src/user_code/user_led.o
- .debug_macro   0x00000000      0x277 OBJ//src/user_code/user_led.o
+ .text.led_flash_process_0
+                0x00000000       0x12 OBJ//src/user_code/user_led.o
+ .text.led_flash_process_1
+                0x00000000       0x12 OBJ//src/user_code/user_led.o
  .debug_macro   0x00000000      0x55c OBJ//src/user_code/user_led.o
  .debug_macro   0x00000000      0xeab OBJ//src/user_code/user_led.o
  .debug_macro   0x00000000       0xd6 OBJ//src/user_code/user_led.o
@@ -5818,11 +5814,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xf3 OBJ//src/user_code/user_led.o
  .debug_macro   0x00000000      0x175 OBJ//src/user_code/user_led.o
  .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_led.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_led.o
+ .debug_macro   0x00000000       0xd6 OBJ//src/user_code/user_led.o
  .debug_macro   0x00000000       0x90 OBJ//src/user_code/user_led.o
- .debug_line    0x00000000      0x41a OBJ//src/user_code/user_led.o
- .debug_str     0x00000000    0x1941a OBJ//src/user_code/user_led.o
- .comment       0x00000000       0x30 OBJ//src/user_code/user_led.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/user_code/user_led.o
  .group         0x00000000        0x8 OBJ//src/user_code/user_main.o
@@ -5872,16 +5865,10 @@ Discarded input sections
  .text          0x00000000        0x0 OBJ//src/user_code/user_main.o
  .data          0x00000000        0x0 OBJ//src/user_code/user_main.o
  .bss           0x00000000        0x0 OBJ//src/user_code/user_main.o
- .text.user_systick_clear
-                0x00000000        0x8 OBJ//src/user_code/user_main.o
- .text.user_systick_get_time
-                0x00000000        0xa OBJ//src/user_code/user_main.o
  .text.user_timer1_init
                 0x00000000       0x2e OBJ//src/user_code/user_main.o
  .text.user_system_sleep_check
                 0x00000000       0x40 OBJ//src/user_code/user_main.o
- .text.user_system_stop_all_user_module
-                0x00000000        0x4 OBJ//src/user_code/user_main.o
  .text.user_system_wakeup_pin_init
                 0x00000000        0x2 OBJ//src/user_code/user_main.o
  .text.user_system_get_status
@@ -5929,9 +5916,10 @@ Discarded input sections
  .debug_macro   0x00000000       0xf3 OBJ//src/user_code/user_main.o
  .debug_macro   0x00000000      0x175 OBJ//src/user_code/user_main.o
  .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_main.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_main.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_main.o
+ .debug_macro   0x00000000       0xa6 OBJ//src/user_code/user_main.o
+ .debug_macro   0x00000000       0xd6 OBJ//src/user_code/user_main.o
  .debug_macro   0x00000000       0x90 OBJ//src/user_code/user_main.o
+ .group         0x00000000        0x8 OBJ//src/user_code/user_motion.o
  .group         0x00000000        0x8 OBJ//src/user_code/user_motion.o
  .group         0x00000000        0x8 OBJ//src/user_code/user_motion.o
  .group         0x00000000        0x8 OBJ//src/user_code/user_motion.o
@@ -5978,11 +5966,8 @@ Discarded input sections
  .text          0x00000000        0x0 OBJ//src/user_code/user_motion.o
  .data          0x00000000        0x0 OBJ//src/user_code/user_motion.o
  .bss           0x00000000        0x0 OBJ//src/user_code/user_motion.o
- .debug_info    0x00000000       0x7d OBJ//src/user_code/user_motion.o
- .debug_abbrev  0x00000000       0x29 OBJ//src/user_code/user_motion.o
- .debug_aranges
-                0x00000000       0x18 OBJ//src/user_code/user_motion.o
- .debug_macro   0x00000000      0x277 OBJ//src/user_code/user_motion.o
+ .text.motion_motor_get_cmd
+                0x00000000        0xe OBJ//src/user_code/user_motion.o
  .debug_macro   0x00000000      0x55c OBJ//src/user_code/user_motion.o
  .debug_macro   0x00000000      0xeab OBJ//src/user_code/user_motion.o
  .debug_macro   0x00000000       0xd6 OBJ//src/user_code/user_motion.o
@@ -6024,11 +6009,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xf3 OBJ//src/user_code/user_motion.o
  .debug_macro   0x00000000      0x175 OBJ//src/user_code/user_motion.o
  .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_motion.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_motion.o
+ .debug_macro   0x00000000       0xa6 OBJ//src/user_code/user_motion.o
  .debug_macro   0x00000000       0x90 OBJ//src/user_code/user_motion.o
- .debug_line    0x00000000      0x41d OBJ//src/user_code/user_motion.o
- .debug_str     0x00000000    0x1941d OBJ//src/user_code/user_motion.o
- .comment       0x00000000       0x30 OBJ//src/user_code/user_motion.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/user_code/user_motion.o
  .group         0x00000000        0x8 OBJ//src/user_code/user_play.o
@@ -6109,8 +6091,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xed OBJ//src/user_code/user_play.o
  .debug_macro   0x00000000      0x175 OBJ//src/user_code/user_play.o
  .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_play.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_play.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_play.o
+ .debug_macro   0x00000000       0xa6 OBJ//src/user_code/user_play.o
+ .debug_macro   0x00000000       0xd6 OBJ//src/user_code/user_play.o
  .debug_macro   0x00000000       0x90 OBJ//src/user_code/user_play.o
  .debug_macro   0x00000000       0x4c OBJ//src/user_code/user_play.o
  .debug_macro   0x00000000       0x16 OBJ//src/user_code/user_play.o
@@ -6228,12 +6210,12 @@ Discarded input sections
  .debug_macro   0x00000000      0x13d OBJ//src/user_code/user_record.o
  .debug_macro   0x00000000       0xf3 OBJ//src/user_code/user_record.o
  .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_record.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_record.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_record.o
+ .debug_macro   0x00000000       0xa6 OBJ//src/user_code/user_record.o
+ .debug_macro   0x00000000       0xd6 OBJ//src/user_code/user_record.o
  .debug_macro   0x00000000       0x90 OBJ//src/user_code/user_record.o
  .debug_macro   0x00000000      0x175 OBJ//src/user_code/user_record.o
  .debug_line    0x00000000      0x41d OBJ//src/user_code/user_record.o
- .debug_str     0x00000000    0x1941d OBJ//src/user_code/user_record.o
+ .debug_str     0x00000000    0x198cf OBJ//src/user_code/user_record.o
  .comment       0x00000000       0x30 OBJ//src/user_code/user_record.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/user_code/user_record.o
@@ -6262,7 +6244,7 @@ Discarded input sections
  .debug_macro   0x00000000     0x1cae OBJ//src/user_code/user_storage_break_point.o
  .debug_macro   0x00000000       0x28 OBJ//src/user_code/user_storage_break_point.o
  .debug_line    0x00000000       0xe7 OBJ//src/user_code/user_storage_break_point.o
- .debug_str     0x00000000     0xfdc5 OBJ//src/user_code/user_storage_break_point.o
+ .debug_str     0x00000000     0xfdc2 OBJ//src/user_code/user_storage_break_point.o
  .comment       0x00000000       0x30 OBJ//src/user_code/user_storage_break_point.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/user_code/user_storage_break_point.o
@@ -6357,11 +6339,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x13d OBJ//src/user_code/user_talkback_adpcm.o
  .debug_macro   0x00000000       0xf3 OBJ//src/user_code/user_talkback_adpcm.o
  .debug_macro   0x00000000      0x175 OBJ//src/user_code/user_talkback_adpcm.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_talkback_adpcm.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_talkback_adpcm.o
+ .debug_macro   0x00000000       0xa6 OBJ//src/user_code/user_talkback_adpcm.o
+ .debug_macro   0x00000000       0xd6 OBJ//src/user_code/user_talkback_adpcm.o
  .debug_macro   0x00000000       0x90 OBJ//src/user_code/user_talkback_adpcm.o
  .debug_line    0x00000000      0x425 OBJ//src/user_code/user_talkback_adpcm.o
- .debug_str     0x00000000    0x19425 OBJ//src/user_code/user_talkback_adpcm.o
+ .debug_str     0x00000000    0x198d7 OBJ//src/user_code/user_talkback_adpcm.o
  .comment       0x00000000       0x30 OBJ//src/user_code/user_talkback_adpcm.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/user_code/user_talkback_adpcm.o
@@ -6460,113 +6442,113 @@ Discarded input sections
  .debug_macro   0x00000000       0xf3 OBJ//src/user_code/user_vr.o
  .debug_macro   0x00000000      0x175 OBJ//src/user_code/user_vr.o
  .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_vr.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_vr.o
- .debug_macro   0x00000000       0x10 OBJ//src/user_code/user_vr.o
+ .debug_macro   0x00000000       0xa6 OBJ//src/user_code/user_vr.o
+ .debug_macro   0x00000000       0xd6 OBJ//src/user_code/user_vr.o
  .debug_macro   0x00000000       0x90 OBJ//src/user_code/user_vr.o
  .debug_line    0x00000000      0x441 OBJ//src/user_code/user_vr.o
- .debug_str     0x00000000    0x19443 OBJ//src/user_code/user_vr.o
+ .debug_str     0x00000000    0x198f5 OBJ//src/user_code/user_vr.o
  .comment       0x00000000       0x30 OBJ//src/user_code/user_vr.o
  .note.v2abi_compatible
                 0x00000000        0x4 OBJ//src/user_code/user_vr.o
- .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
- .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
- .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
- .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
- .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
- .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
- .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(decoder.o)
- .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(decoder.o)
- .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(decoder.o)
+ .text          0x00000000        0x0 OBJ/dVtPIG.tmp(SBCDecMain.o)
+ .data          0x00000000        0x0 OBJ/dVtPIG.tmp(SBCDecMain.o)
+ .bss           0x00000000        0x0 OBJ/dVtPIG.tmp(SBCDecMain.o)
+ .text          0x00000000        0x0 OBJ/dVtPIG.tmp(coef2sam.o)
+ .data          0x00000000        0x0 OBJ/dVtPIG.tmp(coef2sam.o)
+ .bss           0x00000000        0x0 OBJ/dVtPIG.tmp(coef2sam.o)
+ .text          0x00000000        0x0 OBJ/dVtPIG.tmp(decoder.o)
+ .data          0x00000000        0x0 OBJ/dVtPIG.tmp(decoder.o)
+ .bss           0x00000000        0x0 OBJ/dVtPIG.tmp(decoder.o)
  .text.decode_envelope
-                0x00000000      0x28c OBJ/Zc3XOQVMd.tmp(decoder.o)
+                0x00000000      0x28c OBJ/dVtPIG.tmp(decoder.o)
  .text.get_rand
-                0x00000000       0x1c OBJ/Zc3XOQVMd.tmp(decoder.o)
- .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
- .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
- .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000       0x1c OBJ/dVtPIG.tmp(decoder.o)
+ .text          0x00000000        0x0 OBJ/dVtPIG.tmp(huff_tab.o)
+ .data          0x00000000        0x0 OBJ/dVtPIG.tmp(huff_tab.o)
+ .bss           0x00000000        0x0 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.table_of_code_tables
-                0x00000000       0x1c OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000       0x1c OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.table_of_bitcount_tables
-                0x00000000       0x1c OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000       0x1c OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_6
-                0x00000000       0x40 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000       0x40 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_6
-                0x00000000       0x20 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000       0x20 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_5
-                0x00000000      0x1e8 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000      0x1e8 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_5
-                0x00000000       0xf4 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000       0xf4 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_4
-                0x00000000      0x200 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000      0x200 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_4
-                0x00000000      0x100 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000      0x100 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_3
-                0x00000000      0x4e4 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000      0x4e4 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_3
-                0x00000000      0x274 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000      0x274 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_2
-                0x00000000       0x64 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000       0x64 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_2
-                0x00000000       0x34 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000       0x34 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_1
-                0x00000000       0xc8 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000       0xc8 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_1
-                0x00000000       0x64 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000       0x64 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_code_category_0
-                0x00000000      0x188 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000      0x188 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.mlt_sqvh_bitcount_category_0
-                0x00000000       0xc4 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000       0xc4 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.differential_region_power_codes
-                0x00000000      0x300 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
+                0x00000000      0x300 OBJ/dVtPIG.tmp(huff_tab.o)
  .rodata.differential_region_power_bits
-                0x00000000      0x180 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
- .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.L_msu    0x00000000       0x48 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.L_sub    0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+                0x00000000      0x180 OBJ/dVtPIG.tmp(huff_tab.o)
+ .text          0x00000000        0x0 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .data          0x00000000        0x0 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .bss           0x00000000        0x0 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.L_msu    0x00000000       0x48 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.L_sub    0x00000000       0x30 OBJ/dVtPIG.tmp(sbc2_basop32.o)
  .text.L_negate
-                0x00000000       0x18 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.mult_r   0x00000000       0x1c OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.shr_r    0x00000000       0x40 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.mac_r    0x00000000       0x6c OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.msu_r    0x00000000       0x74 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+                0x00000000       0x18 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.mult_r   0x00000000       0x1c OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.shr_r    0x00000000       0x40 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.mac_r    0x00000000       0x6c OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.msu_r    0x00000000       0x74 OBJ/dVtPIG.tmp(sbc2_basop32.o)
  .text.L_deposit_h
-                0x00000000        0x8 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.L_shr_r  0x00000000       0x38 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.L_abs    0x00000000       0x20 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.norm_s   0x00000000       0x38 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
+                0x00000000        0x8 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.L_shr_r  0x00000000       0x38 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.L_abs    0x00000000       0x20 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.norm_s   0x00000000       0x38 OBJ/dVtPIG.tmp(sbc2_basop32.o)
  .rodata.str1.4
-                0x00000000       0x40 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.div_s    0x00000000       0x9c OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.norm_l   0x00000000       0x34 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.L_mls    0x00000000       0x60 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.i_mult   0x00000000        0x8 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.L_msu0   0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.LU_shl   0x00000000       0x44 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text.LU_shr   0x00000000       0x2c OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(tables.o)
- .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(tables.o)
- .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(tables.o)
+                0x00000000       0x40 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.div_s    0x00000000       0x9c OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.norm_l   0x00000000       0x34 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.L_mls    0x00000000       0x60 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.i_mult   0x00000000        0x8 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.L_msu0   0x00000000       0x30 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.LU_shl   0x00000000       0x44 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text.LU_shr   0x00000000       0x2c OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .text          0x00000000        0x0 OBJ/dVtPIG.tmp(tables.o)
+ .data          0x00000000        0x0 OBJ/dVtPIG.tmp(tables.o)
+ .bss           0x00000000        0x0 OBJ/dVtPIG.tmp(tables.o)
  .rodata.int_dead_zone_low_bits
-                0x00000000       0x10 OBJ/Zc3XOQVMd.tmp(tables.o)
+                0x00000000       0x10 OBJ/dVtPIG.tmp(tables.o)
  .rodata.int_dead_zone
-                0x00000000       0x10 OBJ/Zc3XOQVMd.tmp(tables.o)
+                0x00000000       0x10 OBJ/dVtPIG.tmp(tables.o)
  .rodata.step_size_inverse_table
-                0x00000000       0x10 OBJ/Zc3XOQVMd.tmp(tables.o)
+                0x00000000       0x10 OBJ/dVtPIG.tmp(tables.o)
  .rodata.standard_deviation_inverse_table
-                0x00000000       0x80 OBJ/Zc3XOQVMd.tmp(tables.o)
- .text          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(common.o)
- .data          0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(common.o)
- .bss           0x00000000        0x0 OBJ/Zc3XOQVMd.tmp(common.o)
+                0x00000000       0x80 OBJ/dVtPIG.tmp(tables.o)
+ .text          0x00000000        0x0 OBJ/dVtPIG.tmp(common.o)
+ .data          0x00000000        0x0 OBJ/dVtPIG.tmp(common.o)
+ .bss           0x00000000        0x0 OBJ/dVtPIG.tmp(common.o)
  .text.comp_powercat_and_catbalance
-                0x00000000      0x3e8 OBJ/Zc3XOQVMd.tmp(common.o)
+                0x00000000      0x3e8 OBJ/dVtPIG.tmp(common.o)
  .text.calc_offset
-                0x00000000       0xf0 OBJ/Zc3XOQVMd.tmp(common.o)
+                0x00000000       0xf0 OBJ/dVtPIG.tmp(common.o)
  .text.compute_raw_pow_categories
-                0x00000000       0x58 OBJ/Zc3XOQVMd.tmp(common.o)
+                0x00000000       0x58 OBJ/dVtPIG.tmp(common.o)
  .text.categorize
-                0x00000000       0x7c OBJ/Zc3XOQVMd.tmp(common.o)
+                0x00000000       0x7c OBJ/dVtPIG.tmp(common.o)
  .text          0x00000000      0x1f4 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/mvh/libgcc.a(_addsub_df.o)
  .data          0x00000000        0x0 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/mvh/libgcc.a(_addsub_df.o)
  .bss           0x00000000        0x0 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/mvh/libgcc.a(_addsub_df.o)
@@ -6862,13 +6844,13 @@ LOAD OBJ//src/user_code/user_record.o
 LOAD OBJ//src/user_code/user_storage_break_point.o
 LOAD OBJ//src/user_code/user_talkback_adpcm.o
 LOAD OBJ//src/user_code/user_vr.o
-LOAD OBJ/Zc3XOQVMd.tmp
-LOAD OBJ/qVXCWhh.tmp
-LOAD OBJ/phnQmX.tmp
-LOAD OBJ/ns4d1N.tmp
-LOAD OBJ/5lXI9fFX.tmp
-LOAD OBJ/4xoVQVv1.tmp
-LOAD OBJ/294ifLcV.tmp
+LOAD OBJ/dVtPIG.tmp
+LOAD OBJ/uON5PYg3.tmp
+LOAD OBJ/tZdIgONX.tmp
+LOAD OBJ/sluWwE3.tmp
+LOAD OBJ/9eOB4.tmp
+LOAD OBJ/8qeOJMv7P.tmp
+LOAD OBJ/Qj83Re6.tmp
 LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/mvh/libgcc.a
 LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a
 LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libgloss.a
@@ -6919,7 +6901,7 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
 .plt
  *(.plt)
 
-.text           0x000003b4     0x3e6c
+.text           0x000003b4     0x43d0
  *(EXCLUDE_FILE(*_iram[0-9].o *xip.o) .text EXCLUDE_FILE(*_iram[0-9].o *xip.o) .text.*)
  .text          0x000003b4       0x34 OBJ//crt0.o
  .text.__c_init
@@ -6956,491 +6938,564 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
  .text.GPIO_Write
                 0x00000638       0x3c OBJ//src/Driver/nx1_gpio.o
                 0x00000638                GPIO_Write
+ .text.GPIO_Toggle
+                0x00000674       0x20 OBJ//src/Driver/nx1_gpio.o
+                0x00000674                GPIO_Toggle
  .text.INTC_IrqCmd
-                0x00000674       0x30 OBJ//src/Driver/nx1_intc.o
-                0x00000674                INTC_IrqCmd
+                0x00000694       0x30 OBJ//src/Driver/nx1_intc.o
+                0x00000694                INTC_IrqCmd
  .text.INTC_ClrPending
-                0x000006a4        0x8 OBJ//src/Driver/nx1_intc.o
-                0x000006a4                INTC_ClrPending
+                0x000006c4        0x8 OBJ//src/Driver/nx1_intc.o
+                0x000006c4                INTC_ClrPending
  .text.INTC_SetDefaultPriority
-                0x000006ac       0x24 OBJ//src/Driver/nx1_intc.o
-                0x000006ac                INTC_SetDefaultPriority
+                0x000006cc       0x24 OBJ//src/Driver/nx1_intc.o
+                0x000006cc                INTC_SetDefaultPriority
  .text.RTC_IntCmd
-                0x000006d0       0x18 OBJ//src/Driver/nx1_rtc.o
-                0x000006d0                RTC_IntCmd
+                0x000006f0       0x18 OBJ//src/Driver/nx1_rtc.o
+                0x000006f0                RTC_IntCmd
  .text.RTC_Int_ReEn
-                0x000006e8       0x10 OBJ//src/Driver/nx1_rtc.o
-                0x000006e8                RTC_Int_ReEn
+                0x00000708       0x10 OBJ//src/Driver/nx1_rtc.o
+                0x00000708                RTC_Int_ReEn
  .text.SMU_CpuClock
-                0x000006f8       0x10 OBJ//src/Driver/nx1_smu.o
-                0x000006f8                SMU_CpuClock
+                0x00000718       0x10 OBJ//src/Driver/nx1_smu.o
+                0x00000718                SMU_CpuClock
  .text.SMU_PeriphReset
-                0x00000708       0x10 OBJ//src/Driver/nx1_smu.o
-                0x00000708                SMU_PeriphReset
+                0x00000728       0x10 OBJ//src/Driver/nx1_smu.o
+                0x00000728                SMU_PeriphReset
  .text.SMU_PeriphClkCmd
-                0x00000718       0x24 OBJ//src/Driver/nx1_smu.o
-                0x00000718                SMU_PeriphClkCmd
+                0x00000738       0x24 OBJ//src/Driver/nx1_smu.o
+                0x00000738                SMU_PeriphClkCmd
  .text.SMU_Sleep
-                0x0000073c       0x18 OBJ//src/Driver/nx1_smu.o
-                0x0000073c                SMU_Sleep
+                0x0000075c       0x18 OBJ//src/Driver/nx1_smu.o
+                0x0000075c                SMU_Sleep
  .text.SMU_LDO33Cmd
-                0x00000754       0x20 OBJ//src/Driver/nx1_smu.o
-                0x00000754                SMU_LDO33Cmd
+                0x00000774       0x20 OBJ//src/Driver/nx1_smu.o
+                0x00000774                SMU_LDO33Cmd
  .text.SMU_LVDCmd
-                0x00000774       0x30 OBJ//src/Driver/nx1_smu.o
-                0x00000774                SMU_LVDCmd
+                0x00000794       0x30 OBJ//src/Driver/nx1_smu.o
+                0x00000794                SMU_LVDCmd
  .text.SPI_Init
-                0x000007a4       0x38 OBJ//src/Driver/nx1_spi.o
-                0x000007a4                SPI_Init
+                0x000007c4       0x38 OBJ//src/Driver/nx1_spi.o
+                0x000007c4                SPI_Init
  .text.SPI_SendCmdAddr
-                0x000007dc       0x9c OBJ//src/Driver/nx1_spi.o
-                0x000007dc                SPI_SendCmdAddr
+                0x000007fc       0x9c OBJ//src/Driver/nx1_spi.o
+                0x000007fc                SPI_SendCmdAddr
  .text.SPI_SendCmd
-                0x00000878       0x44 OBJ//src/Driver/nx1_spi.o
-                0x00000878                SPI_SendCmd
+                0x00000898       0x44 OBJ//src/Driver/nx1_spi.o
+                0x00000898                SPI_SendCmd
  .text.SPI_ByteCmd
-                0x000008bc       0x2c OBJ//src/Driver/nx1_spi.o
-                0x000008bc                SPI_ByteCmd
+                0x000008dc       0x2c OBJ//src/Driver/nx1_spi.o
+                0x000008dc                SPI_ByteCmd
  .text.SPI_ReceiveData
-                0x000008e8       0xe4 OBJ//src/Driver/nx1_spi.o
-                0x000008e8                SPI_ReceiveData
+                0x00000908       0xe4 OBJ//src/Driver/nx1_spi.o
+                0x00000908                SPI_ReceiveData
  .text.SPI_BurstRead
-                0x000009cc       0x48 OBJ//src/Driver/nx1_spi.o
-                0x000009cc                SPI_BurstRead
+                0x000009ec       0x48 OBJ//src/Driver/nx1_spi.o
+                0x000009ec                SPI_BurstRead
  .text.SPI_XipAddrMode
-                0x00000a14       0x10 OBJ//src/Driver/nx1_spi.o
-                0x00000a14                SPI_XipAddrMode
+                0x00000a34       0x10 OBJ//src/Driver/nx1_spi.o
+                0x00000a34                SPI_XipAddrMode
  .text.SPI_XipIoMode
-                0x00000a24       0x14 OBJ//src/Driver/nx1_spi.o
-                0x00000a24                SPI_XipIoMode
+                0x00000a44       0x14 OBJ//src/Driver/nx1_spi.o
+                0x00000a44                SPI_XipIoMode
  .text.SPI_XipRom2Bank
-                0x00000a38       0x1c OBJ//src/Driver/nx1_spi.o
-                0x00000a38                SPI_XipRom2Bank
+                0x00000a58       0x1c OBJ//src/Driver/nx1_spi.o
+                0x00000a58                SPI_XipRom2Bank
  .text.TIMER_Init
-                0x00000a54        0xc OBJ//src/Driver/nx1_timer.o
-                0x00000a54                TIMER_Init
+                0x00000a74        0xc OBJ//src/Driver/nx1_timer.o
+                0x00000a74                TIMER_Init
  .text.TIMER_Cmd
-                0x00000a60       0x14 OBJ//src/Driver/nx1_timer.o
-                0x00000a60                TIMER_Cmd
+                0x00000a80       0x14 OBJ//src/Driver/nx1_timer.o
+                0x00000a80                TIMER_Cmd
  .text.WDT_Init
-                0x00000a74        0x8 OBJ//src/Driver/nx1_wdt.o
-                0x00000a74                WDT_Init
+                0x00000a94        0x8 OBJ//src/Driver/nx1_wdt.o
+                0x00000a94                WDT_Init
  .text.WDT_Clear
-                0x00000a7c        0xc OBJ//src/Driver/nx1_wdt.o
-                0x00000a7c                WDT_Clear
+                0x00000a9c        0xc OBJ//src/Driver/nx1_wdt.o
+                0x00000a9c                WDT_Clear
  .text.AudioCtlInit
-                0x00000a88        0x8 OBJ//src/Kernel/Audio/audioctl.o
-                0x00000a88                AudioCtlInit
+                0x00000aa8        0x8 OBJ//src/Kernel/Audio/audioctl.o
+                0x00000aa8                AudioCtlInit
  .text.AUDIO_GetStatus
-                0x00000a90       0x54 OBJ//src/Kernel/Audio/audioctl.o
-                0x00000a90                AUDIO_GetStatus
+                0x00000ab0       0x54 OBJ//src/Kernel/Audio/audioctl.o
+                0x00000ab0                AUDIO_GetStatus
  .text.AUDIO_GetStatus_All
-                0x00000ae4        0x4 OBJ//src/Kernel/Audio/audioctl.o
-                0x00000ae4                AUDIO_GetStatus_All
+                0x00000b04        0x4 OBJ//src/Kernel/Audio/audioctl.o
+                0x00000b04                AUDIO_GetStatus_All
  .text.AUDIO_InitVolumeSmooth
-                0x00000ae8       0x28 OBJ//src/Kernel/Audio/audioctl.o
-                0x00000ae8                AUDIO_InitVolumeSmooth
+                0x00000b08       0x28 OBJ//src/Kernel/Audio/audioctl.o
+                0x00000b08                AUDIO_InitVolumeSmooth
  .text.AUDIO_SetVolumeSmooth
-                0x00000b10        0x8 OBJ//src/Kernel/Audio/audioctl.o
-                0x00000b10                AUDIO_SetVolumeSmooth
+                0x00000b30        0x8 OBJ//src/Kernel/Audio/audioctl.o
+                0x00000b30                AUDIO_SetVolumeSmooth
  .text.AUDIO_GetVolumeSmooth
-                0x00000b18       0x44 OBJ//src/Kernel/Audio/audioctl.o
-                0x00000b18                AUDIO_GetVolumeSmooth
+                0x00000b38       0x44 OBJ//src/Kernel/Audio/audioctl.o
+                0x00000b38                AUDIO_GetVolumeSmooth
  .text.AUDIO_SetPPGain
-                0x00000b5c       0x58 OBJ//src/Kernel/Audio/audioctl.o
-                0x00000b5c                AUDIO_SetPPGain
- .text.InitDac  0x00000bb4      0x12c OBJ//src/Kernel/Audio/audioctl.o
-                0x00000bb4                InitDac
+                0x00000b7c       0x58 OBJ//src/Kernel/Audio/audioctl.o
+                0x00000b7c                AUDIO_SetPPGain
+ .text.InitDac  0x00000bd4      0x12c OBJ//src/Kernel/Audio/audioctl.o
+                0x00000bd4                InitDac
  .text.AUDIO_GetSpiFileCount
-                0x00000ce0       0x2c OBJ//src/Kernel/Audio/audioctl.o
-                0x00000ce0                AUDIO_GetSpiFileCount
+                0x00000d00       0x2c OBJ//src/Kernel/Audio/audioctl.o
+                0x00000d00                AUDIO_GetSpiFileCount
  .text.GetCodec
-                0x00000d0c       0xbe OBJ//src/Kernel/Audio/audioctl.o
-                0x00000d0c                GetCodec
- *fill*         0x00000dca        0x2 
+                0x00000d2c       0xbe OBJ//src/Kernel/Audio/audioctl.o
+                0x00000d2c                GetCodec
+ *fill*         0x00000dea        0x2 
  .text.AUDIO_Stop
-                0x00000dcc       0x40 OBJ//src/Kernel/Audio/audioctl.o
-                0x00000dcc                AUDIO_Stop
+                0x00000dec       0x40 OBJ//src/Kernel/Audio/audioctl.o
+                0x00000dec                AUDIO_Stop
  .text.AUDIO_Init
-                0x00000e0c       0x1c OBJ//src/Kernel/Audio/audioctl.o
-                0x00000e0c                AUDIO_Init
+                0x00000e2c       0x1c OBJ//src/Kernel/Audio/audioctl.o
+                0x00000e2c                AUDIO_Init
  .text.AUDIO_ServiceLoop
-                0x00000e28       0x14 OBJ//src/Kernel/Audio/audioctl.o
-                0x00000e28                AUDIO_ServiceLoop
+                0x00000e48       0x14 OBJ//src/Kernel/Audio/audioctl.o
+                0x00000e48                AUDIO_ServiceLoop
  .text.AUDIO_Play_AutoSelect
-                0x00000e3c      0x114 OBJ//src/Kernel/Audio/audioctl.o
-                0x00000e3c                AUDIO_Play_AutoSelect
+                0x00000e5c      0x114 OBJ//src/Kernel/Audio/audioctl.o
+                0x00000e5c                AUDIO_Play_AutoSelect
  .text.AUDIO_Play
-                0x00000f50       0xd4 OBJ//src/Kernel/Audio/audioctl.o
-                0x00000f50                AUDIO_Play
+                0x00000f70       0xd4 OBJ//src/Kernel/Audio/audioctl.o
+                0x00000f70                AUDIO_Play
  .text.Sentence_ServiceLoop
-                0x00001024      0x1a0 OBJ//src/Kernel/Audio/audioctl.o
-                0x00001024                Sentence_ServiceLoop
+                0x00001044      0x1a0 OBJ//src/Kernel/Audio/audioctl.o
+                0x00001044                Sentence_ServiceLoop
  .text.SmoothFunc
-                0x000011c4       0x40 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x000011e4       0x40 OBJ//src/Kernel/Audio/sbc_audioapi.o
  .text.SBC_Pause
-                0x00001204       0x18 OBJ//src/Kernel/Audio/sbc_audioapi.o
-                0x00001204                SBC_Pause
+                0x00001224       0x18 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x00001224                SBC_Pause
  .text.SBC_GetStatus
-                0x0000121c        0x8 OBJ//src/Kernel/Audio/sbc_audioapi.o
-                0x0000121c                SBC_GetStatus
+                0x0000123c        0x8 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x0000123c                SBC_GetStatus
  .text.SBC_SetVolume
-                0x00001224       0x14 OBJ//src/Kernel/Audio/sbc_audioapi.o
-                0x00001224                SBC_SetVolume
+                0x00001244       0x14 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x00001244                SBC_SetVolume
  .text.SBC_Stop
-                0x00001238       0x40 OBJ//src/Kernel/Audio/sbc_audioapi.o
-                0x00001238                SBC_Stop
+                0x00001258       0x40 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x00001258                SBC_Stop
  .text.DecodeFrame
-                0x00001278       0xda OBJ//src/Kernel/Audio/sbc_audioapi.o
- *fill*         0x00001352        0x2 
+                0x00001298       0xda OBJ//src/Kernel/Audio/sbc_audioapi.o
+ *fill*         0x00001372        0x2 
  .text.SBC_Play
-                0x00001354      0x1c4 OBJ//src/Kernel/Audio/sbc_audioapi.o
-                0x00001354                SBC_Play
+                0x00001374      0x1c4 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x00001374                SBC_Play
  .text.SBC_Resume
-                0x00001518       0x74 OBJ//src/Kernel/Audio/sbc_audioapi.o
-                0x00001518                SBC_Resume
+                0x00001538       0x74 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x00001538                SBC_Resume
  .text.SBC_DacIsr
-                0x0000158c      0x188 OBJ//src/Kernel/Audio/sbc_audioapi.o
-                0x0000158c                SBC_DacIsr
+                0x000015ac      0x188 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x000015ac                SBC_DacIsr
  .text.SBC_Init
-                0x00001714        0x8 OBJ//src/Kernel/Audio/sbc_audioapi.o
-                0x00001714                SBC_Init
+                0x00001734        0x8 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x00001734                SBC_Init
  .text.SBC_ServiceLoop
-                0x0000171c       0xa0 OBJ//src/Kernel/Audio/sbc_audioapi.o
-                0x0000171c                SBC_ServiceLoop
+                0x0000173c       0xa0 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x0000173c                SBC_ServiceLoop
  .text.CB_ReadData
-                0x000017bc       0x3a OBJ//src/Kernel/Callback/audio_callback.o
-                0x000017bc                CB_ReadData
+                0x000017dc       0x3a OBJ//src/Kernel/Callback/audio_callback.o
+                0x000017dc                CB_ReadData
  .text.CB_SetStartAddr
-                0x000017f6       0x90 OBJ//src/Kernel/Callback/audio_callback.o
-                0x000017f6                CB_SetStartAddr
+                0x00001816       0x90 OBJ//src/Kernel/Callback/audio_callback.o
+                0x00001816                CB_SetStartAddr
  .text.CB_SPI_MARK
-                0x00001886        0xc OBJ//src/Kernel/Callback/audio_callback.o
-                0x00001886                CB_SPI_MARK
+                0x000018a6        0xc OBJ//src/Kernel/Callback/audio_callback.o
+                0x000018a6                CB_SPI_MARK
  .text.CB_SBC_InitDac
-                0x00001892        0x4 OBJ//src/Kernel/Callback/sbc_callback.o
-                0x00001892                CB_SBC_InitDac
+                0x000018b2        0x4 OBJ//src/Kernel/Callback/sbc_callback.o
+                0x000018b2                CB_SBC_InitDac
  .text.CB_SBC_DacCmd
-                0x00001896        0x4 OBJ//src/Kernel/Callback/sbc_callback.o
-                0x00001896                CB_SBC_DacCmd
+                0x000018b6        0x4 OBJ//src/Kernel/Callback/sbc_callback.o
+                0x000018b6                CB_SBC_DacCmd
  .text.CB_SBC_WriteDac
-                0x0000189a       0x22 OBJ//src/Kernel/Callback/sbc_callback.o
-                0x0000189a                CB_SBC_WriteDac
+                0x000018ba       0x22 OBJ//src/Kernel/Callback/sbc_callback.o
+                0x000018ba                CB_SBC_WriteDac
  .text.CB_SBC_PlayStart
-                0x000018bc        0x2 OBJ//src/Kernel/Callback/sbc_callback.o
-                0x000018bc                CB_SBC_PlayStart
+                0x000018dc        0x2 OBJ//src/Kernel/Callback/sbc_callback.o
+                0x000018dc                CB_SBC_PlayStart
  .text.CB_SBC_PlayEnd
-                0x000018be        0x2 OBJ//src/Kernel/Callback/sbc_callback.o
-                0x000018be                CB_SBC_PlayEnd
+                0x000018de        0x2 OBJ//src/Kernel/Callback/sbc_callback.o
+                0x000018de                CB_SBC_PlayEnd
  .text.CB_SYS_isAppBusy
-                0x000018c0       0x50 OBJ//src/Kernel/Callback/sys_callback.o
-                0x000018c0                CB_SYS_isAppBusy
+                0x000018e0       0x50 OBJ//src/Kernel/Callback/sys_callback.o
+                0x000018e0                CB_SYS_isAppBusy
  .text.CB_SYS_isSleepable
-                0x00001910        0x4 OBJ//src/Kernel/Callback/sys_callback.o
-                0x00001910                CB_SYS_isSleepable
+                0x00001930        0x4 OBJ//src/Kernel/Callback/sys_callback.o
+                0x00001930                CB_SYS_isSleepable
  .text.DelayLoop
-                0x00001914       0x30 OBJ//src/Kernel/System/delay.o
-                0x00001914                DelayLoop
+                0x00001934       0x30 OBJ//src/Kernel/System/delay.o
+                0x00001934                DelayLoop
  .text.DelayLoop2
-                0x00001944       0x1c OBJ//src/Kernel/System/delay.o
-                0x00001944                DelayLoop2
- .text.Delayms  0x00001960       0x38 OBJ//src/Kernel/System/delay.o
-                0x00001960                Delayms
+                0x00001964       0x1c OBJ//src/Kernel/System/delay.o
+                0x00001964                DelayLoop2
+ .text.Delayms  0x00001980       0x38 OBJ//src/Kernel/System/delay.o
+                0x00001980                Delayms
  .text.Default_Handler
-                0x00001998        0x4 OBJ//src/Kernel/System/interrupt.o
-                0x00001998                HW20_ISR
-                0x00001998                HW23_ISR
-                0x00001998                HW9_ISR
-                0x00001998                HW5_ISR
-                0x00001998                HW14_ISR
-                0x00001998                HW11_ISR
-                0x00001998                HW4_ISR
-                0x00001998                HW16_ISR
-                0x00001998                HW12_ISR
-                0x00001998                HW7_ISR
-                0x00001998                Default_Handler
-                0x00001998                HW3_ISR
-                0x00001998                HW18_ISR
-                0x00001998                HW15_ISR
-                0x00001998                HW21_ISR
-                0x00001998                HW22_ISR
-                0x00001998                HW13_ISR
-                0x00001998                HW17_ISR
-                0x00001998                HW8_ISR
-                0x00001998                HW6_ISR
-                0x00001998                HW19_ISR
-                0x00001998                HW2_ISR
+                0x000019b8        0x4 OBJ//src/Kernel/System/interrupt.o
+                0x000019b8                HW20_ISR
+                0x000019b8                HW23_ISR
+                0x000019b8                HW9_ISR
+                0x000019b8                HW5_ISR
+                0x000019b8                HW14_ISR
+                0x000019b8                HW11_ISR
+                0x000019b8                HW4_ISR
+                0x000019b8                HW16_ISR
+                0x000019b8                HW12_ISR
+                0x000019b8                HW7_ISR
+                0x000019b8                Default_Handler
+                0x000019b8                HW3_ISR
+                0x000019b8                HW18_ISR
+                0x000019b8                HW15_ISR
+                0x000019b8                HW21_ISR
+                0x000019b8                HW22_ISR
+                0x000019b8                HW13_ISR
+                0x000019b8                HW17_ISR
+                0x000019b8                HW8_ISR
+                0x000019b8                HW6_ISR
+                0x000019b8                HW19_ISR
+                0x000019b8                HW2_ISR
  .text.ExceptionHandler
-                0x0000199c       0x10 OBJ//src/Kernel/System/interrupt.o
-                0x0000199c                ExceptionHandler
+                0x000019bc       0x10 OBJ//src/Kernel/System/interrupt.o
+                0x000019bc                ExceptionHandler
  .text.GIE_ENABLE
-                0x000019ac       0x24 OBJ//src/Kernel/System/interrupt.o
-                0x000019ac                GIE_ENABLE
+                0x000019cc       0x24 OBJ//src/Kernel/System/interrupt.o
+                0x000019cc                GIE_ENABLE
  .text.GIE_DISABLE
-                0x000019d0       0x18 OBJ//src/Kernel/System/interrupt.o
-                0x000019d0                GIE_DISABLE
+                0x000019f0       0x18 OBJ//src/Kernel/System/interrupt.o
+                0x000019f0                GIE_DISABLE
  .text.SYS_SOFT_ENABLE_LDO
-                0x000019e8       0x38 OBJ//src/Kernel/System/sys.o
-                0x000019e8                SYS_SOFT_ENABLE_LDO
+                0x00001a08       0x38 OBJ//src/Kernel/System/sys.o
+                0x00001a08                SYS_SOFT_ENABLE_LDO
  .text.SYS_ModuleInit
-                0x00001a20      0x15c OBJ//src/Kernel/System/sys.o
-                0x00001a20                SYS_ModuleInit
+                0x00001a40      0x15c OBJ//src/Kernel/System/sys.o
+                0x00001a40                SYS_ModuleInit
  .text.SYS_Init
-                0x00001b7c       0x18 OBJ//src/Kernel/System/sys.o
-                0x00001b7c                SYS_Init
+                0x00001b9c       0x18 OBJ//src/Kernel/System/sys.o
+                0x00001b9c                SYS_Init
  .text.SYS_ClrSleepTime
-                0x00001b94        0xc OBJ//src/Kernel/System/sys.o
-                0x00001b94                SYS_ClrSleepTime
+                0x00001bb4        0xc OBJ//src/Kernel/System/sys.o
+                0x00001bb4                SYS_ClrSleepTime
  .text.SYS_SpiPowerOn
-                0x00001ba0       0x20 OBJ//src/Kernel/System/sys.o
-                0x00001ba0                SYS_SpiPowerOn
+                0x00001bc0       0x20 OBJ//src/Kernel/System/sys.o
+                0x00001bc0                SYS_SpiPowerOn
  .text.SYS_Sleep
-                0x00001bc0       0x44 OBJ//src/Kernel/System/sys.o
-                0x00001bc0                SYS_Sleep
+                0x00001be0       0x44 OBJ//src/Kernel/System/sys.o
+                0x00001be0                SYS_Sleep
  .text.SYS_ServiceLoop
-                0x00001c04       0x64 OBJ//src/Kernel/System/sys.o
-                0x00001c04                SYS_ServiceLoop
+                0x00001c24       0x64 OBJ//src/Kernel/System/sys.o
+                0x00001c24                SYS_ServiceLoop
  .text.SpiOffset
-                0x00001c68       0x3c OBJ//src/Kernel/System/sys.o
-                0x00001c68                SpiOffset
+                0x00001c88       0x3c OBJ//src/Kernel/System/sys.o
+                0x00001c88                SpiOffset
  .text.DIRECTKEY_TimerIsr
-                0x00001ca4        0x4 OBJ//src/Kernel/Utility/key.o
-                0x00001ca4                DIRECTKEY_TimerIsr
+                0x00001cc4        0x4 OBJ//src/Kernel/Utility/key.o
+                0x00001cc4                DIRECTKEY_TimerIsr
  .text.DacAssigner_Init
-                0x00001ca8        0xc OBJ//src/Kernel/Utility/nx1_dacAssigner.o
-                0x00001ca8                DacAssigner_Init
+                0x00001cc8        0xc OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+                0x00001cc8                DacAssigner_Init
  .text.DacAssigner_unRegist
-                0x00001cb4       0x6c OBJ//src/Kernel/Utility/nx1_dacAssigner.o
-                0x00001cb4                DacAssigner_unRegist
+                0x00001cd4       0x6c OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+                0x00001cd4                DacAssigner_unRegist
  .text.DacAssigner_Regist
-                0x00001d20       0xb8 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
-                0x00001d20                DacAssigner_Regist
+                0x00001d40       0xb8 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+                0x00001d40                DacAssigner_Regist
  .text.DacAssigner_codecUseDacCh
-                0x00001dd8       0x50 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
-                0x00001dd8                DacAssigner_codecUseDacCh
+                0x00001df8       0x50 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+                0x00001df8                DacAssigner_codecUseDacCh
  .text.DacAssigner_registInfo
-                0x00001e28       0x10 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
-                0x00001e28                DacAssigner_registInfo
+                0x00001e48       0x10 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+                0x00001e48                DacAssigner_registInfo
  .text.DacAssigner_isEmpty
-                0x00001e38       0x14 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
-                0x00001e38                DacAssigner_isEmpty
+                0x00001e58       0x14 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+                0x00001e58                DacAssigner_isEmpty
  .text.DacAssigner_fifoDataNumberCheck
-                0x00001e4c       0x48 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
-                0x00001e4c                DacAssigner_fifoDataNumberCheck
+                0x00001e6c       0x48 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+                0x00001e6c                DacAssigner_fifoDataNumberCheck
  .text.DacAssigner_ServiceLoop
-                0x00001e94       0x5c OBJ//src/Kernel/Utility/nx1_dacAssigner.o
-                0x00001e94                DacAssigner_ServiceLoop
+                0x00001eb4       0x5c OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+                0x00001eb4                DacAssigner_ServiceLoop
  .text.DacMixerRamp_Init
-                0x00001ef0        0x8 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
-                0x00001ef0                DacMixerRamp_Init
+                0x00001f10        0x8 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+                0x00001f10                DacMixerRamp_Init
  .text.DacMixerRamp_SetDacModeUse
-                0x00001ef8        0x4 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
-                0x00001ef8                DacMixerRamp_SetDacModeUse
+                0x00001f18        0x4 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+                0x00001f18                DacMixerRamp_SetDacModeUse
  .text.DacMixerRampUp
-                0x00001efc       0x44 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
-                0x00001efc                DacMixerRampUp
+                0x00001f1c       0x44 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+                0x00001f1c                DacMixerRampUp
  .text.DacMixerRamp_SyncStsInPolling
-                0x00001f40       0x64 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
-                0x00001f40                DacMixerRamp_SyncStsInPolling
+                0x00001f60       0x64 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+                0x00001f60                DacMixerRamp_SyncStsInPolling
  .text.DacMixerRamp_SyncStsInInterrupt
-                0x00001fa4       0x20 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
-                0x00001fa4                DacMixerRamp_SyncStsInInterrupt
+                0x00001fc4       0x20 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+                0x00001fc4                DacMixerRamp_SyncStsInInterrupt
  .text.DacMixerRamp_IsBias
-                0x00001fc4        0xc OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
-                0x00001fc4                DacMixerRamp_IsBias
+                0x00001fe4        0xc OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+                0x00001fe4                DacMixerRamp_IsBias
  .text.DacMixerRamp_IsIdle
-                0x00001fd0        0xc OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
-                0x00001fd0                DacMixerRamp_IsIdle
+                0x00001ff0        0xc OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+                0x00001ff0                DacMixerRamp_IsIdle
  .text.DacMixerRamp_ServiceLoop
-                0x00001fdc       0x14 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
-                0x00001fdc                DacMixerRamp_ServiceLoop
+                0x00001ffc       0x14 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+                0x00001ffc                DacMixerRamp_ServiceLoop
  .text.DacMixerRamp_SetRampDown
-                0x00001ff0       0x5c OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
-                0x00001ff0                DacMixerRamp_SetRampDown
+                0x00002010       0x5c OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+                0x00002010                DacMixerRamp_SetRampDown
  .text.Get_LS1B_Position
-                0x0000204c       0x1c OBJ//src/Kernel/Utility/nx1_math.o
-                0x0000204c                Get_LS1B_Position
+                0x0000206c       0x1c OBJ//src/Kernel/Utility/nx1_math.o
+                0x0000206c                Get_LS1B_Position
  .text.UTILITY_ServiceLoop
-                0x00002068        0x4 OBJ//src/Kernel/Utility/utilityctl.o
-                0x00002068                UTILITY_ServiceLoop
- .text.HW0_ISR  0x0000206c       0x7e OBJ//src/Kernel/isr.o
-                0x0000206c                HW0_ISR
- .text.HW1_ISR  0x000020ea       0x80 OBJ//src/Kernel/isr.o
-                0x000020ea                HW1_ISR
- *fill*         0x0000216a        0x2 
+                0x00002088        0x4 OBJ//src/Kernel/Utility/utilityctl.o
+                0x00002088                UTILITY_ServiceLoop
+ .text.HW0_ISR  0x0000208c       0x7e OBJ//src/Kernel/isr.o
+                0x0000208c                HW0_ISR
+ .text.HW1_ISR  0x0000210a       0x80 OBJ//src/Kernel/isr.o
+                0x0000210a                HW1_ISR
+ *fill*         0x0000218a        0x2 
  .text.SysTickInit
-                0x0000216c        0xc OBJ//src/Kernel/isr.o
-                0x0000216c                SysTickInit
+                0x0000218c        0xc OBJ//src/Kernel/isr.o
+                0x0000218c                SysTickInit
  .text.TIMEBASE_ServiceLoop
-                0x00002178       0x7c OBJ//src/Kernel/isr.o
-                0x00002178                TIMEBASE_ServiceLoop
+                0x00002198       0x7c OBJ//src/Kernel/isr.o
+                0x00002198                TIMEBASE_ServiceLoop
  .text.HW10_ISR
-                0x000021f4       0x3a OBJ//src/Kernel/isr.o
-                0x000021f4                HW10_ISR
+                0x00002214       0x3a OBJ//src/Kernel/isr.o
+                0x00002214                HW10_ISR
  .text.startup.main
-                0x0000222e       0x1e OBJ//src/main.o
-                0x0000222e                main
+                0x0000224e       0x1e OBJ//src/main.o
+                0x0000224e                main
  .text.user_key_init
-                0x0000224c       0x4e OBJ//src/user_code/user_key.o
-                0x0000224c                user_key_init
+                0x0000226c       0x4e OBJ//src/user_code/user_key.o
+                0x0000226c                user_key_init
  .text.user_key_check_status
-                0x0000229a       0x3e OBJ//src/user_code/user_key.o
-                0x0000229a                user_key_check_status
+                0x000022ba       0x3e OBJ//src/user_code/user_key.o
+                0x000022ba                user_key_check_status
  .text.key_short_process
-                0x000022d8       0x40 OBJ//src/user_code/user_key.o
-                0x000022d8                key_short_process
+                0x000022f8       0x46 OBJ//src/user_code/user_key.o
+                0x000022f8                key_short_process
  .text.key_long_press_process
-                0x00002318       0x18 OBJ//src/user_code/user_key.o
-                0x00002318                key_long_press_process
+                0x0000233e       0x18 OBJ//src/user_code/user_key.o
+                0x0000233e                key_long_press_process
  .text.user_key_process
-                0x00002330       0x70 OBJ//src/user_code/user_key.o
-                0x00002330                user_key_process
+                0x00002356       0x70 OBJ//src/user_code/user_key.o
+                0x00002356                user_key_process
  .text.multi_func_key_multi_click_process
-                0x000023a0       0x34 OBJ//src/user_code/user_key.o
-                0x000023a0                multi_func_key_multi_click_process
+                0x000023c6       0x34 OBJ//src/user_code/user_key.o
+                0x000023c6                multi_func_key_multi_click_process
  .text.multi_func_key_press_process
-                0x000023d4       0x1c OBJ//src/user_code/user_key.o
-                0x000023d4                multi_func_key_press_process
+                0x000023fa       0x1c OBJ//src/user_code/user_key.o
+                0x000023fa                multi_func_key_press_process
  .text.multi_func_key_release_process
-                0x000023f0       0x4a OBJ//src/user_code/user_key.o
-                0x000023f0                multi_func_key_release_process
+                0x00002416       0x4a OBJ//src/user_code/user_key.o
+                0x00002416                multi_func_key_release_process
  .text.multi_func_key_timer_count_func
-                0x0000243a       0x64 OBJ//src/user_code/user_key.o
-                0x0000243a                multi_func_key_timer_count_func
+                0x00002460       0x64 OBJ//src/user_code/user_key.o
+                0x00002460                multi_func_key_timer_count_func
  .text.user_key_scan
-                0x0000249e       0xd2 OBJ//src/user_code/user_key.o
-                0x0000249e                user_key_scan
+                0x000024c4       0xd2 OBJ//src/user_code/user_key.o
+                0x000024c4                user_key_scan
+ .text.user_led_init
+                0x00002596       0x40 OBJ//src/user_code/user_led.o
+                0x00002596                user_led_init
+ .text.led_set_status
+                0x000025d6       0x2a OBJ//src/user_code/user_led.o
+                0x000025d6                led_set_status
+ .text.user_led_all_off
+                0x00002600       0x2c OBJ//src/user_code/user_led.o
+                0x00002600                user_led_all_off
+ .text.user_led_all_on
+                0x0000262c       0x2c OBJ//src/user_code/user_led.o
+                0x0000262c                user_led_all_on
+ .text.user_led_set_cmd
+                0x00002658       0x12 OBJ//src/user_code/user_led.o
+                0x00002658                user_led_set_cmd
+ .text.user_led_get_cmd
+                0x0000266a        0x6 OBJ//src/user_code/user_led.o
+                0x0000266a                user_led_get_cmd
+ .text.led_flash_process_2
+                0x00002670       0x5c OBJ//src/user_code/user_led.o
+                0x00002670                led_flash_process_2
+ .text.user_led_process
+                0x000026cc       0x34 OBJ//src/user_code/user_led.o
+                0x000026cc                user_led_process
+ .text.user_systick_clear
+                0x00002700        0x8 OBJ//src/user_code/user_main.o
+                0x00002700                user_systick_clear
+ .text.user_systick_get_time
+                0x00002708        0xa OBJ//src/user_code/user_main.o
+                0x00002708                user_systick_get_time
  .text.user_timebase_from_rtc_isr
-                0x00002570       0x2a OBJ//src/user_code/user_main.o
-                0x00002570                user_timebase_from_rtc_isr
+                0x00002712       0x2a OBJ//src/user_code/user_main.o
+                0x00002712                user_timebase_from_rtc_isr
  .text.user_system_get_status_for_sleep
-                0x0000259a       0x2c OBJ//src/user_code/user_main.o
-                0x0000259a                user_system_get_status_for_sleep
- .text.user_system_idle_check
-                0x000025c6       0x60 OBJ//src/user_code/user_main.o
-                0x000025c6                user_system_idle_check
- .text.user_system_off_process
-                0x00002626        0x4 OBJ//src/user_code/user_main.o
-                0x00002626                user_system_off_process
+                0x0000273c       0x38 OBJ//src/user_code/user_main.o
+                0x0000273c                user_system_get_status_for_sleep
  .text.user_system_wakeup_process
-                0x0000262a        0x2 OBJ//src/user_code/user_main.o
-                0x0000262a                user_system_wakeup_process
+                0x00002774        0x2 OBJ//src/user_code/user_main.o
+                0x00002774                user_system_wakeup_process
+ .text.user_system_stop_all_user_module
+                0x00002776       0x18 OBJ//src/user_code/user_main.o
+                0x00002776                user_system_stop_all_user_module
+ .text.user_system_off_process
+                0x0000278e        0x4 OBJ//src/user_code/user_main.o
+                0x0000278e                user_system_off_process
+ .text.user_system_idle_check
+                0x00002792       0x6c OBJ//src/user_code/user_main.o
+                0x00002792                user_system_idle_check
  .text.user_system_stop_all_audio_module
-                0x0000262c        0x4 OBJ//src/user_code/user_main.o
-                0x0000262c                user_system_stop_all_audio_module
+                0x000027fe        0x4 OBJ//src/user_code/user_main.o
+                0x000027fe                user_system_stop_all_audio_module
  .text.user_system_set_status
-                0x00002630       0x14 OBJ//src/user_code/user_main.o
-                0x00002630                user_system_set_status
+                0x00002802       0x14 OBJ//src/user_code/user_main.o
+                0x00002802                user_system_set_status
  .text.user_output_check_status
-                0x00002644       0x48 OBJ//src/user_code/user_main.o
-                0x00002644                user_output_check_status
+                0x00002816       0x50 OBJ//src/user_code/user_main.o
+                0x00002816                user_output_check_status
  .text.user_output_process
-                0x0000268c       0x26 OBJ//src/user_code/user_main.o
-                0x0000268c                user_output_process
+                0x00002866       0x64 OBJ//src/user_code/user_main.o
+                0x00002866                user_output_process
  .text.user_init
-                0x000026b2       0x2a OBJ//src/user_code/user_main.o
-                0x000026b2                user_init
+                0x000028ca       0x32 OBJ//src/user_code/user_main.o
+                0x000028ca                user_init
  .text.user_main_service_loop
-                0x000026dc       0x28 OBJ//src/user_code/user_main.o
-                0x000026dc                user_main_service_loop
+                0x000028fc       0x30 OBJ//src/user_code/user_main.o
+                0x000028fc                user_main_service_loop
+ .text.user_motion_init
+                0x0000292c       0x32 OBJ//src/user_code/user_motion.o
+                0x0000292c                user_motion_init
+ .text.motion_motor_set_cmd
+                0x0000295e       0x4e OBJ//src/user_code/user_motion.o
+                0x0000295e                motion_motor_set_cmd
+ .text.user_motion_set_cmd
+                0x000029ac        0xc OBJ//src/user_code/user_motion.o
+                0x000029ac                user_motion_set_cmd
+ .text.user_motion_get_cmd
+                0x000029b8        0x6 OBJ//src/user_code/user_motion.o
+                0x000029b8                user_motion_get_cmd
+ .text.user_motion_process1
+                0x000029be       0x16 OBJ//src/user_code/user_motion.o
+                0x000029be                user_motion_process1
+ .text.user_motion_process2
+                0x000029d4       0x16 OBJ//src/user_code/user_motion.o
+                0x000029d4                user_motion_process2
+ .text.user_motion_process3
+                0x000029ea       0x16 OBJ//src/user_code/user_motion.o
+                0x000029ea                user_motion_process3
+ .text.user_motion_process4
+                0x00002a00       0x16 OBJ//src/user_code/user_motion.o
+                0x00002a00                user_motion_process4
+ .text.user_motion_process5
+                0x00002a16       0x92 OBJ//src/user_code/user_motion.o
+                0x00002a16                user_motion_process5
+ .text.user_motion_process6
+                0x00002aa8       0xc0 OBJ//src/user_code/user_motion.o
+                0x00002aa8                user_motion_process6
+ .text.user_motion_process7
+                0x00002b68       0xae OBJ//src/user_code/user_motion.o
+                0x00002b68                user_motion_process7
+ *fill*         0x00002c16        0x2 
+ .text.user_motion_process
+                0x00002c18       0x50 OBJ//src/user_code/user_motion.o
+                0x00002c18                user_motion_process
  .text.user_play_stop_all
-                0x00002704       0x1e OBJ//src/user_code/user_play.o
-                0x00002704                user_play_stop_all
+                0x00002c68       0x1e OBJ//src/user_code/user_play.o
+                0x00002c68                user_play_stop_all
  .text.user_play_get_status
-                0x00002722        0x6 OBJ//src/user_code/user_play.o
-                0x00002722                user_play_get_status
+                0x00002c86        0x6 OBJ//src/user_code/user_play.o
+                0x00002c86                user_play_get_status
  .text.user_play_get_all_status
-                0x00002728       0x52 OBJ//src/user_code/user_play.o
-                0x00002728                user_play_get_all_status
+                0x00002c8c       0x52 OBJ//src/user_code/user_play.o
+                0x00002c8c                user_play_get_all_status
  .text.user_play_audio
-                0x0000277a       0x4e OBJ//src/user_code/user_play.o
-                0x0000277a                user_play_audio
+                0x00002cde       0x4e OBJ//src/user_code/user_play.o
+                0x00002cde                user_play_audio
  .text.user_play_get_current_index
-                0x000027c8       0x16 OBJ//src/user_code/user_play.o
-                0x000027c8                user_play_get_current_index
+                0x00002d2c       0x16 OBJ//src/user_code/user_play.o
+                0x00002d2c                user_play_get_current_index
  .text.user_set_sound_type
-                0x000027de        0x6 OBJ//src/user_code/user_play.o
-                0x000027de                user_set_sound_type
+                0x00002d42        0x6 OBJ//src/user_code/user_play.o
+                0x00002d42                user_set_sound_type
  .text.user_play_current_sound
-                0x000027e4       0x28 OBJ//src/user_code/user_play.o
-                0x000027e4                user_play_current_sound
+                0x00002d48       0x28 OBJ//src/user_code/user_play.o
+                0x00002d48                user_play_current_sound
  .text.user_play_prev_sound
-                0x0000280c       0x3a OBJ//src/user_code/user_play.o
-                0x0000280c                user_play_prev_sound
+                0x00002d70       0x3a OBJ//src/user_code/user_play.o
+                0x00002d70                user_play_prev_sound
  .text.user_play_next_sound
-                0x00002846       0x48 OBJ//src/user_code/user_play.o
-                0x00002846                user_play_next_sound
+                0x00002daa       0x48 OBJ//src/user_code/user_play.o
+                0x00002daa                user_play_next_sound
  .text.user_play_next_sound_on_off
-                0x0000288e       0x20 OBJ//src/user_code/user_play.o
-                0x0000288e                user_play_next_sound_on_off
+                0x00002df2       0x20 OBJ//src/user_code/user_play.o
+                0x00002df2                user_play_next_sound_on_off
  .text.user_play_mode_set_cmd
-                0x000028ae       0x40 OBJ//src/user_code/user_play.o
-                0x000028ae                user_play_mode_set_cmd
+                0x00002e12       0x40 OBJ//src/user_code/user_play.o
+                0x00002e12                user_play_mode_set_cmd
  .text.user_play_mode_process_1
-                0x000028ee       0x1a OBJ//src/user_code/user_play.o
-                0x000028ee                user_play_mode_process_1
+                0x00002e52       0x1a OBJ//src/user_code/user_play.o
+                0x00002e52                user_play_mode_process_1
  .text.user_play_mode_process_2
-                0x00002908       0x32 OBJ//src/user_code/user_play.o
-                0x00002908                user_play_mode_process_2
+                0x00002e6c       0x32 OBJ//src/user_code/user_play.o
+                0x00002e6c                user_play_mode_process_2
  .text.user_play_mode_process_3
-                0x0000293a       0x26 OBJ//src/user_code/user_play.o
-                0x0000293a                user_play_mode_process_3
+                0x00002e9e       0x26 OBJ//src/user_code/user_play.o
+                0x00002e9e                user_play_mode_process_3
  .text.user_play_mode_process_4
-                0x00002960       0x26 OBJ//src/user_code/user_play.o
-                0x00002960                user_play_mode_process_4
+                0x00002ec4       0x26 OBJ//src/user_code/user_play.o
+                0x00002ec4                user_play_mode_process_4
  .text.user_play_mode_process_5
-                0x00002986       0x32 OBJ//src/user_code/user_play.o
-                0x00002986                user_play_mode_process_5
+                0x00002eea       0x32 OBJ//src/user_code/user_play.o
+                0x00002eea                user_play_mode_process_5
  .text.user_play_mode_process
-                0x000029b8       0x40 OBJ//src/user_code/user_play.o
-                0x000029b8                user_play_mode_process
+                0x00002f1c       0x40 OBJ//src/user_code/user_play.o
+                0x00002f1c                user_play_mode_process
  .text.user_play_service_loop
-                0x000029f8       0xa0 OBJ//src/user_code/user_play.o
-                0x000029f8                user_play_service_loop
+                0x00002f5c       0xa0 OBJ//src/user_code/user_play.o
+                0x00002f5c                user_play_service_loop
  .text.SBCDecInit
-                0x00002a98       0x9c OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
-                0x00002a98                SBCDecInit
- .text.SBCBPF   0x00002b34       0xa8 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
-                0x00002b34                SBCBPF
+                0x00002ffc       0x9c OBJ/dVtPIG.tmp(SBCDecMain.o)
+                0x00002ffc                SBCDecInit
+ .text.SBCBPF   0x00003098       0xa8 OBJ/dVtPIG.tmp(SBCDecMain.o)
+                0x00003098                SBCBPF
  .text.SBCDecode
-                0x00002bdc       0xa0 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
-                0x00002bdc                SBCDecode
+                0x00003140       0xa0 OBJ/dVtPIG.tmp(SBCDecMain.o)
+                0x00003140                SBCDecode
  .text.rmlt_coefs_to_samples
-                0x00002c7c      0x7cc OBJ/Zc3XOQVMd.tmp(coef2sam.o)
-                0x00002c7c                rmlt_coefs_to_samples
+                0x000031e0      0x7cc OBJ/dVtPIG.tmp(coef2sam.o)
+                0x000031e0                rmlt_coefs_to_samples
  .text.index_to_array
-                0x00003448       0x94 OBJ/Zc3XOQVMd.tmp(decoder.o)
-                0x00003448                index_to_array
+                0x000039ac       0x94 OBJ/dVtPIG.tmp(decoder.o)
+                0x000039ac                index_to_array
  .text.get_bits
-                0x000034dc       0xb0 OBJ/Zc3XOQVMd.tmp(decoder.o)
-                0x000034dc                get_bits
+                0x00003a40       0xb0 OBJ/dVtPIG.tmp(decoder.o)
+                0x00003a40                get_bits
  .text.decode_envelope_Reduce
-                0x0000358c      0x2a0 OBJ/Zc3XOQVMd.tmp(decoder.o)
-                0x0000358c                decode_envelope_Reduce
+                0x00003af0      0x2a0 OBJ/dVtPIG.tmp(decoder.o)
+                0x00003af0                decode_envelope_Reduce
  .text.decode_vector_quantized_mlt_indices
-                0x0000382c      0x440 OBJ/Zc3XOQVMd.tmp(decoder.o)
-                0x0000382c                decode_vector_quantized_mlt_indices
- .text.decoder  0x00003c6c       0xa0 OBJ/Zc3XOQVMd.tmp(decoder.o)
-                0x00003c6c                decoder
- .text.mult     0x00003d0c        0x8 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
-                0x00003d0c                mult
+                0x00003d90      0x440 OBJ/dVtPIG.tmp(decoder.o)
+                0x00003d90                decode_vector_quantized_mlt_indices
+ .text.decoder  0x000041d0       0xa0 OBJ/dVtPIG.tmp(decoder.o)
+                0x000041d0                decoder
+ .text.mult     0x00004270        0x8 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+                0x00004270                mult
  .text.comp_powercat_and_catbalance_Reduce
-                0x00003d14      0x308 OBJ/Zc3XOQVMd.tmp(common.o)
-                0x00003d14                comp_powercat_and_catbalance_Reduce
+                0x00004278      0x308 OBJ/dVtPIG.tmp(common.o)
+                0x00004278                comp_powercat_and_catbalance_Reduce
  .text.calc_offset_Reduce
-                0x0000401c      0x108 OBJ/Zc3XOQVMd.tmp(common.o)
-                0x0000401c                calc_offset_Reduce
+                0x00004580      0x108 OBJ/dVtPIG.tmp(common.o)
+                0x00004580                calc_offset_Reduce
  .text.categorize_Reduce
-                0x00004124       0x6c OBJ/Zc3XOQVMd.tmp(common.o)
-                0x00004124                categorize_Reduce
- .text          0x00004190       0x4c /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-memcpy.o)
-                0x00004190                memcpy
- .text          0x000041dc       0x44 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-memset.o)
-                0x000041dc                memset
+                0x00004688       0x6c OBJ/dVtPIG.tmp(common.o)
+                0x00004688                categorize_Reduce
+ .text          0x000046f4       0x4c /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-memcpy.o)
+                0x000046f4                memcpy
+ .text          0x00004740       0x44 /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mvh/libc.a(lib_a-memset.o)
+                0x00004740                memset
  *(.stub .gnu.linkonce.t.*)
  *(.text.*personality*)
  *(.gnu.warning)
-                0x00004220                . = ALIGN (0x4)
+                0x00004784                . = ALIGN (0x4)
  FILL mask 0xffffffff
 
 .fini
@@ -7448,109 +7503,119 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
 
 .ex9.itable
  *(.ex9.itable)
-                0x00004220                PROVIDE (__etext, .)
-                0x00004220                PROVIDE (_etext, .)
-                0x00004220                PROVIDE (etext, .)
+                0x00004784                PROVIDE (__etext, .)
+                0x00004784                PROVIDE (_etext, .)
+                0x00004784                PROVIDE (etext, .)
 
-.rodata         0x00004220     0x1f44
+.rodata         0x00004784     0x1f74
  *(EXCLUDE_FILE(*_iram[0-9].o *xip.o) .rodata)
- .rodata        0x00004220        0x4 OBJ//src/Kernel/Audio/audioctl.o
+ .rodata        0x00004784        0x4 OBJ//src/Kernel/Audio/audioctl.o
  *(EXCLUDE_FILE(*_iram[0-9].o *xip.o) .rodata.*)
  .rodata.AUDIO_FUNC_LIST
-                0x00004224        0xc OBJ//src/Kernel/Audio/audioctl.o
+                0x00004788        0xc OBJ//src/Kernel/Audio/audioctl.o
  .rodata.pHwCtl
-                0x00004230       0x10 OBJ//src/Kernel/Audio/audioctl.o
-                0x00004230                pHwCtl
+                0x00004794       0x10 OBJ//src/Kernel/Audio/audioctl.o
+                0x00004794                pHwCtl
  .rodata.s_SBC_FUNC
-                0x00004240       0x1c OBJ//src/Kernel/Audio/sbc_audioapi.o
-                0x00004240                s_SBC_FUNC
+                0x000047a4       0x1c OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x000047a4                s_SBC_FUNC
  .rodata.CPUVectorTable
-                0x0000425c       0x60 OBJ//src/Kernel/System/interrupt.o
-                0x0000425c                CPUVectorTable
+                0x000047c0       0x60 OBJ//src/Kernel/System/interrupt.o
+                0x000047c0                CPUVectorTable
  .rodata._codecToDacMap
-                0x000042bc       0x14 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
-                0x000042bc                _codecToDacMap
+                0x00004820       0x14 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+                0x00004820                _codecToDacMap
  .rodata.u8_DeBruijn_Bit_PosTab32
-                0x000042d0       0x20 OBJ//src/Kernel/Utility/nx1_math.o
-                0x000042d0                u8_DeBruijn_Bit_PosTab32
+                0x00004834       0x20 OBJ//src/Kernel/Utility/nx1_math.o
+                0x00004834                u8_DeBruijn_Bit_PosTab32
+ .rodata.lcst_user_led_gpio_a
+                0x00004854       0x18 OBJ//src/user_code/user_led.o
+                0x00004854                lcst_user_led_gpio_a
+ .rodata.CSWTCH.2
+                0x0000486c        0x4 OBJ//src/user_code/user_motion.o
+ .rodata.CSWTCH.1
+                0x00004870        0x4 OBJ//src/user_code/user_motion.o
+ .rodata.lcst_user_motion_gpio_a
+                0x00004874       0x10 OBJ//src/user_code/user_motion.o
+                0x00004874                lcst_user_motion_gpio_a
  .rodata.s_cos_msin_table
-                0x000042f0       0x14 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
-                0x000042f0                s_cos_msin_table
+                0x00004884       0x14 OBJ/dVtPIG.tmp(coef2sam.o)
+                0x00004884                s_cos_msin_table
  .rodata.s_cos_msin_32
-                0x00004304      0x280 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
-                0x00004304                s_cos_msin_32
+                0x00004898      0x280 OBJ/dVtPIG.tmp(coef2sam.o)
+                0x00004898                s_cos_msin_32
  .rodata.s_cos_msin_16
-                0x00004584      0x140 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
-                0x00004584                s_cos_msin_16
+                0x00004b18      0x140 OBJ/dVtPIG.tmp(coef2sam.o)
+                0x00004b18                s_cos_msin_16
  .rodata.s_cos_msin_8
-                0x000046c4       0xa0 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
-                0x000046c4                s_cos_msin_8
+                0x00004c58       0xa0 OBJ/dVtPIG.tmp(coef2sam.o)
+                0x00004c58                s_cos_msin_8
  .rodata.s_cos_msin_4
-                0x00004764       0x50 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
-                0x00004764                s_cos_msin_4
+                0x00004cf8       0x50 OBJ/dVtPIG.tmp(coef2sam.o)
+                0x00004cf8                s_cos_msin_4
  .rodata.s_cos_msin_2
-                0x000047b4       0x28 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
-                0x000047b4                s_cos_msin_2
+                0x00004d48       0x28 OBJ/dVtPIG.tmp(coef2sam.o)
+                0x00004d48                s_cos_msin_2
  .rodata.dct_core_s
-                0x000047dc       0xc8 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
-                0x000047dc                dct_core_s
+                0x00004d70       0xc8 OBJ/dVtPIG.tmp(coef2sam.o)
+                0x00004d70                dct_core_s
  .rodata.table_of_decoder_tables
-                0x000048a4       0x1c OBJ/Zc3XOQVMd.tmp(huff_tab.o)
-                0x000048a4                table_of_decoder_tables
+                0x00004e38       0x1c OBJ/dVtPIG.tmp(huff_tab.o)
+                0x00004e38                table_of_decoder_tables
  .rodata.mlt_decoder_tree_category_6
-                0x000048c0       0x40 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
-                0x000048c0                mlt_decoder_tree_category_6
+                0x00004e54       0x40 OBJ/dVtPIG.tmp(huff_tab.o)
+                0x00004e54                mlt_decoder_tree_category_6
  .rodata.mlt_decoder_tree_category_5
-                0x00004900      0x2fc OBJ/Zc3XOQVMd.tmp(huff_tab.o)
-                0x00004900                mlt_decoder_tree_category_5
+                0x00004e94      0x2fc OBJ/dVtPIG.tmp(huff_tab.o)
+                0x00004e94                mlt_decoder_tree_category_5
  .rodata.mlt_decoder_tree_category_4
-                0x00004bfc      0x340 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
-                0x00004bfc                mlt_decoder_tree_category_4
+                0x00005190      0x340 OBJ/dVtPIG.tmp(huff_tab.o)
+                0x00005190                mlt_decoder_tree_category_4
  .rodata.mlt_decoder_tree_category_3
-                0x00004f3c      0x81c OBJ/Zc3XOQVMd.tmp(huff_tab.o)
-                0x00004f3c                mlt_decoder_tree_category_3
+                0x000054d0      0x81c OBJ/dVtPIG.tmp(huff_tab.o)
+                0x000054d0                mlt_decoder_tree_category_3
  .rodata.mlt_decoder_tree_category_2
-                0x00005758       0x60 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
-                0x00005758                mlt_decoder_tree_category_2
+                0x00005cec       0x60 OBJ/dVtPIG.tmp(huff_tab.o)
+                0x00005cec                mlt_decoder_tree_category_2
  .rodata.mlt_decoder_tree_category_1
-                0x000057b8       0xbc OBJ/Zc3XOQVMd.tmp(huff_tab.o)
-                0x000057b8                mlt_decoder_tree_category_1
+                0x00005d4c       0xbc OBJ/dVtPIG.tmp(huff_tab.o)
+                0x00005d4c                mlt_decoder_tree_category_1
  .rodata.mlt_decoder_tree_category_0
-                0x00005874      0x2d0 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
-                0x00005874                mlt_decoder_tree_category_0
+                0x00005e08      0x2d0 OBJ/dVtPIG.tmp(huff_tab.o)
+                0x00005e08                mlt_decoder_tree_category_0
  .rodata.expected_bits_table
-                0x00005b44        0x8 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
-                0x00005b44                expected_bits_table
+                0x000060d8        0x8 OBJ/dVtPIG.tmp(huff_tab.o)
+                0x000060d8                expected_bits_table
  .rodata.mlt_quant_centroid
-                0x00005b4c       0xd0 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
-                0x00005b4c                mlt_quant_centroid
+                0x000060e0       0xd0 OBJ/dVtPIG.tmp(huff_tab.o)
+                0x000060e0                mlt_quant_centroid
  .rodata.differential_region_power_decoder_tree
-                0x00005c1c      0x258 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
-                0x00005c1c                differential_region_power_decoder_tree
+                0x000061b0      0x258 OBJ/dVtPIG.tmp(huff_tab.o)
+                0x000061b0                differential_region_power_decoder_tree
  .rodata.noise_fill_factor
-                0x00005e74        0x8 OBJ/Zc3XOQVMd.tmp(tables.o)
-                0x00005e74                noise_fill_factor
+                0x00006408        0x8 OBJ/dVtPIG.tmp(tables.o)
+                0x00006408                noise_fill_factor
  .rodata.samples_to_rmlt_window
-                0x00005e7c      0x280 OBJ/Zc3XOQVMd.tmp(tables.o)
-                0x00005e7c                samples_to_rmlt_window
+                0x00006410      0x280 OBJ/dVtPIG.tmp(tables.o)
+                0x00006410                samples_to_rmlt_window
  .rodata.max_bin_plus_one_inverse
-                0x000060fc       0x10 OBJ/Zc3XOQVMd.tmp(tables.o)
-                0x000060fc                max_bin_plus_one_inverse
+                0x00006690       0x10 OBJ/dVtPIG.tmp(tables.o)
+                0x00006690                max_bin_plus_one_inverse
  .rodata.max_bin
-                0x0000610c        0x8 OBJ/Zc3XOQVMd.tmp(tables.o)
-                0x0000610c                max_bin
+                0x000066a0        0x8 OBJ/dVtPIG.tmp(tables.o)
+                0x000066a0                max_bin
  .rodata.number_of_vectors
-                0x00006114        0x8 OBJ/Zc3XOQVMd.tmp(tables.o)
-                0x00006114                number_of_vectors
+                0x000066a8        0x8 OBJ/dVtPIG.tmp(tables.o)
+                0x000066a8                number_of_vectors
  .rodata.vector_dimension
-                0x0000611c        0x8 OBJ/Zc3XOQVMd.tmp(tables.o)
-                0x0000611c                vector_dimension
+                0x000066b0        0x8 OBJ/dVtPIG.tmp(tables.o)
+                0x000066b0                vector_dimension
  .rodata.int_region_standard_deviation_table_R
-                0x00006124       0x40 OBJ/Zc3XOQVMd.tmp(tables.o)
-                0x00006124                int_region_standard_deviation_table_R
+                0x000066b8       0x40 OBJ/dVtPIG.tmp(tables.o)
+                0x000066b8                int_region_standard_deviation_table_R
  .gnu.linkonce.r.*()
 
-.rela.dyn       0x00006164        0x0
+.rela.dyn       0x000066f8        0x0
  .rela.text     0x00000000        0x0 OBJ//crt0.o
  .rela.nds32_init
                 0x00000000        0x0 OBJ//crt0.o
@@ -7736,19 +7801,15 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
                 0x00000000        0x0 OBJ//crt0.o
  .rela.text.user_key_scan
                 0x00000000        0x0 OBJ//crt0.o
+ .rela.text.led_flash_process_2
+                0x00000000        0x0 OBJ//crt0.o
  .rela.text.user_system_get_status_for_sleep
-                0x00000000        0x0 OBJ//crt0.o
- .rela.text.user_system_sleep_check
-                0x00000000        0x0 OBJ//crt0.o
- .rela.text.user_system_idle_check
-                0x00000000        0x0 OBJ//crt0.o
- .rela.text.user_system_off_process
                 0x00000000        0x0 OBJ//crt0.o
  .rela.text.user_system_stop_all_user_module
                 0x00000000        0x0 OBJ//crt0.o
- .rela.text.user_system_stop_all_audio_module
+ .rela.text.user_system_idle_check
                 0x00000000        0x0 OBJ//crt0.o
- .rela.text.user_system_set_status
+ .rela.text.user_system_stop_all_audio_module
                 0x00000000        0x0 OBJ//crt0.o
  .rela.text.user_output_check_status
                 0x00000000        0x0 OBJ//crt0.o
@@ -7757,6 +7818,28 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
  .rela.text.user_init
                 0x00000000        0x0 OBJ//crt0.o
  .rela.text.user_main_service_loop
+                0x00000000        0x0 OBJ//crt0.o
+ .rela.text.user_motion_init
+                0x00000000        0x0 OBJ//crt0.o
+ .rela.text.user_motion_set_cmd
+                0x00000000        0x0 OBJ//crt0.o
+ .rela.text.user_motion_get_cmd
+                0x00000000        0x0 OBJ//crt0.o
+ .rela.text.user_motion_process1
+                0x00000000        0x0 OBJ//crt0.o
+ .rela.text.user_motion_process2
+                0x00000000        0x0 OBJ//crt0.o
+ .rela.text.user_motion_process3
+                0x00000000        0x0 OBJ//crt0.o
+ .rela.text.user_motion_process4
+                0x00000000        0x0 OBJ//crt0.o
+ .rela.text.user_motion_process5
+                0x00000000        0x0 OBJ//crt0.o
+ .rela.text.user_motion_process6
+                0x00000000        0x0 OBJ//crt0.o
+ .rela.text.user_motion_process7
+                0x00000000        0x0 OBJ//crt0.o
+ .rela.text.user_motion_process
                 0x00000000        0x0 OBJ//crt0.o
  .rela.text.user_play_stop
                 0x00000000        0x0 OBJ//crt0.o
@@ -7813,10 +7896,10 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
  .rela.text._printf_float
                 0x00000000        0x0 OBJ//crt0.o
 
-.rodata1        0x00006164        0x0
+.rodata1        0x000066f8        0x0
  *(EXCLUDE_FILE(*_iram[0-9].o *xip.o) .rodata1)
 
-.instram1       0x00300000        0x0 load address 0x00006164
+.instram1       0x00300000        0x0 load address 0x000066f8
  *(iram1-vector)
                 0x00300000                . = ALIGN (0x4)
  *_iram1.o(.text .text.*)
@@ -7824,11 +7907,11 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
  *_iram1.o(.rodata .rodata.*)
  *_iram1.o(.rodata1)
  *(iram1-rodata)
-                0x00006164                __load_start_instram1 = LOADADDR (.instram1)
+                0x000066f8                __load_start_instram1 = LOADADDR (.instram1)
                 0x00000000                __load_size_instram1 = SIZEOF (.instram1)
-                0x00006164                __instram_load_end = (LOADADDR (.instram1) + SIZEOF (.instram1))
+                0x000066f8                __instram_load_end = (LOADADDR (.instram1) + SIZEOF (.instram1))
 
-.instram2       0x00300000        0x0 load address 0x00006164
+.instram2       0x00300000        0x0 load address 0x000066f8
  *(iram2-vector)
                 0x00300000                . = ALIGN (0x4)
  *_iram2.o(.text .text.*)
@@ -7836,11 +7919,11 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
  *_iram2.o(.rodata .rodata.*)
  *_iram2.o(.rodata1)
  *(iram2-rodata)
-                0x00006164                __load_start_instram2 = LOADADDR (.instram2)
+                0x000066f8                __load_start_instram2 = LOADADDR (.instram2)
                 0x00000000                __load_size_instram2 = SIZEOF (.instram2)
-                0x00006164                __instram_load_end = (LOADADDR (.instram2) + SIZEOF (.instram2))
+                0x000066f8                __instram_load_end = (LOADADDR (.instram2) + SIZEOF (.instram2))
 
-.instram3       0x00300000        0x0 load address 0x00006164
+.instram3       0x00300000        0x0 load address 0x000066f8
  *(iram3-vector)
                 0x00300000                . = ALIGN (0x4)
  *_iram3.o(.text .text.*)
@@ -7848,64 +7931,64 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
  *_iram3.o(.rodata .rodata.*)
  *_iram3.o(.rodata1)
  *(iram3-rodata)
-                0x00006164                __load_start_instram3 = LOADADDR (.instram3)
+                0x000066f8                __load_start_instram3 = LOADADDR (.instram3)
                 0x00000000                __load_size_instram3 = SIZEOF (.instram3)
-                0x00006164                __instram_load_end = (LOADADDR (.instram3) + SIZEOF (.instram3))
+                0x000066f8                __instram_load_end = (LOADADDR (.instram3) + SIZEOF (.instram3))
                 0x00400000                __data_start = ADDR (.eh_frame)
-                0x00006164                __data_lmastart = LOADADDR (.eh_frame)
+                0x000066f8                __data_lmastart = LOADADDR (.eh_frame)
 
-.eh_frame       0x00400000        0x0 load address 0x00006164
+.eh_frame       0x00400000        0x0 load address 0x000066f8
  *(.eh_frame)
 
 .gcc_except_table
-                0x00300000        0x0 load address 0x00006164
+                0x00300000        0x0 load address 0x000066f8
  *(.gcc_except_table)
  *(.gcc_except_table.*)
 
-.tdata          0x00300000        0x0 load address 0x00006164
+.tdata          0x00300000        0x0 load address 0x000066f8
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x00300000                PROVIDE (__preinit_array_start, .)
 
-.preinit_array  0x00400000        0x0 load address 0x00006164
+.preinit_array  0x00400000        0x0 load address 0x000066f8
  *(.preinit_array)
                 0x00400000                PROVIDE (__preinit_array_end, .)
                 0x00400000                PROVIDE (__init_array_start, .)
 
-.init_array     0x00400000        0x0 load address 0x00006164
+.init_array     0x00400000        0x0 load address 0x000066f8
  *(.init_array)
                 0x00400000                PROVIDE (__init_array_end, .)
                 0x00400000                PROVIDE (__fini_array_start, .)
 
-.fini_array     0x00400000        0x0 load address 0x00006164
+.fini_array     0x00400000        0x0 load address 0x000066f8
  *(.fini_array)
                 0x00400000                PROVIDE (__fini_array_end, .)
 
-.ctors          0x00400000        0x0 load address 0x00006164
+.ctors          0x00400000        0x0 load address 0x000066f8
  *crtbegin*.o(.ctors)
  *(EXCLUDE_FILE(*crtend*.o) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
 
-.dtors          0x00400000        0x0 load address 0x00006164
+.dtors          0x00400000        0x0 load address 0x000066f8
  *crtbegin*.o(.dtors)
  *(EXCLUDE_FILE(*crtend*.o) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
 
-.jcr            0x00400000        0x0 load address 0x00006164
+.jcr            0x00400000        0x0 load address 0x000066f8
  *(.jcr)
 
-.dynamic        0x00400000        0x0 load address 0x00006164
+.dynamic        0x00400000        0x0 load address 0x000066f8
  *(.dynamic)
 
-.data           0x00400000       0x20 load address 0x00006164
+.data           0x00400000       0x20 load address 0x000066f8
  *(.data .data.* .gnu.linkonce.d.*)
  .data.u8PpGain
                 0x00400000        0x1 OBJ//src/Kernel/Audio/audioctl.o
  .data.SleepFlag
                 0x00400001        0x1 OBJ//src/Kernel/System/sys.o
                 0x00400001                SleepFlag
- .data._freqCompensate.5795
+ .data._freqCompensate.5836
                 0x00400002        0x1 OBJ//src/Kernel/isr.o
  *fill*         0x00400003        0x1 
  .data.gu32_key_deboucne_cnt_a
@@ -7925,28 +8008,28 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
                 0x00400020                . = ALIGN (0x4)
  *fill*         0x0040001d        0x3 
 
-.data1          0x00400020        0x0 load address 0x00006184
+.data1          0x00400020        0x0 load address 0x00006718
  *(.data1)
                 0x00400020                . = ALIGN (0x4)
                 0x00400020                . = ALIGN (0x4)
 
-.got            0x00400020        0x0 load address 0x00006184
+.got            0x00400020        0x0 load address 0x00006718
  *(.got.plt)
  *(.got)
 
-.sdata_d        0x00400020        0x0 load address 0x00006184
+.sdata_d        0x00400020        0x0 load address 0x00006718
  *(.sdata_d .sdata_d.*)
 
-.sdata_w        0x00400020        0x0 load address 0x00006184
+.sdata_w        0x00400020        0x0 load address 0x00006718
  *(.sdata_w .sdata_w.*)
 
-.sdata_h        0x00400020        0x0 load address 0x00006184
+.sdata_h        0x00400020        0x0 load address 0x00006718
  *(.sdata_h .sdata_h.*)
 
-.sdata_b        0x00400020        0x0 load address 0x00006184
+.sdata_b        0x00400020        0x0 load address 0x00006718
  *(.sdata_b .sdata_b.*)
 
-.sdata_f        0x00400020        0x0 load address 0x00006184
+.sdata_f        0x00400020        0x0 load address 0x00006718
  *(.sdata_f .sdata_f.*)
                 0x00400020                . = ALIGN (0x4)
                 0x00400020                _edata = ADDR (.tbss)
@@ -7962,7 +8045,7 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
  *(.sbss_f .sbss_f.*)
  *(.scommon_f .scommon_f.*)
 
-.sbss_b         0x00400020        0x2 load address 0x00006184
+.sbss_b         0x00400020        0x2 load address 0x00006718
  *(.sbss_b .sbss_b.*)
  *(.scommon_b .scommon_b.*)
  .scommon_b     0x00400020        0x1 OBJ//src/Kernel/Audio/audioctl.o
@@ -7970,165 +8053,172 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
                 0x00400022                . = ALIGN (0x2)
  *fill*         0x00400021        0x1 
 
-.sbss_h         0x00400022        0x2 load address 0x00006186
+.sbss_h         0x00400022        0x2 load address 0x0000671a
  *(.sbss_h .sbss_h.*)
  *(.scommon_h .scommon_h.*)
                 0x00400024                . = ALIGN (0x4)
  *fill*         0x00400022        0x2 
 
-.sbss_w         0x00400024        0xc load address 0x00006188
+.sbss_w         0x00400024       0x14 load address 0x0000671c
  *(.sbss_w .sbss_w.*)
  *(.scommon_w .scommon_w.*)
  .scommon_w     0x00400024        0x4 OBJ//src/Kernel/Audio/audioctl.o
                 0x00400024                SentenceCB
  .scommon_w     0x00400028        0x4 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
                 0x00400028                sDacRampCtrl
+ .scommon_w     0x0040002c        0x8 OBJ//src/user_code/user_motion.o
+                0x0040002c                gst_motion
  *(.dynsbss)
  *(.scommon)
-                0x00400030                . = ALIGN (0x8)
- *fill*         0x0040002c        0x4 
+                0x00400038                . = ALIGN (0x8)
+ *fill*         0x00400034        0x4 
 
 .sbss_d
  *(.sbss_d .sbss_d.*)
  *(.scommon_d .scommon_d.*)
 
-.bss            0x00400030      0xa40 load address 0x00006194
+.bss            0x00400038      0xa4c load address 0x00006730
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
  .bss.SpiDataBusMode
-                0x00400030        0x1 OBJ//src/Driver/nx1_spi.o
+                0x00400038        0x1 OBJ//src/Driver/nx1_spi.o
  .bss.SpiAddrBusMode
-                0x00400031        0x1 OBJ//src/Driver/nx1_spi.o
+                0x00400039        0x1 OBJ//src/Driver/nx1_spi.o
  .bss.SpiCmdBusMode
-                0x00400032        0x1 OBJ//src/Driver/nx1_spi.o
- *fill*         0x00400033        0x1 
+                0x0040003a        0x1 OBJ//src/Driver/nx1_spi.o
+ *fill*         0x0040003b        0x1 
  .bss.SentenceCBorder
-                0x00400034        0x4 OBJ//src/Kernel/Audio/audioctl.o
+                0x0040003c        0x4 OBJ//src/Kernel/Audio/audioctl.o
  .bss.SentenceOrder
-                0x00400038        0x8 OBJ//src/Kernel/Audio/audioctl.o
+                0x00400040        0x8 OBJ//src/Kernel/Audio/audioctl.o
  .bss.SentenceAddrTemp
-                0x00400040        0x4 OBJ//src/Kernel/Audio/audioctl.o
+                0x00400048        0x4 OBJ//src/Kernel/Audio/audioctl.o
  .bss.MarkNumber
-                0x00400044        0x1 OBJ//src/Kernel/Audio/audioctl.o
- *fill*         0x00400045        0x3 
- .bss.ChPara    0x00400048        0x8 OBJ//src/Kernel/Audio/audioctl.o
- .bss.ChFunc    0x00400050       0x10 OBJ//src/Kernel/Audio/audioctl.o
- .bss.ChInfo    0x00400060        0x4 OBJ//src/Kernel/Audio/audioctl.o
+                0x0040004c        0x1 OBJ//src/Kernel/Audio/audioctl.o
+ *fill*         0x0040004d        0x3 
+ .bss.ChPara    0x00400050        0x8 OBJ//src/Kernel/Audio/audioctl.o
+ .bss.ChFunc    0x00400058       0x10 OBJ//src/Kernel/Audio/audioctl.o
+ .bss.ChInfo    0x00400068        0x4 OBJ//src/Kernel/Audio/audioctl.o
  .bss.DACUpsampleSetCheck
-                0x00400064        0x1 OBJ//src/Kernel/Audio/audioctl.o
+                0x0040006c        0x1 OBJ//src/Kernel/Audio/audioctl.o
  .bss.DACUpsample
-                0x00400065        0x1 OBJ//src/Kernel/Audio/audioctl.o
- *fill*         0x00400066        0x2 
- .bss.AudioBuf  0x00400068      0x500 OBJ//src/Kernel/Audio/sbc_audioapi.o
- .bss.SBCRam    0x00400568      0x3d8 OBJ//src/Kernel/Audio/sbc_audioapi.o
- .bss.VolCtrl   0x00400940        0x8 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x0040006d        0x1 OBJ//src/Kernel/Audio/audioctl.o
+ *fill*         0x0040006e        0x2 
+ .bss.AudioBuf  0x00400070      0x500 OBJ//src/Kernel/Audio/sbc_audioapi.o
+ .bss.SBCRam    0x00400570      0x3d8 OBJ//src/Kernel/Audio/sbc_audioapi.o
+ .bss.VolCtrl   0x00400948        0x8 OBJ//src/Kernel/Audio/sbc_audioapi.o
  .bss.PlayEndFlag
-                0x00400948        0x1 OBJ//src/Kernel/Audio/sbc_audioapi.o
- *fill*         0x00400949        0x3 
- .bss.CurAddr   0x0040094c        0x4 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x00400950        0x1 OBJ//src/Kernel/Audio/sbc_audioapi.o
+ *fill*         0x00400951        0x3 
+ .bss.CurAddr   0x00400954        0x4 OBJ//src/Kernel/Audio/sbc_audioapi.o
  .bss.StartAddr
-                0x00400950        0x4 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x00400958        0x4 OBJ//src/Kernel/Audio/sbc_audioapi.o
  .bss.StorageMode
-                0x00400954        0x1 OBJ//src/Kernel/Audio/sbc_audioapi.o
- *fill*         0x00400955        0x3 
+                0x0040095c        0x1 OBJ//src/Kernel/Audio/sbc_audioapi.o
+ *fill*         0x0040095d        0x3 
  .bss.SmoothCtl
-                0x00400958        0x8 OBJ//src/Kernel/Audio/sbc_audioapi.o
- .bss.BufCtl    0x00400960        0x8 OBJ//src/Kernel/Audio/sbc_audioapi.o
- .bss.ChVol     0x00400968        0x1 OBJ//src/Kernel/Audio/sbc_audioapi.o
- .bss.OpMode    0x00400969        0x1 OBJ//src/Kernel/Audio/sbc_audioapi.o
- .bss.AudioVol  0x0040096a        0x2 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x00400960        0x8 OBJ//src/Kernel/Audio/sbc_audioapi.o
+ .bss.BufCtl    0x00400968        0x8 OBJ//src/Kernel/Audio/sbc_audioapi.o
+ .bss.ChVol     0x00400970        0x1 OBJ//src/Kernel/Audio/sbc_audioapi.o
+ .bss.OpMode    0x00400971        0x1 OBJ//src/Kernel/Audio/sbc_audioapi.o
+ .bss.AudioVol  0x00400972        0x2 OBJ//src/Kernel/Audio/sbc_audioapi.o
  .bss.AudioBufCtl
-                0x0040096c       0x18 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                0x00400974       0x18 OBJ//src/Kernel/Audio/sbc_audioapi.o
  .bss.GieNesting
-                0x00400984        0x1 OBJ//src/Kernel/System/interrupt.o
- *fill*         0x00400985        0x3 
+                0x0040098c        0x1 OBJ//src/Kernel/System/interrupt.o
+ *fill*         0x0040098d        0x3 
  .bss.sleep_time_init
-                0x00400988        0x4 OBJ//src/Kernel/System/sys.o
+                0x00400990        0x4 OBJ//src/Kernel/System/sys.o
  .bss.dacAssigner
-                0x0040098c       0x18 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
- .bss.SysTick   0x004009a4        0x4 OBJ//src/Kernel/isr.o
-                0x004009a4                SysTick
+                0x00400994       0x18 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+ .bss.SysTick   0x004009ac        0x4 OBJ//src/Kernel/isr.o
+                0x004009ac                SysTick
  .bss.TimebaseCount
-                0x004009a8        0x1 OBJ//src/Kernel/isr.o
+                0x004009b0        0x1 OBJ//src/Kernel/isr.o
  .bss.SysTickCount
-                0x004009a9        0x1 OBJ//src/Kernel/isr.o
- *fill*         0x004009aa        0x2 
- .bss.fisrt_flag_a.5611
-                0x004009ac        0x4 OBJ//src/user_code/user_key.o
- .bss.last_valid_key_a.5610
-                0x004009b0        0x4 OBJ//src/user_code/user_key.o
- .bss.last_key_a.5609
+                0x004009b1        0x1 OBJ//src/Kernel/isr.o
+ *fill*         0x004009b2        0x2 
+ .bss.fisrt_flag_a.5652
                 0x004009b4        0x4 OBJ//src/user_code/user_key.o
+ .bss.last_valid_key_a.5651
+                0x004009b8        0x4 OBJ//src/user_code/user_key.o
+ .bss.last_key_a.5650
+                0x004009bc        0x4 OBJ//src/user_code/user_key.o
  .bss.gst_multi_func_key_a
-                0x004009b8       0x24 OBJ//src/user_code/user_key.o
-                0x004009b8                gst_multi_func_key_a
+                0x004009c0       0x24 OBJ//src/user_code/user_key.o
+                0x004009c0                gst_multi_func_key_a
  .bss.gu8_key_state_a
-                0x004009dc        0x4 OBJ//src/user_code/user_key.o
-                0x004009dc                gu8_key_state_a
- .bss.time_cnt.5619
-                0x004009e0        0x4 OBJ//src/user_code/user_main.o
+                0x004009e4        0x4 OBJ//src/user_code/user_key.o
+                0x004009e4                gu8_key_state_a
+ .bss.gst_led   0x004009e8        0x8 OBJ//src/user_code/user_led.o
+                0x004009e8                gst_led
+ .bss.time_cnt.5660
+                0x004009f0        0x4 OBJ//src/user_code/user_main.o
  .bss.gu32_user_10ms_count
-                0x004009e4        0x4 OBJ//src/user_code/user_main.o
-                0x004009e4                gu32_user_10ms_count
+                0x004009f4        0x4 OBJ//src/user_code/user_main.o
+                0x004009f4                gu32_user_10ms_count
  .bss.gu32_user_systick_ms
-                0x004009e8        0x4 OBJ//src/user_code/user_main.o
-                0x004009e8                gu32_user_systick_ms
+                0x004009f8        0x4 OBJ//src/user_code/user_main.o
+                0x004009f8                gu32_user_systick_ms
  .bss.lu32_work_idle_cnt
-                0x004009ec        0x4 OBJ//src/user_code/user_main.o
+                0x004009fc        0x4 OBJ//src/user_code/user_main.o
  .bss.lu8_work_status
-                0x004009f0        0x1 OBJ//src/user_code/user_main.o
+                0x00400a00        0x1 OBJ//src/user_code/user_main.o
  .bss.gu8_flag_10ms
-                0x004009f1        0x1 OBJ//src/user_code/user_main.o
-                0x004009f1                gu8_flag_10ms
- *fill*         0x004009f2        0x2 
+                0x00400a01        0x1 OBJ//src/user_code/user_main.o
+                0x00400a01                gu8_flag_10ms
+ *fill*         0x00400a02        0x2 
+ .bss.gu8_motor_cmd
+                0x00400a04        0x4 OBJ//src/user_code/user_motion.o
+                0x00400a04                gu8_motor_cmd
  .bss.gst_user_play
-                0x004009f4        0x4 OBJ//src/user_code/user_play.o
-                0x004009f4                gst_user_play
+                0x00400a08        0x4 OBJ//src/user_code/user_play.o
+                0x00400a08                gst_user_play
  .bss.gu16_current_audio_index
-                0x004009f8        0x2 OBJ//src/user_code/user_play.o
-                0x004009f8                gu16_current_audio_index
+                0x00400a0c        0x2 OBJ//src/user_code/user_play.o
+                0x00400a0c                gu16_current_audio_index
  .bss.gu8_sound_type
-                0x004009fa        0x1 OBJ//src/user_code/user_play.o
-                0x004009fa                gu8_sound_type
- *fill*         0x004009fb        0x1 
+                0x00400a0e        0x1 OBJ//src/user_code/user_play.o
+                0x00400a0e                gu8_sound_type
+ *fill*         0x00400a0f        0x1 
  .bss.RamAllocate
-                0x004009fc        0x4 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
+                0x00400a10        0x4 OBJ/dVtPIG.tmp(SBCDecMain.o)
  .bss.RamAllocate1
-                0x00400a00        0x4 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
+                0x00400a14        0x4 OBJ/dVtPIG.tmp(SBCDecMain.o)
  .bss.RamAllocate0
-                0x00400a04        0x4 OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
+                0x00400a18        0x4 OBJ/dVtPIG.tmp(SBCDecMain.o)
  .bss.cos_msin_ptr.1979
-                0x00400a08        0x4 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
+                0x00400a1c        0x4 OBJ/dVtPIG.tmp(coef2sam.o)
  .bss.table_ptr_ptr.1980
-                0x00400a0c        0x4 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
+                0x00400a20        0x4 OBJ/dVtPIG.tmp(coef2sam.o)
  *(COMMON)
- COMMON         0x00400a10       0x20 OBJ//src/Kernel/Audio/audioctl.o
-                0x00400a10                SentenceStatusMuteTimer
-                0x00400a20                SentenceAddr
- COMMON         0x00400a30       0x10 OBJ//src/Kernel/isr.o
-                0x00400a30                DacMixBuf
- COMMON         0x00400a40       0x2e OBJ//src/user_code/user_play.o
-                0x00400a40                gst_audio_play
-                0x00400a70                . = ALIGN (0x4)
- *fill*         0x00400a6e        0x2 
-                0x00400a70                PROVIDE (__sbss_end, .)
-                0x00400a70                PROVIDE (___sbss_end, .)
-                0x00400a70                . = ALIGN (0x4)
-                0x00400a70                _end = (ADDR (.bss) + SIZEOF (.bss))
+ COMMON         0x00400a24       0x20 OBJ//src/Kernel/Audio/audioctl.o
+                0x00400a24                SentenceStatusMuteTimer
+                0x00400a34                SentenceAddr
+ COMMON         0x00400a44       0x10 OBJ//src/Kernel/isr.o
+                0x00400a44                DacMixBuf
+ COMMON         0x00400a54       0x2e OBJ//src/user_code/user_play.o
+                0x00400a54                gst_audio_play
+                0x00400a84                . = ALIGN (0x4)
+ *fill*         0x00400a82        0x2 
+                0x00400a84                PROVIDE (__sbss_end, .)
+                0x00400a84                PROVIDE (___sbss_end, .)
+                0x00400a84                . = ALIGN (0x4)
+                0x00400a84                _end = (ADDR (.bss) + SIZEOF (.bss))
 
-.prog_ck        0x00006184        0x4
+.prog_ck        0x00006718        0x4
  *(.prog_ck)
- .prog_ck       0x00006184        0x2 OBJ//src/Kernel/Utility/prog_checksum.o
-                0x00006184                program_checksum_val
-                0x00006188                . = ALIGN (0x4)
- *fill*         0x00006186        0x2 
-                0x00006184                PROVIDE (__text_section_end, ADDR (.prog_ck))
-                0x00006184                PROVIDE (__program_checksum_addr, ADDR (.prog_ck))
-                0x00006188                PROVIDE (end, .)
+ .prog_ck       0x00006718        0x2 OBJ//src/Kernel/Utility/prog_checksum.o
+                0x00006718                program_checksum_val
+                0x0000671c                . = ALIGN (0x4)
+ *fill*         0x0000671a        0x2 
+                0x00006718                PROVIDE (__text_section_end, ADDR (.prog_ck))
+                0x00006718                PROVIDE (__program_checksum_addr, ADDR (.prog_ck))
+                0x0000671c                PROVIDE (end, .)
 
-.heap           0x00006188        0x0 load address 0x00006bd4
+.heap           0x0000671c        0x0 load address 0x0000717c
  *(.heap)
-                0x00006bd4                SDRAM_SIZE = ((LOADADDR (.heap) + SIZEOF (.heap)) - SDRAM_BEGIN)
+                0x0000717c                SDRAM_SIZE = ((LOADADDR (.heap) + SIZEOF (.heap)) - SDRAM_BEGIN)
                 0x00800400                . = _XIP_ADDR
 
 .xip_code       0x00800400        0x0
@@ -8154,7 +8244,7 @@ LOAD /cygdrive/c/Nyquest/NYC_NX1/toolchains/nds32le-elf-mculib-v3m/bin/../lib/gc
                 0x00000001                ASSERT ((DEFINED (_RELAX_END_)?SDRAM_SIZE:0x0 <= 0x2000000), OVERFLOW)
 OUTPUT(LGW-DEMO-V02.elf elf32-nds32le)
 
-.debug_line     0x00000000     0xa414
+.debug_line     0x00000000     0xb2e2
  .debug_line    0x00000000      0x33b OBJ//crt0.o
  .debug_line    0x0000033b      0x127 OBJ//init-default.o
  .debug_line    0x00000462      0x6eb OBJ//src/Driver/nx1_dac.o
@@ -8181,42 +8271,46 @@ OUTPUT(LGW-DEMO-V02.elf elf32-nds32le)
  .debug_line    0x00007aee      0x14b OBJ//src/Kernel/Utility/utilityctl.o
  .debug_line    0x00007c39      0x6f9 OBJ//src/Kernel/isr.o
  .debug_line    0x00008332      0x464 OBJ//src/main.o
- .debug_line    0x00008796      0x9e8 OBJ//src/user_code/user_key.o
- .debug_line    0x0000917e      0x7fc OBJ//src/user_code/user_main.o
- .debug_line    0x0000997a      0xa9a OBJ//src/user_code/user_play.o
+ .debug_line    0x00008796      0x9ee OBJ//src/user_code/user_key.o
+ .debug_line    0x00009184      0x65a OBJ//src/user_code/user_led.o
+ .debug_line    0x000097de      0x889 OBJ//src/user_code/user_main.o
+ .debug_line    0x0000a067      0x7e1 OBJ//src/user_code/user_motion.o
+ .debug_line    0x0000a848      0xa9a OBJ//src/user_code/user_play.o
 
-.debug_info     0x00000000     0xbc0d
- .debug_info    0x00000000       0x75 OBJ//crt0.o
- .debug_info    0x00000075      0x543 OBJ//init-default.o
- .debug_info    0x000005b8      0x670 OBJ//src/Driver/nx1_dac.o
- .debug_info    0x00000c28      0x6a6 OBJ//src/Driver/nx1_gpio.o
- .debug_info    0x000012ce      0x5c4 OBJ//src/Driver/nx1_intc.o
- .debug_info    0x00001892      0x145 OBJ//src/Driver/nx1_rtc.o
- .debug_info    0x000019d7      0x482 OBJ//src/Driver/nx1_smu.o
- .debug_info    0x00001e59     0x25f9 OBJ//src/Driver/nx1_spi.o
- .debug_info    0x00004452      0x1cb OBJ//src/Driver/nx1_timer.o
- .debug_info    0x0000461d       0xe7 OBJ//src/Driver/nx1_wdt.o
- .debug_info    0x00004704     0x1838 OBJ//src/Kernel/Audio/audioctl.o
- .debug_info    0x00005f3c      0xedc OBJ//src/Kernel/Audio/sbc_audioapi.o
- .debug_info    0x00006e18      0x597 OBJ//src/Kernel/Callback/audio_callback.o
- .debug_info    0x000073af      0x328 OBJ//src/Kernel/Callback/sbc_callback.o
- .debug_info    0x000076d7      0x164 OBJ//src/Kernel/Callback/sys_callback.o
- .debug_info    0x0000783b      0x18a OBJ//src/Kernel/System/delay.o
- .debug_info    0x000079c5      0x116 OBJ//src/Kernel/System/interrupt.o
- .debug_info    0x00007adb      0xdf2 OBJ//src/Kernel/System/sys.o
- .debug_info    0x000088cd      0x202 OBJ//src/Kernel/Utility/key.o
- .debug_info    0x00008acf      0x5ac OBJ//src/Kernel/Utility/nx1_dacAssigner.o
- .debug_info    0x0000907b      0x4f8 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
- .debug_info    0x00009573      0x104 OBJ//src/Kernel/Utility/nx1_math.o
- .debug_info    0x00009677      0x3b8 OBJ//src/Kernel/Utility/prog_checksum.o
- .debug_info    0x00009a2f       0x9e OBJ//src/Kernel/Utility/utilityctl.o
- .debug_info    0x00009acd      0x596 OBJ//src/Kernel/isr.o
- .debug_info    0x0000a063      0x103 OBJ//src/main.o
- .debug_info    0x0000a166      0xa49 OBJ//src/user_code/user_key.o
- .debug_info    0x0000abaf      0x83e OBJ//src/user_code/user_main.o
- .debug_info    0x0000b3ed      0x820 OBJ//src/user_code/user_play.o
+.debug_info     0x00000000     0xc9db
+ .debug_info    0x00000000       0x6b OBJ//crt0.o
+ .debug_info    0x0000006b      0x543 OBJ//init-default.o
+ .debug_info    0x000005ae      0x670 OBJ//src/Driver/nx1_dac.o
+ .debug_info    0x00000c1e      0x6a6 OBJ//src/Driver/nx1_gpio.o
+ .debug_info    0x000012c4      0x5c4 OBJ//src/Driver/nx1_intc.o
+ .debug_info    0x00001888      0x145 OBJ//src/Driver/nx1_rtc.o
+ .debug_info    0x000019cd      0x482 OBJ//src/Driver/nx1_smu.o
+ .debug_info    0x00001e4f     0x25f9 OBJ//src/Driver/nx1_spi.o
+ .debug_info    0x00004448      0x1cb OBJ//src/Driver/nx1_timer.o
+ .debug_info    0x00004613       0xe7 OBJ//src/Driver/nx1_wdt.o
+ .debug_info    0x000046fa     0x1838 OBJ//src/Kernel/Audio/audioctl.o
+ .debug_info    0x00005f32      0xedc OBJ//src/Kernel/Audio/sbc_audioapi.o
+ .debug_info    0x00006e0e      0x597 OBJ//src/Kernel/Callback/audio_callback.o
+ .debug_info    0x000073a5      0x328 OBJ//src/Kernel/Callback/sbc_callback.o
+ .debug_info    0x000076cd      0x164 OBJ//src/Kernel/Callback/sys_callback.o
+ .debug_info    0x00007831      0x18a OBJ//src/Kernel/System/delay.o
+ .debug_info    0x000079bb      0x116 OBJ//src/Kernel/System/interrupt.o
+ .debug_info    0x00007ad1      0xdf2 OBJ//src/Kernel/System/sys.o
+ .debug_info    0x000088c3      0x202 OBJ//src/Kernel/Utility/key.o
+ .debug_info    0x00008ac5      0x5ac OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+ .debug_info    0x00009071      0x4f8 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+ .debug_info    0x00009569      0x104 OBJ//src/Kernel/Utility/nx1_math.o
+ .debug_info    0x0000966d      0x3b8 OBJ//src/Kernel/Utility/prog_checksum.o
+ .debug_info    0x00009a25       0x9e OBJ//src/Kernel/Utility/utilityctl.o
+ .debug_info    0x00009ac3      0x596 OBJ//src/Kernel/isr.o
+ .debug_info    0x0000a059      0x103 OBJ//src/main.o
+ .debug_info    0x0000a15c      0xa6d OBJ//src/user_code/user_key.o
+ .debug_info    0x0000abc9      0x5bb OBJ//src/user_code/user_led.o
+ .debug_info    0x0000b184      0x8d3 OBJ//src/user_code/user_main.o
+ .debug_info    0x0000ba57      0x764 OBJ//src/user_code/user_motion.o
+ .debug_info    0x0000c1bb      0x820 OBJ//src/user_code/user_play.o
 
-.debug_abbrev   0x00000000     0x341e
+.debug_abbrev   0x00000000     0x38de
  .debug_abbrev  0x00000000       0x12 OBJ//crt0.o
  .debug_abbrev  0x00000012       0xee OBJ//init-default.o
  .debug_abbrev  0x00000100      0x28e OBJ//src/Driver/nx1_dac.o
@@ -8244,10 +8338,12 @@ OUTPUT(LGW-DEMO-V02.elf elf32-nds32le)
  .debug_abbrev  0x00002874      0x27f OBJ//src/Kernel/isr.o
  .debug_abbrev  0x00002af3       0x76 OBJ//src/main.o
  .debug_abbrev  0x00002b69      0x354 OBJ//src/user_code/user_key.o
- .debug_abbrev  0x00002ebd      0x29d OBJ//src/user_code/user_main.o
- .debug_abbrev  0x0000315a      0x2c4 OBJ//src/user_code/user_play.o
+ .debug_abbrev  0x00002ebd      0x256 OBJ//src/user_code/user_led.o
+ .debug_abbrev  0x00003113      0x28f OBJ//src/user_code/user_main.o
+ .debug_abbrev  0x000033a2      0x278 OBJ//src/user_code/user_motion.o
+ .debug_abbrev  0x0000361a      0x2c4 OBJ//src/user_code/user_play.o
 
-.debug_aranges  0x00000000      0xd78
+.debug_aranges  0x00000000      0xe60
  .debug_aranges
                 0x00000000       0x28 OBJ//crt0.o
  .debug_aranges
@@ -8303,11 +8399,15 @@ OUTPUT(LGW-DEMO-V02.elf elf32-nds32le)
  .debug_aranges
                 0x00000b40       0xb0 OBJ//src/user_code/user_key.o
  .debug_aranges
-                0x00000bf0       0xb0 OBJ//src/user_code/user_main.o
+                0x00000bf0       0x68 OBJ//src/user_code/user_led.o
  .debug_aranges
-                0x00000ca0       0xd8 OBJ//src/user_code/user_play.o
+                0x00000c58       0xb0 OBJ//src/user_code/user_main.o
+ .debug_aranges
+                0x00000d08       0x80 OBJ//src/user_code/user_motion.o
+ .debug_aranges
+                0x00000d88       0xd8 OBJ//src/user_code/user_play.o
 
-.debug_ranges   0x00000000     0x1200
+.debug_ranges   0x00000000     0x1318
  .debug_ranges  0x00000000       0x20 OBJ//crt0.o
  .debug_ranges  0x00000020       0x20 OBJ//init-default.o
  .debug_ranges  0x00000040       0xb8 OBJ//src/Driver/nx1_dac.o
@@ -8335,10 +8435,12 @@ OUTPUT(LGW-DEMO-V02.elf elf32-nds32le)
  .debug_ranges  0x00000e68       0xd0 OBJ//src/Kernel/isr.o
  .debug_ranges  0x00000f38       0x10 OBJ//src/main.o
  .debug_ranges  0x00000f48      0x108 OBJ//src/user_code/user_key.o
- .debug_ranges  0x00001050       0xe8 OBJ//src/user_code/user_main.o
- .debug_ranges  0x00001138       0xc8 OBJ//src/user_code/user_play.o
+ .debug_ranges  0x00001050       0x90 OBJ//src/user_code/user_led.o
+ .debug_ranges  0x000010e0       0xe8 OBJ//src/user_code/user_main.o
+ .debug_ranges  0x000011c8       0x88 OBJ//src/user_code/user_motion.o
+ .debug_ranges  0x00001250       0xc8 OBJ//src/user_code/user_play.o
 
-.debug_loc      0x00000000     0x576a
+.debug_loc      0x00000000     0x59ac
  .debug_loc     0x00000000       0x5b OBJ//init-default.o
  .debug_loc     0x0000005b      0x5cf OBJ//src/Driver/nx1_dac.o
  .debug_loc     0x0000062a      0x692 OBJ//src/Driver/nx1_gpio.o
@@ -8361,10 +8463,12 @@ OUTPUT(LGW-DEMO-V02.elf elf32-nds32le)
  .debug_loc     0x00004aea      0x295 OBJ//src/Kernel/Utility/prog_checksum.o
  .debug_loc     0x00004d7f      0x159 OBJ//src/Kernel/isr.o
  .debug_loc     0x00004ed8      0x4d3 OBJ//src/user_code/user_key.o
- .debug_loc     0x000053ab       0xa2 OBJ//src/user_code/user_main.o
- .debug_loc     0x0000544d      0x31d OBJ//src/user_code/user_play.o
+ .debug_loc     0x000053ab      0x126 OBJ//src/user_code/user_led.o
+ .debug_loc     0x000054d1       0x8a OBJ//src/user_code/user_main.o
+ .debug_loc     0x0000555b      0x134 OBJ//src/user_code/user_motion.o
+ .debug_loc     0x0000568f      0x31d OBJ//src/user_code/user_play.o
 
-.debug_macro    0x00000000     0x4720
+.debug_macro    0x00000000     0x4d7d
  .debug_macro   0x00000000       0x26 OBJ//init-default.o
  .debug_macro   0x00000026      0x55c OBJ//init-default.o
  .debug_macro   0x00000582     0x128d OBJ//init-default.o
@@ -8401,66 +8505,74 @@ OUTPUT(LGW-DEMO-V02.elf elf32-nds32le)
  .debug_macro   0x00003c6f      0x26c OBJ//src/main.o
  .debug_macro   0x00003edb      0x276 OBJ//src/user_code/user_key.o
  .debug_macro   0x00004151       0xed OBJ//src/user_code/user_key.o
- .debug_macro   0x0000423e      0x26c OBJ//src/user_code/user_main.o
- .debug_macro   0x000044aa      0x276 OBJ//src/user_code/user_play.o
+ .debug_macro   0x0000423e      0x276 OBJ//src/user_code/user_led.o
+ .debug_macro   0x000044b4       0xa0 OBJ//src/user_code/user_led.o
+ .debug_macro   0x00004554      0x26d OBJ//src/user_code/user_main.o
+ .debug_macro   0x000047c1      0x276 OBJ//src/user_code/user_motion.o
+ .debug_macro   0x00004a37       0xd0 OBJ//src/user_code/user_motion.o
+ .debug_macro   0x00004b07      0x276 OBJ//src/user_code/user_play.o
 
-.debug_str      0x00000000    0x2895f
- .debug_str     0x00000000     0x9f93 OBJ//init-default.o
-                               0xabd4 (size before relaxing)
- .debug_str     0x00009f93    0x1346a OBJ//src/Driver/nx1_dac.o
-                              0x1d481 (size before relaxing)
- .debug_str     0x0001d3fd      0x971 OBJ//src/Driver/nx1_gpio.o
-                              0x14b42 (size before relaxing)
- .debug_str     0x0001dd6e       0xa5 OBJ//src/Driver/nx1_intc.o
-                              0x1d7ed (size before relaxing)
- .debug_str     0x0001de13       0xc1 OBJ//src/Driver/nx1_rtc.o
-                               0xfe0a (size before relaxing)
- .debug_str     0x0001ded4      0x109 OBJ//src/Driver/nx1_smu.o
-                              0x15233 (size before relaxing)
- .debug_str     0x0001dfdd     0x2e5a OBJ//src/Driver/nx1_spi.o
-                              0x17875 (size before relaxing)
- .debug_str     0x00020e37       0x63 OBJ//src/Driver/nx1_timer.o
-                               0xffbd (size before relaxing)
- .debug_str     0x00020e9a       0x31 OBJ//src/Driver/nx1_wdt.o
-                               0xfdcc (size before relaxing)
- .debug_str     0x00020ecb      0x8e7 OBJ//src/Kernel/Audio/audioctl.o
-                              0x20d50 (size before relaxing)
- .debug_str     0x000217b2      0x5d6 OBJ//src/Kernel/Audio/sbc_audioapi.o
-                              0x1fdfa (size before relaxing)
- .debug_str     0x00021d88       0xbd OBJ//src/Kernel/Callback/audio_callback.o
-                              0x16bff (size before relaxing)
- .debug_str     0x00021e45       0x78 OBJ//src/Kernel/Callback/sbc_callback.o
-                              0x14418 (size before relaxing)
- .debug_str     0x00021ebd       0xaf OBJ//src/Kernel/Callback/sys_callback.o
-                              0x1428f (size before relaxing)
- .debug_str     0x00021f6c       0x53 OBJ//src/Kernel/System/delay.o
-                              0x1427b (size before relaxing)
- .debug_str     0x00021fbf       0x59 OBJ//src/Kernel/System/interrupt.o
-                              0x1842d (size before relaxing)
- .debug_str     0x00022018     0x4891 OBJ//src/Kernel/System/sys.o
-                              0x24f23 (size before relaxing)
- .debug_str     0x000268a9     0x11fc OBJ//src/Kernel/Utility/key.o
-                              0x17dd3 (size before relaxing)
- .debug_str     0x00027aa5       0xf0 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
-                              0x168af (size before relaxing)
- .debug_str     0x00027b95      0x1a6 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
-                              0x175f8 (size before relaxing)
- .debug_str     0x00027d3b       0x49 OBJ//src/Kernel/Utility/nx1_math.o
-                              0x14211 (size before relaxing)
- .debug_str     0x00027d84      0x17e OBJ//src/Kernel/Utility/prog_checksum.o
-                              0x14918 (size before relaxing)
- .debug_str     0x00027f02       0x34 OBJ//src/Kernel/Utility/utilityctl.o
-                              0x14203 (size before relaxing)
- .debug_str     0x00027f36      0x19d OBJ//src/Kernel/isr.o
-                              0x221a3 (size before relaxing)
- .debug_str     0x000280d3       0x31 OBJ//src/main.o
-                              0x19471 (size before relaxing)
- .debug_str     0x00028104      0x3a3 OBJ//src/user_code/user_key.o
-                              0x19832 (size before relaxing)
- .debug_str     0x000284a7      0x20f OBJ//src/user_code/user_main.o
-                              0x1977b (size before relaxing)
- .debug_str     0x000286b6      0x2a9 OBJ//src/user_code/user_play.o
-                              0x197ff (size before relaxing)
+.debug_str      0x00000000    0x29066
+ .debug_str     0x00000000     0x9f89 OBJ//init-default.o
+                               0xabca (size before relaxing)
+ .debug_str     0x00009f89    0x1342a OBJ//src/Driver/nx1_dac.o
+                              0x1d47e (size before relaxing)
+ .debug_str     0x0001d3b3      0x971 OBJ//src/Driver/nx1_gpio.o
+                              0x14b3f (size before relaxing)
+ .debug_str     0x0001dd24       0xa5 OBJ//src/Driver/nx1_intc.o
+                              0x1d7ea (size before relaxing)
+ .debug_str     0x0001ddc9       0xc1 OBJ//src/Driver/nx1_rtc.o
+                               0xfe07 (size before relaxing)
+ .debug_str     0x0001de8a      0x109 OBJ//src/Driver/nx1_smu.o
+                              0x15230 (size before relaxing)
+ .debug_str     0x0001df93     0x2e5a OBJ//src/Driver/nx1_spi.o
+                              0x17872 (size before relaxing)
+ .debug_str     0x00020ded       0x63 OBJ//src/Driver/nx1_timer.o
+                               0xffba (size before relaxing)
+ .debug_str     0x00020e50       0x31 OBJ//src/Driver/nx1_wdt.o
+                               0xfdc9 (size before relaxing)
+ .debug_str     0x00020e81      0x8e2 OBJ//src/Kernel/Audio/audioctl.o
+                              0x20d4d (size before relaxing)
+ .debug_str     0x00021763      0x5d6 OBJ//src/Kernel/Audio/sbc_audioapi.o
+                              0x1fdf7 (size before relaxing)
+ .debug_str     0x00021d39       0xbd OBJ//src/Kernel/Callback/audio_callback.o
+                              0x16bfc (size before relaxing)
+ .debug_str     0x00021df6       0x78 OBJ//src/Kernel/Callback/sbc_callback.o
+                              0x14415 (size before relaxing)
+ .debug_str     0x00021e6e       0xaf OBJ//src/Kernel/Callback/sys_callback.o
+                              0x1428c (size before relaxing)
+ .debug_str     0x00021f1d       0x53 OBJ//src/Kernel/System/delay.o
+                              0x14278 (size before relaxing)
+ .debug_str     0x00021f70       0x59 OBJ//src/Kernel/System/interrupt.o
+                              0x1842a (size before relaxing)
+ .debug_str     0x00021fc9     0x4d46 OBJ//src/Kernel/System/sys.o
+                              0x253d5 (size before relaxing)
+ .debug_str     0x00026d0f     0x11fc OBJ//src/Kernel/Utility/key.o
+                              0x17dd0 (size before relaxing)
+ .debug_str     0x00027f0b       0xf0 OBJ//src/Kernel/Utility/nx1_dacAssigner.o
+                              0x168ac (size before relaxing)
+ .debug_str     0x00027ffb      0x1a6 OBJ//src/Kernel/Utility/nx1_dacMixerRamp.o
+                              0x175f5 (size before relaxing)
+ .debug_str     0x000281a1       0x49 OBJ//src/Kernel/Utility/nx1_math.o
+                              0x1420e (size before relaxing)
+ .debug_str     0x000281ea      0x17e OBJ//src/Kernel/Utility/prog_checksum.o
+                              0x14915 (size before relaxing)
+ .debug_str     0x00028368       0x34 OBJ//src/Kernel/Utility/utilityctl.o
+                              0x14200 (size before relaxing)
+ .debug_str     0x0002839c      0x19d OBJ//src/Kernel/isr.o
+                              0x22655 (size before relaxing)
+ .debug_str     0x00028539       0x31 OBJ//src/main.o
+                              0x19923 (size before relaxing)
+ .debug_str     0x0002856a      0x3b4 OBJ//src/user_code/user_key.o
+                              0x19cf5 (size before relaxing)
+ .debug_str     0x0002891e      0x14b OBJ//src/user_code/user_led.o
+                              0x19a6b (size before relaxing)
+ .debug_str     0x00028a69      0x229 OBJ//src/user_code/user_main.o
+                              0x19cbb (size before relaxing)
+ .debug_str     0x00028c92      0x137 OBJ//src/user_code/user_motion.o
+                              0x19ae5 (size before relaxing)
+ .debug_str     0x00028dc9      0x29d OBJ//src/user_code/user_play.o
+                              0x19cb1 (size before relaxing)
 
 .comment        0x00000000       0x5e
  .comment       0x00000000       0x2f OBJ//init-default.o
@@ -8490,18 +8602,20 @@ OUTPUT(LGW-DEMO-V02.elf elf32-nds32le)
  .comment       0x00000000       0x30 OBJ//src/Kernel/isr.o
  .comment       0x00000000       0x30 OBJ//src/main.o
  .comment       0x00000000       0x30 OBJ//src/user_code/user_key.o
+ .comment       0x00000000       0x30 OBJ//src/user_code/user_led.o
  .comment       0x00000000       0x30 OBJ//src/user_code/user_main.o
+ .comment       0x00000000       0x30 OBJ//src/user_code/user_motion.o
  .comment       0x00000000       0x30 OBJ//src/user_code/user_play.o
- .comment       0x0000002f       0x2f OBJ/Zc3XOQVMd.tmp(SBCDecMain.o)
+ .comment       0x0000002f       0x2f OBJ/dVtPIG.tmp(SBCDecMain.o)
                                  0x30 (size before relaxing)
- .comment       0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(coef2sam.o)
- .comment       0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(decoder.o)
- .comment       0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(huff_tab.o)
- .comment       0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(sbc2_basop32.o)
- .comment       0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(tables.o)
- .comment       0x00000000       0x30 OBJ/Zc3XOQVMd.tmp(common.o)
+ .comment       0x00000000       0x30 OBJ/dVtPIG.tmp(coef2sam.o)
+ .comment       0x00000000       0x30 OBJ/dVtPIG.tmp(decoder.o)
+ .comment       0x00000000       0x30 OBJ/dVtPIG.tmp(huff_tab.o)
+ .comment       0x00000000       0x30 OBJ/dVtPIG.tmp(sbc2_basop32.o)
+ .comment       0x00000000       0x30 OBJ/dVtPIG.tmp(tables.o)
+ .comment       0x00000000       0x30 OBJ/dVtPIG.tmp(common.o)
 
-.debug_frame    0x00000000     0x22c0
+.debug_frame    0x00000000     0x251c
  .debug_frame   0x00000000       0x58 OBJ//init-default.o
  .debug_frame   0x00000058      0x150 OBJ//src/Driver/nx1_dac.o
  .debug_frame   0x000001a8      0x1b8 OBJ//src/Driver/nx1_gpio.o
@@ -8528,5 +8642,7 @@ OUTPUT(LGW-DEMO-V02.elf elf32-nds32le)
  .debug_frame   0x00001bd4       0x98 OBJ//src/Kernel/isr.o
  .debug_frame   0x00001c6c       0x28 OBJ//src/main.o
  .debug_frame   0x00001c94      0x20c OBJ//src/user_code/user_key.o
- .debug_frame   0x00001ea0      0x1c8 OBJ//src/user_code/user_main.o
- .debug_frame   0x00002068      0x258 OBJ//src/user_code/user_play.o
+ .debug_frame   0x00001ea0       0xec OBJ//src/user_code/user_led.o
+ .debug_frame   0x00001f8c      0x1dc OBJ//src/user_code/user_main.o
+ .debug_frame   0x00002168      0x15c OBJ//src/user_code/user_motion.o
+ .debug_frame   0x000022c4      0x258 OBJ//src/user_code/user_play.o
