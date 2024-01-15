@@ -106,7 +106,7 @@ const UserKey_Type lcst_user_key_gpio_a[]=
 {
     {.GPIOx = GPIOA, .Pin = 3},
     {.GPIOx = GPIOA, .Pin = 4},
-    // {.GPIOx = GPIOA, .Pin = 5},
+    {.GPIOx = GPIOA, .Pin = 5},
     // {.GPIOx = GPIOA, .Pin = 6},
     // {.GPIOx = GPIOA, .Pin = 7},
     // {.GPIOx = GPIOA, .Pin = 8},

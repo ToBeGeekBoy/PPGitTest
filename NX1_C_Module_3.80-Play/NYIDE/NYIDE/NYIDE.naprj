@@ -5,8 +5,8 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>NYIDE</AssemblyName>
     <BuildCCompilerVersion>NYC_NX1 3.20 [Build: 210928.00]</BuildCCompilerVersion>
-    <BuildNYASMVersion>NYASM 2.40 [Build: 230823.00]</BuildNYASMVersion>
-    <BuildNYIDEVersion>NYIDE 5.10 [Build: 230831.00]</BuildNYIDEVersion>
+    <BuildNYASMVersion>NYASM 2.41 [Build: 231121.00]</BuildNYASMVersion>
+    <BuildNYIDEVersion>NYIDE 5.20 [Build: 231130.00]</BuildNYIDEVersion>
     <CCompilerInstallDir>C:\Nyquest\NYC_NX1\</CCompilerInstallDir>
     <ChipId>NX11P21A</ChipId>
     <ClientName>ClientName</ClientName>
@@ -234,7 +234,7 @@
     <Array name="EEPROMOverwriteData" />
     <Array name="EnvelopFiles" />
     <Array name="ExternalResource">
-      <Element value="|ResourceFiles/SPI Flash/SPI_Demo.spiprj|0|Unknown|Unknown|False|False|0|False|Visible|False|False|Visible|Visible|-8585065816464943324|0|0|vix|False|Unknown|Unknown|0|Unknown|C4|False||False|||False|True|RGB|Single-String" />
+      <Element value="|ResourceFiles/SPI Flash/SPI_Demo.spiprj|0|Unknown|Unknown|False|False|0|False|Visible|False|False|Visible|Visible|-8584963239766896826|0|0|vix|False|Unknown|Unknown|0|Unknown|C4|False||False|||False|True|RGB|Single-String" />
     </Array>
     <Array name="files" />
     <Array name="InstrumentFiles" />

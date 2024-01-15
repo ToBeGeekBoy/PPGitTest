@@ -45,11 +45,11 @@
 //====================================================================================
 //////////////////////////////////////////////////////////////////////////////////////
 // Channel Number
-#define QMIDI_CH_NUM                0     		// Unit is channel.
+#define QMIDI_CH_NUM                16     		// Unit is channel.
 // Timbre Format
-#define QMIDI_TIMBRE_FORMAT         0			// 1: PCM, 2: ULAW
+#define QMIDI_TIMBRE_FORMAT         1			// 1: PCM, 2: ULAW
 // Sample Rate
-#define QMIDI_SAMPLE_RATE           0  		// Unit is Hz
+#define QMIDI_SAMPLE_RATE           32000  		// Unit is Hz
 // Storage Type
 #define QMIDI_STORAGE_TYPE			0	
 // Pitch Shift
@@ -109,7 +109,7 @@
 //  Tool Version
 //====================================================================================
 //////////////////////////////////////////////////////////////////////////////////////
-#define NYIDE_VER                   510
-#define SPI_ENCODER_VER             201
+#define NYIDE_VER                   520
+#define SPI_ENCODER_VER             202
 
 #endif //#ifndef NX1_DEF
